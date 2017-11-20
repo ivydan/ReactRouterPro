@@ -1,0 +1,128 @@
+@CO : 3px;
+
+@RouteData1: @RouteData3 + 16px;
+@RouteData2: @RouteData3 + 8px;
+@RouteData3: 42px;  //基础配置参数 可配置圆环大小
+
+.ro-box-showhow(@width){
+	box-shadow: @width+@CO   0 0px @width*(-1)+2px #804aea, 
+		        @width+@CO   0 5px @width*(-1)+2px #4b0d9e, 
+		       -(@width+@CO) 0 0px -@width+2px #804aea,
+		       -(@width+@CO) 0 5px -@width+2px #4b0d9e,
+		       0 @width+@CO    0px -@width+2px #804aea,
+		       0 @width+@CO    5px -@width+2px #4b0d9e,
+		       0 -(@width+@CO) 0px -@width+2px #804aea,
+		       0 -(@width+@CO) 5px -@width+2px #4b0d9e;
+}
+.ro-box-showhow-main(@width){
+	box-shadow: @width+@CO   0 0px @width*(-1)+2px #804aea, 
+		        @width+@CO   0 5px @width*(-1)+2px #4b0d9e, 
+		       -(@width+@CO) 0 0px -@width+2px #804aea,
+		       -(@width+@CO) 0 5px -@width+2px #4b0d9e,
+		       0 @width+@CO    0px -@width+2px #804aea,
+		       0 @width+@CO    5px -@width+2px #4b0d9e,
+		       0 -(@width+@CO) 0px -@width+2px #804aea,
+		       0 -(@width+@CO) 5px -@width+2px #4b0d9e,
+		       0 0 0px 6px rgba(157, 168, 251, 0.2);
+}
+
+.SdError{
+	padding: 5%;
+	.error-content{
+		text-align: center;
+		font-size: 16px;
+    	color: #2d116f;
+	}
+	.ani-rotate-t{
+		position: relative;
+		height: 120px;
+		.t-common{
+			display: inline-block;
+			margin: 0 auto;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			border-radius: 50%;
+		}
+		.t-content{
+			display: inline-block;
+			margin: 0 auto;
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			top: 28px;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			border-radius: 50%;
+			background-color: #b37af2;
+			text-align: center;
+			line-height: 60px;
+			color: #fff;
+		}
+		.t1{
+			width: @RouteData1*2;
+			height: @RouteData1*2;
+			animation: aniRotateTS 4s linear infinite;
+			.ro-box-showhow-main(@RouteData1);
+		}
+		.t2{
+			width: @RouteData2*2;
+			height: @RouteData2*2;
+			animation: aniRotateTN 4s linear infinite;
+			.ro-box-showhow-main(@RouteData2);
+			top: 8px;
+		}
+		.t3{
+			width: @RouteData3*2;
+			height: @RouteData3*2;
+			animation: aniRotateTS 4s linear infinite;
+			.ro-box-showhow-main(@RouteData3);
+			top: 16px;
+		}
+		.t-common:before, .t-common:after{
+			content: "";
+			position: absolute;
+			width: inherit;
+			height: inherit;
+			border-radius: 50%;
+		}
+		.t1:before{
+			.ro-box-showhow(@RouteData1);
+			transform: rotate(12deg);
+		}
+		.t1:after{
+			.ro-box-showhow(@RouteData1);
+			transform: rotate(-32deg);
+		}
+		.t2:before{
+			.ro-box-showhow(@RouteData2);
+			transform: rotate(12deg);
+		}
+		.t2:after{
+			.ro-box-showhow(@RouteData2);
+			transform: rotate(-32deg);
+		}
+		.t3:before{
+			.ro-box-showhow(@RouteData3);
+			transform: rotate(12deg);
+		}
+		.t3:after{
+			.ro-box-showhow(@RouteData3);
+			transform: rotate(-32deg);
+		}
+	}
+	@keyframes aniRotateTS{
+		0%{transform: rotate(0deg) scale(0.7, 0.7);}
+		50%{transform: rotate(180deg) scale(1, 1);}
+		100%{transform: rotate(360deg) scale(0.7, 0.7);}
+	}
+	@keyframes aniRotateTN{
+		0%{transform: rotate(0deg) scale(0.7, 0.7);}
+		50%{transform: rotate(-180deg) scale(1, 1);}
+		100%{transform: rotate(-360deg) scale(0.7, 0.7);}
+	}
+}
+
