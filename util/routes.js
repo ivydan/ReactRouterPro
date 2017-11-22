@@ -1,8 +1,12 @@
 import React from 'react'
-import { Route } from 'react-router-dom';
+import { Route, IndexRoute } from 'react-router-dom';
 import ReactChildrenMap from './ReactChildrenMap'
 import Page from 'components/page/app';
-import About from '../src/about';
+import AboutContent from '../src/about';
+
+import asyncComponent from './AsyncComponent'
+
+const About = asyncComponent(AboutContent)
 
 
 // const PageOnEnter = (nextState, replace, next) => {
@@ -75,4 +79,3 @@ export default (
 // 		</Route>
 // 	</Route>
 // )
-

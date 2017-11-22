@@ -14,5 +14,7 @@ let app = document.createElement('div');
 document.body.appendChild(app);
 
 ReactDOM.render(
-	<Router history={history} routes={routes}></Router>
+	<Router history={history}>
+		{routes}
+	</Router>
 , app);

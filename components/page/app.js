@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import Header from 'components/header'
+import Header from 'components/header'
 import './app.less';
 
 export default class Page extends React.Component{
@@ -20,7 +20,7 @@ export default class Page extends React.Component{
         console.log('Render App！', this.props);
         return (
             <div className="sdWebPage" >
-                
+                <Header />
                 <div className="sub">
                     <ul>
                         <li><Link to="/testBcc">testBcc</Link></li>

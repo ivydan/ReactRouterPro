@@ -3,8 +3,46 @@ const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+
+//判断当前运行环境是开发模式还是生产模式
+const nodeEnv = process.env.NODE_ENV || 'development';
+
+const plugins = [
+	new HTMLWebpackPlugin(),
+	new ExtractTextPlugin("style.css"),
+	new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(
+        process.env.NODE_ENV || 'development'
+	  	)
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor'
+    }),
+]
+
+if(nodeEnv === 'production'){
+	plugins.push(
+		new webpack.LoaderOptionsPlugin({
+            minimize: true,
+            debug: false
+        }),
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true,
+            comments: false,
+            ie8: true
+        }))
+}else{
+	plugins.push(
+		new webpack.HotModuleReplacementPlugin(),
+        new webpack.NamedModulesPlugin(),
+        new webpack.NoEmitOnErrorsPlugin()
+	)
+}
+
 module.exports = {
 	devtool : 'source-map',
+	
+	context: path.resolve(__dirname, 'src'),
 
 	entry: {
 		app: path.resolve(__dirname, './src/app.js'),
@@ -65,16 +103,5 @@ module.exports = {
       }],
     },
 
-	plugins: [
-		new HTMLWebpackPlugin(),
-		new ExtractTextPlugin("style.css"),
-		new webpack.DefinePlugin({
-	      'process.env.NODE_ENV': JSON.stringify(
-	        process.env.NODE_ENV || 'development'
-		  	)
-	    }),
-	    new webpack.optimize.CommonsChunkPlugin({
-	      name: 'vendor'
-	    }),
-	]
+	plugins: plugins
 }
