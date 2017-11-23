@@ -42,26 +42,25 @@ if(nodeEnv === 'production'){
 module.exports = {
 	devtool : 'source-map',
 	
-	context: path.resolve(__dirname, 'src'),
-
 	entry: {
 		app: path.resolve(__dirname, './src/app.js'),
 		vendor: ['react', 'react-dom']
 	},
 
 	output: {
+		publicPath: '/build/',
 		path: path.resolve(__dirname, './build'),
-		filename: `[name].js`,
-		chunkFilename: `[name].js`
+		filename: `app.js`,
+		chunkFilename: `[name].[chunkhash:5].chunk.js`
 	},
 
 	resolve: {
 		extensions:['.js','.jsx','.json'],
 		alias: {
-      routes: path.resolve(__dirname, 'util/routes.js'),
-      auth: path.resolve(__dirname, 'util/auth.js'),
-      utils: path.resolve(__dirname, 'util/utils.js'),
-      components: path.resolve(__dirname, 'components')
+	    routes: path.resolve(__dirname, 'util/routes.js'),
+	    auth: path.resolve(__dirname, 'util/auth.js'),
+	    utils: path.resolve(__dirname, 'util/utils.js'),
+	    components: path.resolve(__dirname, 'components')
     }
 	},
 

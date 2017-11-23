@@ -4,15 +4,10 @@
  */
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
-import './index.less';
-
+debugger;
 class App extends Component{
 	constructor(props){
 		super(props);
-
-		// _.bindAll(this, "",
-		// 				);
 
 		this.state={
 			num: ""
@@ -21,6 +16,7 @@ class App extends Component{
 	}
 
     render(){
+
     	let { num } = this.state;
         return <div className="sd-default-index">
 			I am default Page!

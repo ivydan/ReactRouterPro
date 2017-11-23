@@ -1,20 +1,12 @@
-/**
- * @Page
- * 
- */
-import ReactDOM from 'react-dom';
 import React from 'react';
-import { Route, Router } from 'react-router-dom';
-import routes from 'routes';
-import createHistory from 'history/createHashHistory'
+import ReactDOM from 'react-dom';
 
-const history = createHistory();
+import App from './index';
 
 let app = document.createElement('div');
 document.body.appendChild(app);
 
-ReactDOM.render(
-	<Router history={history}>
-		{routes}
-	</Router>
-, app);
+
+ReactDOM.render(<App />, app);
+
+

@@ -1,22 +1,12 @@
 {
-  "name": "reactrouterpro",
+  "name": "react-router-web",
   "version": "1.0.0",
-  "description": "React router",
+  "description": "react-router",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --history-api-fallback --progress --colors --config webpack.config.js",
-    "build": "webpack --progress --colors --config webpack.prod.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --history-api-fallback --progress --colors"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ivydan/ReactRouterPro.git"
-  },
-  "author": "Maggie",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ivydan/ReactRouterPro/issues"
-  },
-  "homepage": "https://github.com/ivydan/ReactRouterPro#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "autoprefixer-loader": "^3.2.0",
@@ -41,8 +31,10 @@
   },
   "dependencies": {
     "history": "^4.7.2",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-router-dom": "^4.2.2"
-  }
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "author": "",
+  "license": "ISC"
 }
