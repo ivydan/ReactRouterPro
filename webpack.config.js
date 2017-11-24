@@ -16,7 +16,7 @@ const plugins = [
 	  	)
     }),
     new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor'
+      name: 'vendors'
     }),
 ]
 
@@ -44,13 +44,13 @@ module.exports = {
 	
 	entry: {
 		app: path.resolve(__dirname, './src/app.js'),
-		vendor: ['react', 'react-dom']
+		vendors: ['react', 'react-dom', 'react-router', 'history']
 	},
 
 	output: {
 		publicPath: '/build/',
 		path: path.resolve(__dirname, './build'),
-		filename: `app.js`,
+		filename: `[name].js`,
 		chunkFilename: `[name].[chunkhash:5].chunk.js`
 	},
 
