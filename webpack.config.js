@@ -11,31 +11,31 @@ const plugins = [
 	new HTMLWebpackPlugin(),
 	new ExtractTextPlugin("style.css"),
 	new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(
-        process.env.NODE_ENV || 'development'
-	  	)
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendors'
-    }),
+    'process.env.NODE_ENV': JSON.stringify(
+      process.env.NODE_ENV || 'development'
+  	)
+  }),
+  new webpack.optimize.CommonsChunkPlugin({
+    name: 'vendors'
+  }),
 ]
 
 if(nodeEnv === 'production'){
 	plugins.push(
 		new webpack.LoaderOptionsPlugin({
-            minimize: true,
-            debug: false
-        }),
-        new webpack.optimize.UglifyJsPlugin({
-            sourceMap: true,
-            comments: false,
-            ie8: true
-        }))
+      minimize: true,
+      debug: false
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: true,
+      comments: false,
+      ie8: true
+    }))
 }else{
 	plugins.push(
 		new webpack.HotModuleReplacementPlugin(),
-        new webpack.NamedModulesPlugin(),
-        new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NamedModulesPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
 	)
 }
 
