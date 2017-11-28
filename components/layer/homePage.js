@@ -4,7 +4,6 @@
  */
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-debugger;
 class App extends Component{
 	constructor(props){
 		super(props);

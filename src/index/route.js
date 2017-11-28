@@ -20,7 +20,7 @@ const helpCenter = (location, cb) => {
 }
 
 const RouteConfig = (
-    <Router history={history}>
+    <Router history={browserHistory}>
         <Route path="/" component={Roots}>
             <IndexRoute component={index} />//首页
             <Route path="index" component={index} />

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { withRouter } from 'react-router';
 
-
-export default class Main extends Component{
+class Main extends Component{
 	constructor(props) {
 		super(props);
 		
@@ -10,16 +10,17 @@ export default class Main extends Component{
 
     onClick(){
         console.log(this.props);
-        debugger;
-        this.props.history.push('/helpCenter');
+        this.props.router.push('/helpCenter');
     }
 
     render(){
         return (
             <div>
-                Index
+                AAAAAAA
                 <div onClick={this.onClick.bind(this)}>home</div>
             </div>
             )
     }
 }
+
+export default withRouter(Main);
