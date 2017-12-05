@@ -22,7 +22,8 @@ module.exports = {
         'react': 'React',
         'react-dom': 'ReactDOM',
         'react-router': 'ReactRouter',
-        'history': 'History'
+        'history': 'History',
+        'antd': 'antd'
     },
 
 	resolve: {

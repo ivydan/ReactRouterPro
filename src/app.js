@@ -6,7 +6,4 @@ import App from './index';
 let app = document.createElement('div');
 document.body.appendChild(app);
 
-
 ReactDOM.render(<App />, app);
-
-

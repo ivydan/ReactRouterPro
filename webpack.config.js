@@ -10,7 +10,7 @@ module.exports = {
 	
 	entry: {
 		app: path.resolve(__dirname, './src/app.js'),
-		vendors: ['react', 'react-router', 'history'],
+		vendors: ['react', 'react-router', 'history', 'antd'],
 		'react-dom': ['react-dom']
 	},
 
@@ -83,6 +83,7 @@ module.exports = {
 	  new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
 		new webpack.NoEmitOnErrorsPlugin(),
+		new BundleAnalyzerPlugin(),
 		new OpenBrowserPlugin({url: 'http://localhost:8080'})
 	]
 }

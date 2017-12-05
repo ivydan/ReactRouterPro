@@ -7,7 +7,8 @@ module.exports = {
             'react',
             'react-dom',
             'react-router',
-            'history'
+            'history',
+            'antd'
             ],
     },
     output: {
