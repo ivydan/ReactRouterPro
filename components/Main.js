@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { withRouter } from 'react-router';
 
+import Test from './test';
+
 class Main extends Component{
 	constructor(props) {
 		super(props);
@@ -18,6 +20,7 @@ class Main extends Component{
             <div>
                 AAAAAAA
                 <div onClick={this.onClick.bind(this)}>home</div>
+                <Test ref="mm" />
             </div>
             )
     }

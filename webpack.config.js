@@ -2,13 +2,15 @@ const path = require('path');
 const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const OpenBrowserPlugin = require('open-browser-webpack-plugin'); //自动打开浏览器插件
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
 	devtool : 'source-map',
 	
 	entry: {
 		app: path.resolve(__dirname, './src/app.js'),
-		vendors: ['react', 'react-dom', 'react-router', 'history'],
+		vendors: ['react', 'react-router', 'history'],
 		'react-dom': ['react-dom']
 	},
 
@@ -80,6 +82,7 @@ module.exports = {
 	  }),
 	  new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
+		new webpack.NoEmitOnErrorsPlugin(),
+		new OpenBrowserPlugin({url: 'http://localhost:8080'})
 	]
 }
