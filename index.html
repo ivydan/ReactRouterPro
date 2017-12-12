@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Webpack App</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.0.0/antd.min.css">
-    <script src="https://cdn.bootcss.com/react/15.0.0/react-with-addons.min.js"></script>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Webpack App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.0.0/antd.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<!-- <script src="https://cdn.bootcss.com/react/15.0.0/react-with-addons.min.js"></script>
     <script src="https://cdn.bootcss.com/react/15.0.0/react-dom.min.js"></script>
     <script src="https://cdn.bootcss.com/react-router/3.0.0/ReactRouter.min.js"></script>
     <script src="https://cdn.bootcss.com/history/4.5.0/history.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/antd/3.0.0/antd.min.js"></script>
-  </head>
-  <body>
-  <script type="text/javascript" src="/chunk.js"></script>
-  <script type="text/javascript" src="/app.js"></script></body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/antd/3.0.0/antd.min.js"></script> -->
+	<script src="./build/plugin/react-with-addons.min.js"></script>
+	<script src="./build/plugin/react-dom.min.js"></script>
+	<script src="./build/plugin/ReactRouter.min.js"></script>
+	<script src="./build/plugin/history.min.js"></script>
+	<script src="./build/plugin/antd.min.js"></script>
+</head>
+
+<body>
+	<div id="container"></div>
+	<script type="text/javascript" src="/chunk.js"></script>
+	<script type="text/javascript" src="/app.js"></script>
+</body>
+
 </html>

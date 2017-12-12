@@ -1,9 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import route from 'utils/route';
+import './app.less';
 
-import App from './index';
+// let app = document.createElement('div');
+// document.body.appendChild(app);
+// ReactDOM.render(<div>
+//     {route}
+// </div>, app);
 
-let app = document.createElement('div');
-document.body.appendChild(app);
-
-ReactDOM.render(<App />, app);
+ReactDOM.render(
+    <div className="sd-container">
+        {route}
+    </div>
+    , document.getElementById("container"));

@@ -1,0 +1,23 @@
+@import "../../utils/less/index.less";
+
+.sd-main-layout{
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    .layout-sider{
+        width: 250px;
+        min-height: 100vh;
+        background-color: @bgColor;
+        background: linear-gradient(top, @bgColor, #fff);
+        box-shadow: 2px 0px 6px 0px @shadowColor;
+        position: relative;
+        z-index: 1;
+    }
+    .layout-box{
+        flex: auto;
+        .layout-content{
+            padding: 15px;
+        }
+    }
+}
