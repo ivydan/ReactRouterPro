@@ -3,24 +3,31 @@ import { Router, Route, Redirect, IndexRoute, browserHistory } from 'react-route
 //Main
 import main from 'components/main';
 
-const about = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/about').default)
-    }, 'about')
-}
-
 const defaultIndex = (location, cb) => {
     require.ensure([], require => {
         cb(null, require('src/defaultIndex').default)
     }, 'defaultIndex')
 };
 
+const about = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('src/about').default)
+    }, 'about')
+}
+
+const introduce = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('src/introduce').default)
+    }, 'introduce')
+}
+
 const RouteConfig = (
     <Router history={browserHistory}>
         <Route path="/" component={main}>
-            <IndexRoute getComponent={defaultIndex} />//首页
+            <IndexRoute getComponent={defaultIndex} />
             <Route path="index" getComponent={defaultIndex} />
-            <Route path="about" getComponent={about} />//帮助中心
+            <Route path="about" getComponent={about} />
+            <Route path="introduce" getComponent={introduce} />
             <Redirect from='*' to='/' />
         </Route>
     </Router>

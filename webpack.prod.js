@@ -79,9 +79,12 @@ module.exports = {
         dry:      false        　　　　　　　　　　//启用删除文件
     	}),
 		new webpack.DefinePlugin({
-	    'process.env.NODE_ENV': JSON.stringify(
-	      process.env.NODE_ENV || 'prod'
-	  	)
+			'process.env':{
+					'IS_MOCK': false,
+					'NODE_ENV': JSON.stringify(
+							process.env.NODE_ENV || 'prod'
+					)
+			}
 	  }),
 	  new webpack.optimize.CommonsChunkPlugin({
 	    name:["chunk", "vendors", "react-dom"],
