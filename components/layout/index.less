@@ -1,0 +1,133 @@
+@import "../../utils/less/index.less";
+
+
+//header
+.sd-header{
+    height: 60px;
+    padding: 0 12px 0 0;
+    background: #fff;
+    line-height: 60px;
+    text-align: right;
+    .sd-common-box-shadow;
+    .user{
+        margin-right: 20px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+
+//logo
+.pri-common-icon{
+    content: ' ';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-bottom: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-radius: 100%;
+}
+
+.sd-logo{
+    .sd-common-box-shadow;
+    .title{
+        height: 62px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 52px;
+        text-align: center;
+        background-color: @bgColor;
+        .icon{
+            display: inline-block;
+            position: relative;
+            width: 16px;
+            height: 16px;
+        }
+        .icon::after{
+            .pri-common-icon;
+            position: absolute;
+            right: 15px;
+            transform: rotate(5deg);
+            top: 2px;
+        }
+        .icon::before{
+            .pri-common-icon;
+            position: absolute;
+            transform: rotate(185deg);
+            right: 5px;
+            top: 2px;
+        }
+    }
+}
+
+//slider
+.sd-slider{
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    .slider-menu-list{
+        color: @menuColor;
+        font-size: 14px;
+        background-color: @menuBgColor;
+        .menu-title{
+            .sd-common-box-shadow;
+            cursor: pointer;
+            position: relative;
+            transition: max-height 0.4s ease;
+            max-height: 42px;
+            overflow: hidden;
+            .name{
+                height: 42px;
+                line-height: 42px;
+                margin-left: 20px;
+            }
+            .menu-list{
+                margin-left: 20px;
+                padding: 5px 0 7px 15px;
+                font-size: 13px;
+                border-top: 1px solid rgba(238,238,238, 0.1);
+                a{
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+            .menu-list:nth-child(1){
+                border-top: none;
+            }
+        }
+        .active{
+            max-height: 280px;
+        }
+        .menu-title::after{
+            content: '›';
+            position: absolute;
+            right: 10px;
+            top: 0;
+            transform: rotate(90deg);
+            font-size: 24px;
+            transition: all 0.1s;
+        }
+        .active::after{
+            transform: rotate(-90deg);
+            right: 15px;
+        }
+    }
+}
+
+.sd-page-tab{
+    border-bottom: 1px solid @tabColor;
+    .tab{
+        display: inline-block;
+        padding: 5px 8px;
+        line-height: 16px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top: 1px solid @tabColor;
+        border-left: 1px solid @tabColor;
+        border-right: 1px solid @tabColor;
+        a{
+            color: #2b2b2b;
+        }
+    }
+}

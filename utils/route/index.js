@@ -21,16 +21,37 @@ const introduce = (location, cb) => {
     }, 'introduce')
 }
 
+const emitte = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('src/emitte').default)
+    }, 'emitte');
+}
+
+const error = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('src/error').default)
+    }, 'error');
+}
+
 const RouteConfig = (
     <Router history={browserHistory}>
-        <Route path="/" component={main}>
+        <Route path="/" component={main} onEnter={_handleEnter} onChange={_handleOnChange}>
             <IndexRoute getComponent={defaultIndex} />
             <Route path="index" getComponent={defaultIndex} />
             <Route path="about" getComponent={about} />
             <Route path="introduce" getComponent={introduce} />
-            <Redirect from='*' to='/' />
+            <Route path="emitte" getComponent={emitte} />
+            <Route path="error" getComponent={error} />
+            <Redirect from='*' to='/error' />
         </Route>
     </Router>
 );
+
+function _handleEnter(params) {
+    console.log('Enter', ...arguments);
+}
+function _handleOnChange(params) {
+    console.log('onChange');
+}
 
 export default RouteConfig;

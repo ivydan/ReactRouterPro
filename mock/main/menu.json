@@ -25,8 +25,8 @@
                     },
                     {
                         "id": 10000103,
-                        "name": "Sub Title3",
-                        "router": "sub3",
+                        "name": "Emitte",
+                        "router": "emitte",
                         "type": "menu",
                         "icon": "title",
                         "leaf": true,
@@ -42,8 +42,8 @@
                 "children": [
                     {
                         "id": 10000201,
-                        "name": "Sub Title3",
-                        "router": "sub3",
+                        "name": "Test",
+                        "router": "test",
                         "type": "menu",
                         "icon": "title",
                         "leaf": true,
