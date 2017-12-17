@@ -66,7 +66,7 @@ class Main extends Component {
             <div className="sd-main-layout">
                 <div className="layout-sider">
                     <Logo title="Red System" />
-                    <Slider menu={menu} onTabChange={this._handleChangeTabs} />
+                    <Slider menu={menu} onTabChange={this._handleChangeTabs} currentPage={currentPage} />
                 </div>
                 <div className="layout-box">
                     <Header />

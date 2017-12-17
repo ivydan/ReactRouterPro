@@ -11,8 +11,26 @@ export default class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeTab: 0
+            activeTab: 0,
+            flag: false
         }
+    }
+
+    componentWillReceiveProps(nextProps){
+        let { currentPage, menu } = nextProps;
+        if(currentPage !== '/' && !this.state.flag){
+            menu.list && menu.list.map((item, i) => {
+                item.children.map((v, j) => {
+                    if(v.router === currentPage.replace(/\//, "")){
+                        this.setState({
+                            activeTab: item.id,
+                            flag: true
+                        })
+                    }
+                })
+            })
+        }
+        
     }
 
     _handleChangeTab(item) {
