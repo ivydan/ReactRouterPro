@@ -12,21 +12,27 @@ export default class PageTab extends Component {
         this.props.onTabChange(data);
     }
 
+    _handleClickClose(pathname, index, e){
+        e.stopPropagation();
+        this.props.onTabClose(pathname, index);
+    }
+
     render() {
-        let { pageList } = this.props;
-        console.log(pageList);
+        let { pageList, currentPage } = this.props;
         return (
             <div className="sd-page-tab">
                 {pageList.map((item, index) => {
                     let { state, pathname } = item.props.location;
+                    let name = pathname.replace(/\//,'');
                     return (
-                        <span className="tab" onClick={this._handleClickTab.bind(this, item.props.location)}>
+                        <span className={`tab${pathname === currentPage ? ' active' : ''}`} onClick={this._handleClickTab.bind(this, item.props.location)}>
                             <Link to={{
                                 pathname: pathname,
                                 state: {
                                     name: state && state.name
                                 }
-                            }}>{state ? state.name : 'Index'}</Link>
+                            }}>{name ? name : 'Index'}</Link>
+                            <span className="tab-close" onClick={this._handleClickClose.bind(this,pathname, index)}>×</span>
                         </span>
                     )
                 })}

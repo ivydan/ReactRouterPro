@@ -11,20 +11,18 @@ export default class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeTab: 0,
-            flag: false
+            activeTab: 0
         }
     }
 
     componentWillReceiveProps(nextProps){
         let { currentPage, menu } = nextProps;
-        if(currentPage !== '/' && !this.state.flag){
+        if(currentPage !== '/'){
             menu.list && menu.list.map((item, i) => {
                 item.children.map((v, j) => {
                     if(v.router === currentPage.replace(/\//, "")){
                         this.setState({
-                            activeTab: item.id,
-                            flag: true
+                            activeTab: item.id
                         })
                     }
                 })
@@ -45,7 +43,8 @@ export default class Header extends Component {
     }
 
     _handleInitSlider() {
-        let { list = [] } = this.props.menu;
+        let { currentPage, menu } = this.props;
+        let { list = [] } = menu;
         return <ul className="slider-menu-list">
             {list.map((item, index) => {
                 return (
@@ -58,7 +57,7 @@ export default class Header extends Component {
                         <ul>
                             {item.children && item.children.map((child) => {
                                 return (
-                                    <li className="menu-list" onClick={this._handleClickTab.bind(this, child)}>
+                                    <li className={`menu-list${currentPage === '/'+child.router ? ' active': ''}`} onClick={this._handleClickTab.bind(this, child)}>
                                         <Link to={{
                                             pathname: '/'+child.router,
                                             state:{

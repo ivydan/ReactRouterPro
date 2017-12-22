@@ -90,7 +90,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
-        // new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+        new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
         // new BundleAnalyzerPlugin(), //打包分析器
     ]
 }

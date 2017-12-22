@@ -1,7 +1,7 @@
 @import "../../utils/less/index.less";
 
 .sd-main-layout{
-    background-color: #f0f2f5;
+    background-color: @bbgColor;
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
@@ -17,9 +17,12 @@
     .layout-box{
         flex: auto;
         .layout-content{
-            padding: 10px 12px;
             .layout-page-list{
-                padding: 10px 2px;
+                margin: 10px;
+                padding: 10px 5px;
+                min-height: 450px;
+                background-color: #fff;
+                border-radius: 2px;
             }
         }
     }

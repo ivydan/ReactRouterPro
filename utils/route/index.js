@@ -33,6 +33,12 @@ const error = (location, cb) => {
     }, 'error');
 }
 
+const test = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('src/test').default)
+    }, 'test');
+}
+
 const RouteConfig = (
     <Router history={browserHistory}>
         <Route path="/" component={main} onEnter={_handleEnter} onChange={_handleOnChange}>
@@ -42,13 +48,19 @@ const RouteConfig = (
             <Route path="introduce" getComponent={introduce} />
             <Route path="emitte" getComponent={emitte} />
             <Route path="error" getComponent={error} />
+            <Route path="test" getComponent={test} />
             <Redirect from='*' to='/error' />
         </Route>
     </Router>
 );
 
-function _handleEnter(params) {
-    console.log('Enter', ...arguments);
+function _handleEnter(nextState, replace, next) {
+    console.log('Enter', nextState, replace, next);
+    let { state, pathname } = nextState.location;
+    state = {
+        name: pathname.replace
+    }
+    next();
 }
 function _handleOnChange(params) {
     console.log('onChange');

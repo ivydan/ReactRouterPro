@@ -13,10 +13,10 @@ import './index.less'
 class Main extends Component {
     constructor(props) {
         super(props);
-        _.bindAll(this, '_handleChangeTabs')
+        _.bindAll(this, '_handleChangeTabs',
+            '_handleOnClose')
         this.state = {
             menu: {},
-            pageMap: {},
             pageList: [],
             currentPage: null
         }
@@ -41,17 +41,28 @@ class Main extends Component {
     }
 
     _handleAddPage(pathname, page) {
-        let { pageMap, pageList } = this.state;
-        if (!page) return;
-        if (!pageMap[pathname]) {
-            pageMap[pathname] = page;
+        let { pageList } = this.state;
+        if (!page)
+            return;
+
+        if (this._isHaveNotPathName(pageList, pathname)) {
             pageList.push(page);
             this.setState({
-                pageMap: pageMap,
                 pageList: pageList,
                 currentPage: pathname
             })
         }
+
+    }
+
+    _isHaveNotPathName(list, name) {
+        let isTrue = true;
+        list && list.map(item => {
+            if (item.props.location.pathname === name) {
+                isTrue = false;
+            }
+        });
+        return isTrue;
     }
 
     _handleChangeTabs(data) {
@@ -60,8 +71,37 @@ class Main extends Component {
         })
     }
 
+    _handleOnClose(pathname, index) {
+        let { pageList } = this.state;
+        let { router } = this.props;
+        let length = pageList.length;
+        let newTab = {};
+        let newPageList = pageList.filter(item => {
+            let originName = item.props.location.pathname
+            return originName != pathname;
+        });
+
+        if (length === 1) {
+            newTab = { pathname: '/' }
+        } else if (index === length - 1) {
+            newTab = {
+                pathname: pageList[index - 1].props.location.pathname
+            }
+        } else {
+            newTab = {
+                pathname: pageList[index + 1].props.location.pathname
+            }
+        }
+        router.replace(newTab);
+        this.setState({
+            pageList: newPageList,
+            currentPage: newTab.pathname
+        })
+    }
+
     render() {
         let { menu, pageList, currentPage } = this.state;
+        console.log(currentPage);
         return (
             <div className="sd-main-layout">
                 <div className="layout-sider">
@@ -71,7 +111,11 @@ class Main extends Component {
                 <div className="layout-box">
                     <Header />
                     <div className="layout-content">
-                        <PageTab pageList={pageList} currentPage={currentPage} onTabChange={this._handleChangeTabs} />
+                        <PageTab
+                            pageList={pageList}
+                            currentPage={currentPage}
+                            onTabChange={this._handleChangeTabs}
+                            onTabClose={this._handleOnClose} />
                         {pageList.map((item) => {
                             let { pathname } = item.props.location;
                             return (
