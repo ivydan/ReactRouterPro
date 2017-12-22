@@ -57,13 +57,10 @@ export default class Header extends Component {
                         <ul>
                             {item.children && item.children.map((child) => {
                                 return (
-                                    <li className={`menu-list${currentPage === '/'+child.router ? ' active': ''}`} onClick={this._handleClickTab.bind(this, child)}>
-                                        <Link to={{
-                                            pathname: '/'+child.router,
-                                            state:{
-                                                name: child.name
-                                            }
-                                        }}>{child.name}</Link>
+                                    <li 
+                                        className={`menu-list${currentPage === '/'+child.router ? ' active': ''}`} 
+                                        onClick={this._handleClickTab.bind(this, child)}>
+                                        <Link to={{pathname: '/'+child.router}}>{child.name}</Link>
                                     </li>
                                 )
                             })}

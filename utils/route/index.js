@@ -56,10 +56,6 @@ const RouteConfig = (
 
 function _handleEnter(nextState, replace, next) {
     console.log('Enter', nextState, replace, next);
-    let { state, pathname } = nextState.location;
-    state = {
-        name: pathname.replace
-    }
     next();
 }
 function _handleOnChange(params) {

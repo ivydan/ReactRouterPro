@@ -19,19 +19,17 @@ export default class PageTab extends Component {
 
     render() {
         let { pageList, currentPage } = this.props;
+        console.log(currentPage);
         return (
             <div className="sd-page-tab">
                 {pageList.map((item, index) => {
                     let { state, pathname } = item.props.location;
                     let name = pathname.replace(/\//,'');
                     return (
-                        <span className={`tab${pathname === currentPage ? ' active' : ''}`} onClick={this._handleClickTab.bind(this, item.props.location)}>
-                            <Link to={{
-                                pathname: pathname,
-                                state: {
-                                    name: state && state.name
-                                }
-                            }}>{name ? name : 'Index'}</Link>
+                        <span 
+                            className={`tab${pathname === currentPage ? ' active' : ''}`} 
+                            onClick={this._handleClickTab.bind(this, item.props.location)}>
+                            <Link to={{pathname: pathname}}>{name ? name : 'Index'}</Link>
                             <span className="tab-close" onClick={this._handleClickClose.bind(this,pathname, index)}>×</span>
                         </span>
                     )

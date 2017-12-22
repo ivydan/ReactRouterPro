@@ -66,6 +66,7 @@ class Main extends Component {
     }
 
     _handleChangeTabs(data) {
+        console.log('changeTab', data)
         this.setState({
             currentPage: data.router ? '/' + data.router : data.pathname
         })
@@ -101,7 +102,6 @@ class Main extends Component {
 
     render() {
         let { menu, pageList, currentPage } = this.state;
-        console.log(currentPage);
         return (
             <div className="sd-main-layout">
                 <div className="layout-sider">
