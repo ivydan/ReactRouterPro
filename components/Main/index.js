@@ -66,7 +66,7 @@ class Main extends Component {
     }
 
     _handleChangeTabs(data) {
-        console.log('changeTab', data)
+        // console.log('changeTab', data)
         this.setState({
             currentPage: data.router ? '/' + data.router : data.pathname
         })

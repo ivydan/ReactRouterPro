@@ -19,7 +19,7 @@ export default class PageTab extends Component {
 
     render() {
         let { pageList, currentPage } = this.props;
-        console.log(currentPage);
+        // console.log(currentPage);
         return (
             <div className="sd-page-tab">
                 {pageList.map((item, index) => {
@@ -27,6 +27,7 @@ export default class PageTab extends Component {
                     let name = pathname.replace(/\//,'');
                     return (
                         <span 
+                            key={"PageTab"+index}
                             className={`tab${pathname === currentPage ? ' active' : ''}`} 
                             onClick={this._handleClickTab.bind(this, item.props.location)}>
                             <Link to={{pathname: pathname}}>{name ? name : 'Index'}</Link>

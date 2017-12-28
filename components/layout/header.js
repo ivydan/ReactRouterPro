@@ -13,7 +13,7 @@ export default class Header extends Component {
 
     render() {
         let { title } = this.props;
-        return <div className="sd-header">
+        return <div className="sd-header" key="SDHeader">
             <span className="user">Boss</span>
         </div>
     }

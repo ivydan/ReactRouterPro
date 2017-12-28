@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin'); //自动打开浏览器插件
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
 	devtool: 'source-map',
@@ -65,7 +66,12 @@ module.exports = {
 	},
 
 	plugins: [
-		new HTMLWebpackPlugin(),
+		new webpack.DllReferencePlugin({
+			context: __dirname,
+			manifest: require("./dllPlugins/manifest.json"),
+		}),
+		
+		// new HTMLWebpackPlugin(),
 		new ExtractTextPlugin("style.css"),
 		new webpack.DefinePlugin({
 			'process.env':{
@@ -82,10 +88,7 @@ module.exports = {
 		new webpack.HotModuleReplacementPlugin(),
 		new webpack.NamedModulesPlugin(),
 		new webpack.NoEmitOnErrorsPlugin(),
-		new webpack.DllReferencePlugin({
-			context: '.',
-			manifest: require("./build/bundle.manifest.json"),
-		}),
-		new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+		new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+		new BundleAnalyzerPlugin(),
 	]
 }

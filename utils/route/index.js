@@ -55,11 +55,11 @@ const RouteConfig = (
 );
 
 function _handleEnter(nextState, replace, next) {
-    console.log('Enter', nextState, replace, next);
+    // console.log('Enter', nextState, replace, next);
     next();
 }
 function _handleOnChange(params) {
-    console.log('onChange');
+    // console.log('onChange');
 }
 
 export default RouteConfig;

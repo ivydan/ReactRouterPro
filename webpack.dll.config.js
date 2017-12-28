@@ -8,23 +8,25 @@ module.exports = {
             'react-dom',
             'react-router',
             'history',
+            'lodash',
             'antd'
-            ],
+        ],
     },
     output: {
-        path: path.resolve(__dirname, './build'),
-        filename: '[name].js',
+        path: path.resolve(__dirname, './dllPlugins'),
+        filename: '[name].dll.js',
         library: '[name]_library'
     },
     plugins: [
         new webpack.DllPlugin({
-            path: './build/bundle.manifest.json',
+            path: './dllPlugins/manifest.json',
             name: '[name]_library',
+            context: __dirname,
         }),
-        new webpack.optimize.UglifyJsPlugin({
-            sourceMap: false,
-            comments: false,
-            ie8: true
-        })
+        // new webpack.optimize.UglifyJsPlugin({
+        //     sourceMap: false,
+        //     comments: false,
+        //     ie8: true
+        // })
     ]
 };

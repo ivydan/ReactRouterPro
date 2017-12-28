@@ -9,9 +9,10 @@ module.exports = {
 	devtool: 'source-map',
 
 	entry: {
-		app: path.resolve(__dirname, './src/app.js'),
-		vendors: ['react', 'react-router', 'history', 'antd'],
-		'react-dom': ['react-dom']
+		'app': path.resolve(__dirname, './src/app.js'),
+		'vendors': ['react', 'react-router', 'history'],
+		'react-dom': ['react-dom'],
+		'tools': ['lodash']
 	},
 
 	output: {
@@ -79,12 +80,12 @@ module.exports = {
             }
 		}),
 		new webpack.optimize.CommonsChunkPlugin({
-			name: ["chunk", "vendors", "react-dom"],
+			name: ["chunk", "vendors", "react-dom", "tools"],
 			minChunks: 2
 		}),
-		new webpack.HotModuleReplacementPlugin(),
-		new webpack.NamedModulesPlugin(),
-		new webpack.NoEmitOnErrorsPlugin(),
+		// new webpack.HotModuleReplacementPlugin(),
+		// new webpack.NamedModulesPlugin(),
+		// new webpack.NoEmitOnErrorsPlugin(),
 		new BundleAnalyzerPlugin(),
 		new OpenBrowserPlugin({ url: 'http://localhost:8080' })
 	]
