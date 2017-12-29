@@ -91,6 +91,6 @@ module.exports = {
         new webpack.NamedModulesPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
         new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
-        new BundleAnalyzerPlugin(), //打包分析器
+        // new BundleAnalyzerPlugin(), //打包分析器
     ]
 }

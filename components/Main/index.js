@@ -8,6 +8,7 @@ import Logo from '../layout/logo';
 import Header from '../layout/header';
 import Slider from '../layout/slider';
 import PageTab from '../layout/pageTab';
+import Share from '../layout/share';
 import './index.less'
 
 class Main extends Component {
@@ -130,6 +131,7 @@ class Main extends Component {
                         })}
                     </div>
                 </div>
+                <Share />
             </div>
         )
     }
