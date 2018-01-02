@@ -42,14 +42,14 @@ class Main extends Component {
     }
 
     _handleAddPage(pathname, page) {
-        let { pageList } = this.state;
+        let newPageList = _.cloneDeep(this.state.pageList);
         if (!page)
             return;
 
-        if (this._isHaveNotPathName(pageList, pathname)) {
-            pageList.push(page);
+        if (this._isHaveNotPathName(newPageList, pathname)) {
+            newPageList.push(page);
             this.setState({
-                pageList: pageList,
+                pageList: newPageList,
                 currentPage: pathname
             })
         }
