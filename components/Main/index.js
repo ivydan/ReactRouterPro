@@ -45,7 +45,6 @@ class Main extends Component {
         let newPageList = _.cloneDeep(this.state.pageList);
         if (!page)
             return;
-
         if (this._isHaveNotPathName(newPageList, pathname)) {
             newPageList.push(page);
             this.setState({
@@ -67,9 +66,9 @@ class Main extends Component {
     }
 
     _handleChangeTabs(data) {
-        // console.log('changeTab', data)
+        this.props.router.replace('/'+data.router);
         this.setState({
-            currentPage: data.router ? '/' + data.router : data.pathname
+            currentPage: '/' + data.router
         })
     }
 

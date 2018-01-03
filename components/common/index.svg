@@ -1,0 +1,9 @@
+<svg style="position:absolute;height:0;clip:rect(0 0 0 0);" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="filter-ripple">
+            <feImage xlink:href="./map.png" x="0" y="0" width="512" height="512" result="ripple"></feImage>
+            <feDisplacementMap xChannelSelector="G" yChannelSelector="R" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="80"></feDisplacementMap>
+            <feComposite operator="in" in2="ripple"></feComposite>
+        </filter>
+    </defs>
+</svg>

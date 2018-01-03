@@ -61,7 +61,8 @@ export default class Header extends Component {
                                         key={"MenuSub"+item.name+i}
                                         className={`menu-list${currentPage === '/'+child.router ? ' active': ''}`} 
                                         onClick={this._handleClickTab.bind(this, child)}>
-                                        <Link to={{pathname: '/'+child.router}}>{child.name}</Link>
+                                        {/* <Link to={{pathname: '/'+child.router}}>{child.name}</Link> */}
+                                        <span>{child.name}</span>
                                     </li>
                                 )
                             })}
