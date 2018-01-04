@@ -15,7 +15,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './build'),
         filename: `[name].js`,
-        chunkFilename: `[name].[chunkhash:5].chunk.js`
+        chunkFilename: `[name].[chunkhash:5].js`
     },
 
     externals: {
@@ -38,6 +38,19 @@ module.exports = {
     module: {
         loaders: [
             {
+                test: /\.bundle\.(js|jsx)$/, // 通过文件名后缀自动处理需要转成bundle的文件
+                include: /src/,
+                exclude: /node_modules/,
+                use: [{
+                    loader: 'bundle-loader',
+                    options: {
+                        name: '[name]',
+                        lazy: true
+                    }
+                }, {
+                    loader: 'babel-loader',
+                }]
+            }, {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
@@ -70,13 +83,14 @@ module.exports = {
             }, {
                 test: /\.(png|jpg)$/,
                 loader: 'url-loader?limit=8192'
-            }],
+            }
+        ],
     },
 
     plugins: [
         new ExtractTextPlugin("style.css"),
         new webpack.DefinePlugin({
-            'process.env':{
+            'process.env': {
                 'IS_MOCK': true,
                 'NODE_ENV': JSON.stringify(
                     process.env.NODE_ENV || 'development'
@@ -90,7 +104,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
-        new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+        // new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
         // new BundleAnalyzerPlugin(), //打包分析器
     ]
 }

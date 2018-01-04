@@ -1,54 +1,31 @@
 import React, { Component, PropTypes } from 'react';
 import { Router, Route, Redirect, IndexRoute, browserHistory } from 'react-router';
+import LazyBundle from './lazyBundle';
 //Main
 import main from 'components/main';
+import DefaultIndex from 'src/defaultIndex/default.bundle.js';
+import About from 'src/about/about.bundle.js';
+import Introduce from 'src/introduce/introduce.bundle.js';
+import Emitte from 'src/emitte/emitte.bundle.js';
+import ErrorPage from 'src/error/error.bundle.js';
+import Test from 'src/test/test.bundle.js';
 
-const defaultIndex = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/defaultIndex').default)
-    }, 'defaultIndex')
-};
-
-const about = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/about').default)
-    }, 'about')
-}
-
-const introduce = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/introduce').default)
-    }, 'introduce')
-}
-
-const emitte = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/emitte').default)
-    }, 'emitte');
-}
-
-const error = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/error').default)
-    }, 'error');
-}
-
-const test = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/test').default)
-    }, 'test');
-}
+const lazyLoadComponent = (comp) => (props) => (
+    <LazyBundle load={comp}>
+        {(Container) => <Container {...props} />}
+    </LazyBundle>
+)
 
 const RouteConfig = (
     <Router history={browserHistory}>
         <Route path="/" component={main} onEnter={_handleEnter} onChange={_handleOnChange}>
-            <IndexRoute getComponent={defaultIndex} />
-            <Route path="index" getComponent={defaultIndex} />
-            <Route path="about" getComponent={about} />
-            <Route path="introduce" getComponent={introduce} />
-            <Route path="emitte" getComponent={emitte} />
-            <Route path="error" getComponent={error} />
-            <Route path="test" getComponent={test} />
+            <IndexRoute component={lazyLoadComponent(DefaultIndex)} />
+            <Route path="index" component={lazyLoadComponent(DefaultIndex)} />
+            <Route path="about" component={lazyLoadComponent(About)} />
+            <Route path="introduce" component={lazyLoadComponent(Introduce)} />
+            <Route path="emitte" component={lazyLoadComponent(Emitte)} />
+            <Route path="error" component={lazyLoadComponent(ErrorPage)} />
+            <Route path="test" component={lazyLoadComponent(Test)} />
             <Redirect from='*' to='/error' />
         </Route>
     </Router>
