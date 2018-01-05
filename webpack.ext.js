@@ -42,7 +42,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['react', 'es2015']
+                    presets: ['es2015', 'react', 'stage-0', 'stage-1', 'stage-2', 'stage-3'],
                 }
             }, {
                 test: /\.css$/,
@@ -76,7 +76,7 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin("style.css"),
         new webpack.DefinePlugin({
-            'process.env':{
+            'process.env': {
                 'IS_MOCK': true,
                 'NODE_ENV': JSON.stringify(
                     process.env.NODE_ENV || 'development'
@@ -90,7 +90,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
-        new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+        // new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
         // new BundleAnalyzerPlugin(), //打包分析器
     ]
 }

@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { Router, Route, Redirect, IndexRoute, browserHistory } from 'react-router';
 //Main
 import main from 'components/main';
+import AsyncComponent from './asyncComponent';
 
 const defaultIndex = (location, cb) => {
     require.ensure([], require => {
@@ -9,11 +10,16 @@ const defaultIndex = (location, cb) => {
     }, 'defaultIndex')
 };
 
-const about = (location, cb) => {
-    require.ensure([], require => {
-        cb(null, require('src/about').default)
-    }, 'about')
-}
+// const defaultIndex = AsyncComponent(() => import("src/defaultIndex"));
+const about = AsyncComponent(() => 
+  import(/* webpackChunkName: "about" */ "src/about")
+)
+
+// const about = (location, cb) => {
+//     require.ensure([], require => {
+//         cb(null, require('src/about').default)
+//     }, 'about')
+// }
 
 const introduce = (location, cb) => {
     require.ensure([], require => {
