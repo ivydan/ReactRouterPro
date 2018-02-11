@@ -1,0 +1,106 @@
+@import "../../utils/less/index.less";
+
+.sd-login-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: @bbgColor;
+    .login-animation{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        .lg-animation-common{
+            border-radius: 50%;
+            border: 8px solid #e3dbdb;
+            opacity: .4;
+            display: inline-block;
+            position: absolute;
+        }
+        .animation-top{
+            .lg-animation-common;
+            width: 80px;
+            height: 80px;
+            background-color: #e0f4fd;
+            left: 120px;
+            top: 60px;
+            animation: lgAniLeft 3s alternate infinite;
+        }
+        @keyframes lgAniLeft {
+            0%{ transform: translate(0, 0);}
+            100%{ transform: translate(20px, 30px);}
+        }
+        .animation-right{
+            .lg-animation-common;
+            width: 60px;
+            height: 60px;
+            background-color: #efe0fd;
+            right: 120px;
+            top: 50px;
+            animation: lgAniRight 3s alternate infinite;
+        }
+        @keyframes lgAniRight {
+            0%{ transform: translate(0, 0);}
+            100%{ transform: translate(-10px,20px);}
+        }
+        .animation-left{
+            .lg-animation-common;
+            width: 55px;
+            height: 55px;
+            background-color: #fdede0;
+            left: 80px;
+            bottom: 150px;
+            animation: lgAniRight 3s alternate infinite;
+        }
+        .animation-bottom{
+            .lg-animation-common;
+            width: 65px;
+            height: 65px;
+            background-color: #fdede0;
+            right: 180px;
+            bottom: 100px;
+            animation: lgAniLeft 3s alternate infinite;
+        }
+    }
+    .login-form{
+        position: absolute;
+        right: 24%;
+        width: 300px;
+        height: 300px;
+        background-color: #e2e4e5;
+        z-index: 1;
+        top:20%;
+        .ele{
+            height: 2px;
+            width: inherit;
+            overflow: hidden;
+            .ele-e{
+                height: 100%;
+                width: 60px;
+                transform: translateX(-60px);
+                background: linear-gradient(90deg,rgba(24,144,255,0) 0,#9dc1e3);
+                animation: Ele 2s infinite;
+            }
+            @keyframes Ele {
+                0%{ transform: translateX(-60px);}
+                100%{ transform: translate(360px);}
+            } 
+        }
+        .ele-bottom{
+            position: absolute;
+            bottom: 2px;
+        }
+        .ele-input{
+            padding: 20px;
+            .ele-title{
+                text-align: center;
+                line-height: 30px;
+                font-size: 21px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
