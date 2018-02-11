@@ -1,14 +1,16 @@
 import React, { Component, PropTypes } from 'react';
 import { Router, Route, Redirect, IndexRoute, browserHistory } from 'react-router';
+import Utils from 'utils/common/utils';
 import LazyBundle from './lazyBundle';
 //Main
 import main from 'components/main';
-import DefaultIndex from 'src/defaultIndex/default.bundle.js';
-import About from 'src/about/about.bundle.js';
-import Introduce from 'src/introduce/introduce.bundle.js';
-import Emitte from 'src/emitte/emitte.bundle.js';
-import ErrorPage from 'src/error/error.bundle.js';
-import Test from 'src/test/test.bundle.js';
+import DefaultIndex from 'src/defaultIndex/default.bundle';
+import About from 'src/about/about.bundle';
+import Introduce from 'src/introduce/introduce.bundle';
+import Emitte from 'src/emitte/emitte.bundle';
+import ErrorPage from 'src/error/error.bundle';
+import Test from 'src/test/test.bundle';
+import Login from 'src/login/login.bundle';
 
 const lazyLoadComponent = (comp) => (props) => (
     <LazyBundle load={comp}>
@@ -18,6 +20,7 @@ const lazyLoadComponent = (comp) => (props) => (
 
 const RouteConfig = (
     <Router history={browserHistory}>
+        <Route path="/login" component={lazyLoadComponent(Login)} />
         <Route path="/" component={main} onEnter={_handleEnter} onChange={_handleOnChange}>
             <IndexRoute component={lazyLoadComponent(DefaultIndex)} />
             <Route path="index" component={lazyLoadComponent(DefaultIndex)} />
@@ -32,8 +35,15 @@ const RouteConfig = (
 );
 
 function _handleEnter(nextState, replace, next) {
-    // console.log('Enter', nextState, replace, next);
+    console.log('Enter', nextState, replace, next);
+    console.log(Utils.isCheckoutUser())
+    if(!Utils.isCheckoutUser()){
+        replace({
+            pathname: '/login'
+        })
+    }
     next();
+    return false;
 }
 function _handleOnChange(params) {
     // console.log('onChange');

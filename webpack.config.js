@@ -33,13 +33,24 @@ module.exports = {
 	module: {
 		loaders: [
 			{
-				test: /\.(js|jsx)$/,
-				exclude: /node_modules/,
-				loader: 'babel-loader',
-				query: {
-					presets: ['react', 'es2015']
-				}
-			}, {
+                test: /\.bundle\.(js|jsx)$/, // 通过文件名后缀自动处理需要转成bundle的文件
+                include: /src/,
+                exclude: /node_modules/,
+                use: [{
+                    loader: 'bundle-loader',
+                    options: {
+                        name: '[name]',
+                        lazy: true
+                    }
+                }, {
+                    loader: 'babel-loader',
+                    options: {
+                        "plugins": [
+                            ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+                        ]
+                    }
+                }]
+            }, {
 				test: /\.css$/,
 				exclude: /^node_modules$/,
 				use: ExtractTextPlugin.extract({
