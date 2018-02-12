@@ -6,7 +6,23 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: @bbgColor;
+    min-width: 888px;
+    //title
+    .login-title{
+        min-height: 80px;
+        background-color: #fff;
+        span{
+            line-height: 80px;
+            font-size: 20px;
+            margin: 0 30px;
+            font-family: '微软雅黑', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .head-right{
+            min-width: 200px;
+            min-height: 80px;
+            float: right;
+        }
+    }
     .login-animation{
         position: absolute;
         top: 0;
@@ -65,14 +81,24 @@
             animation: lgAniLeft 3s alternate infinite;
         }
     }
+    .login-container{
+        min-height: 554px;
+        background-color: @bbgColor;
+        .container-width{
+            width: 888px;
+            margin: 0 auto;
+            padding-top: 120px;
+            position: relative;
+        }
+    }
     .login-form{
-        position: absolute;
-        right: 24%;
-        width: 300px;
+        width: 330px;
         height: 300px;
-        background-color: #e2e4e5;
+        background-color: #fff;
+        border-radius: 5px;
         z-index: 1;
-        top:20%;
+        position: absolute;
+        right: 0;
         .ele{
             height: 2px;
             width: inherit;
@@ -91,7 +117,7 @@
         }
         .ele-bottom{
             position: absolute;
-            bottom: 2px;
+            bottom: -2px;
         }
         .ele-input{
             padding: 20px;
@@ -102,5 +128,11 @@
                 margin-bottom: 20px;
             }
         }
+    }
+
+    .login-footer{
+        min-height: 80px;
+        line-height: 80px;
+        text-align: center;
     }
 }

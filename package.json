@@ -40,12 +40,13 @@
   },
   "dependencies": {
     "antd": "^3.1.1",
+    "baobab": "^2.5.0",
+    "baobab-react": "^3.0.0",
     "history": "^4.7.2",
     "moment": "^2.20.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
-    "reflux": "^6.4.1",
     "reqwest": "^2.0.5"
   },
   "author": "",

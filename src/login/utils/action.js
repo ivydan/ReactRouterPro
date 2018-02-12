@@ -1,7 +1,11 @@
-import Reflux from 'reflux';
+"use strict";
 
-let Actions = Reflux.createActions([
-    'handleChangeName'
-]);
+import _ from "lodash";
 
-export default Actions;
+const actions = {
+    changePassWord(tree, value){
+        tree.set(["page","password"], value);
+    }
+}
+
+export default actions;
