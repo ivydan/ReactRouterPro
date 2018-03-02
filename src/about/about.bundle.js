@@ -1,26 +1,26 @@
 /*
  * @Author: Maggie 
  * @Date: 2018-01-02 11:22:47 
- * @Last Modified by: mikey.zhaopeng
+ * @Last Modified by: Maggie
  * @Last Modified time: 2018-01-09 14:11:00
  */
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'antd';
+import './index.less';
+import tree from './utils/tree';
+import Page from './view/page';
 
-export default class About extends Component {
-    constructor(props) {
-        super(props);
+import { root } from 'baobab-react/higher-order';
 
-    }
+class Index extends Component{
 
-    render() {
-        return (
-            <div>
-                About
-                <input />
-            </div>
-        )
+
+    render(){
+        return <Page />
     }
 }
+
+const RootIndex = root(tree, Index);
+
+export default RootIndex;

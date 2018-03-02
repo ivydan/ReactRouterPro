@@ -2,14 +2,10 @@ import React, { Component, PropTypes } from 'react';
 import { Router, Route, Redirect, IndexRoute, browserHistory } from 'react-router';
 import Utils from 'utils/common/utils';
 import LazyBundle from './lazyBundle';
+import RouterListInPage from './functionPage';
 //Main
-import main from 'components/main';
+import Main from 'components/main';
 import DefaultIndex from 'src/defaultIndex/default.bundle';
-import About from 'src/about/about.bundle';
-import Introduce from 'src/introduce/introduce.bundle';
-import Emitte from 'src/emitte/emitte.bundle';
-import ErrorPage from 'src/error/error.bundle';
-import Test from 'src/test/test.bundle';
 import Login from 'src/login/login.bundle';
 
 const lazyLoadComponent = (comp) => (props) => (
@@ -18,30 +14,72 @@ const lazyLoadComponent = (comp) => (props) => (
     </LazyBundle>
 )
 
+const ContextRouterList = require.context('../../src', true, /\.bundle\.(js|jsx)$/);
+
+console.log('ContextRouterList:', ContextRouterList);
+// debugger
+ContextRouterList.keys().forEach((filename) => {
+    console.log(filename, ContextRouterList(filename));
+    
+})
+
+const RouteWithSubRoutes = route => (
+    <Route
+        path={route.path}
+        render={props => (
+            // pass the sub-routes down to keep nesting
+            <route.component {...props} routes={route.routes} />
+        )}
+    />
+);
+
 const RouteConfig = (
     <Router history={browserHistory}>
         <Route path="/login" component={lazyLoadComponent(Login)} />
         <Route path="/" component={main} onEnter={_handleEnter} onChange={_handleOnChange}>
+            {/* 主页面 */}
             <IndexRoute component={lazyLoadComponent(DefaultIndex)} />
             <Route path="index" component={lazyLoadComponent(DefaultIndex)} />
-            <Route path="about" component={lazyLoadComponent(About)} />
-            <Route path="introduce" component={lazyLoadComponent(Introduce)} />
-            <Route path="emitte" component={lazyLoadComponent(Emitte)} />
-            <Route path="error" component={lazyLoadComponent(ErrorPage)} />
-            <Route path="test" component={lazyLoadComponent(Test)} />
+            {/* 功能页面 */}
+            {RouterListInPage.map((route, i) => <RouteWithSubRoutes key={"ROUTER" + i} {...route} />)}
+            {/* 错误重定向 */}
             <Redirect from='*' to='/error' />
         </Route>
     </Router>
 );
 
+// const rootRoute = [{
+//     path: '/login',
+//     component: lazyLoadComponent(Login)
+// },{
+//     path: '/',
+//     component: Main,
+//     indexRoute: {component: lazyLoadComponent(DefaultIndex)},
+//     onEnter: _handleEnter,
+//     onChange: _handleOnChange,
+//     childRoutes: [{
+//         path: '/about',
+//         component: lazyLoadComponent(DefaultIndex)
+//     }],
+//     childRoutes: (r => {
+//         console.log('r:',r)
+//         return r.keys().map(key => {
+//             console.log(r(key).default);
+//             //功能文件中配置path和component返回
+//             return r(key).default;
+//         });
+//     })(require.context('../../src', true, /\.bundle\.(js|jsx)$/))
+// }];
+//https://www.jianshu.com/p/386916c73dad
+
 function _handleEnter(nextState, replace, next) {
     console.log('Enter', nextState, replace, next);
     console.log(Utils.isCheckoutUser())
-    if(!Utils.isCheckoutUser()){
-        replace({
-            pathname: '/login'
-        })
-    }
+    // if(!Utils.isCheckoutUser()){
+    //     replace({
+    //         pathname: '/login'
+    //     })
+    // }
     next();
     return false;
 }

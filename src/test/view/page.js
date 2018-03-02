@@ -15,9 +15,17 @@ export default class App extends React.Component {
 	}
 
 	render() {
+		let { children } = this.props;
+		console.log(children)
+		React.Children.map(children, (e) => {
+			debugger;
+			return <span>
+				{e}
+			</span>
+		})
 		return (
 			<div className="TestContainer">
-				<a href="../page/index.html">page</a>
+				TEST
 			</div>
 		)
 	}

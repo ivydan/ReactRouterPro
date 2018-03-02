@@ -114,27 +114,36 @@
             &:hover::after{
                 color: #fff;
             }
+            //right
+            .menu-title-right{
+                position: absolute;
+                right: 10px;
+                transition: all 0.1s;
+            }
         }
         .active{
             max-height: 280px;
             .name{
                 color: #fff;
             }
+            .menu-title-right{
+                transform: rotate(90deg);
+            }
         }
-        .menu-title::after{
-            content: '＞';
-            position: absolute;
-            right: 10px;
-            top: 8px;
-            font-size: 15px;
-            transition: all 0.1s;
-        }
-        .active::after{
-            transform-origin: center;
-            transform: rotate(90deg);
-            right: 10px;
-            color: #fff;
-        }
+        // .menu-title::after{
+        //     content: '＞';
+        //     position: absolute;
+        //     right: 10px;
+        //     top: 8px;
+        //     font-size: 15px;
+        //     transition: all 0.1s;
+        // }
+        // .active::after{
+        //     transform-origin: center;
+        //     transform: rotate(90deg);
+        //     right: 10px;
+        //     color: #fff;
+        // }
     }
 }
 

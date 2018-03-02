@@ -8,11 +8,11 @@
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.less';
+import { root } from 'baobab-react/higher-order';
 import tree from './utils/tree';
 import Page from './view/page';
 
-import { root } from 'baobab-react/higher-order';
+import './index.less';
 
 class Index extends Component{
     render(){

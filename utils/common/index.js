@@ -9,14 +9,15 @@ const assert = function(condition, error){
 
 const Commons = {
     ajax(params) {
-        let url = process.env.IS_MOCK ? params['local'][params.api]: params['development'][params.api]
-
         return new Promise(function (resolve, reject) {
             reqwest({
                 url: url || '',
                 method: params.method || 'GET',
                 data: params.data,
-                type: 'json',
+                type: params.type || 'json',
+                contentType: params.contentType || 'application/x-www-form-urlencoded',
+                crossOrigin: true,
+                withCredentials: true,
                 success: function (resp) {
                     resolve(resp);
                 },

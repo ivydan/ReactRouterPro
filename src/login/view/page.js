@@ -1,33 +1,41 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
-import { Input, Button, Icon } from 'antd';
 import { branch } from 'baobab-react/higher-order';
+import { Input, Button, Icon, Form, Modal } from 'antd';
+import _ from 'lodash';
+
 import Commons from 'utils/common';
 import actions from '../utils/action';
+import Ajax from '../utils/ajax';
+
+const FormItem = Form.Item;
 
 class Login extends Component {
     constructor(props) {
         super(props);
 
         Commons.initComponent(this, { actions });
-
-        _.bindAll(this, '_handleChangeLock',
-            '_handleClickSubmit')
+        _.bindAll(this, '_handleClickSubmit');
     }
 
-    _handleChangeLock(e) {
-        let value = e.target.value;
-        this.dispatch("changePassWord", value);
-    }
-
-    _handleClickSubmit() {
-        console.log(this.getData("password"))
+    _handleClickSubmit(e) {
+        e.preventDefault();
+        this.props.form.validateFields((err, values) => {
+            if (!err) {
+                console.log('Received values of form: ', values);
+            }
+            Ajax.onLogin(values).then(res => {
+                debugger;
+            }).catch(err => {
+                Modal.error({
+                    title: "提示",
+                    content: err.message || "服务器请求失败，请重试！"
+                })
+            });
+        })
     }
 
     render() {
-        let username = this.getData("username");
-        let password = this.getData("password");
-
+        let { getFieldDecorator } = this.props.form;
         return (
             <div className="sd-login-container">
                 {/* <div className="login-animation">
@@ -55,28 +63,32 @@ class Login extends Component {
                                 <div className="ele-title">
                                     登录
                                 </div>
-                                <Input
-                                    placeholder="Enter your username"
-                                    prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                                    value={username}
-                                    placeholder="请输入用户名"
-                                    readOnly
-                                />
-                                <br />
-                                <br />
-                                <Input
-                                    placeholder="请输入密码"
-                                    prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                                    value={password}
-                                    type="password"
-                                    onChange={this._handleChangeLock}
-                                />
-                                <br />
-                                <br />
-                                <br />
+                                <Form onSubmit={this.handleSubmit}>
+                                    <FormItem>
+                                        {getFieldDecorator('userName', {
+                                            rules: [{ required: true, message: '请输入用户名!' }],
+                                        })(
+                                            <Input
+                                                prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                                                placeholder="请输入用户名"
+                                            />
+                                        )}
+                                    </FormItem>
+                                    <FormItem>
+                                        {getFieldDecorator('password', {
+                                            rules: [{ required: true, message: '请输入密码!' }],
+                                        })(
+                                            <Input
+                                                placeholder="请输入密码"
+                                                prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                                                type="password"
+                                            />
+                                        )}
+                                    </FormItem>
+                                </Form>
                                 <Button
                                     type="primary"
-                                    style={{ width: '100%' }}
+                                    style={{ width: '100%', marginTop: 15 }}
                                     onClick={this._handleClickSubmit}>提交</Button>
                             </div>
                         </div>
@@ -90,6 +102,8 @@ class Login extends Component {
     }
 }
 
+const WrappedForm = Form.create()(Login);
+
 export default branch({
     data: ['page']
-}, Login)
+}, WrappedForm);

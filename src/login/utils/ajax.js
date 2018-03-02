@@ -1,36 +1,29 @@
-import xReqwest from 'xReqwest';
+import reqwest from 'reqwest';
 
 const Ajax = {
     send(params) {
-        return new Promise((resolve, reject) => {
-            let Xparams = {
+        return new Promise(function (resolve, reject) {
+            reqwest({
                 url: params.url || '',
                 method: params.method || 'GET',
-                data: this._handleFormatData(params.data || {})
-            }
-            if(params.contentType){
-                Xparams.contentType = params.contentType
-            }
-            xReqwest({...Xparams}).then(res => {
-                resolve(res);
-            }, err =>{
-                reject(err);
+                data: params.data,
+                type: params.type || 'json',
+                contentType: params.contentType || 'application/x-www-form-urlencoded',
+                crossOrigin: true,
+                withCredentials: true,
+                success: function (resp) {
+                    resolve(resp);
+                },
+                error: function (error) {
+                    reject(error || '服务器请求失败');
+                }
             })
         })
     },
 
-    _handleFormatData(params){
-        for(let key in params){
-			if(!params[key]){
-				delete params[key];
-			}
-        }
-        return params;
-    },
-
-    sendLogin(data){
+    onLogin(data){
         return this.send({
-            url: '/api/a/a.do',
+            url: '/api/login.do',
             data:data
         })
     },

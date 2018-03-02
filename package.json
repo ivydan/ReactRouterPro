@@ -36,10 +36,11 @@
     "url-loader": "^0.6.2",
     "webpack": "^3.8.1",
     "webpack-bundle-analyzer": "^2.9.1",
-    "webpack-dev-server": "^2.9.4"
+    "webpack-dev-server": "^2.9.4",
+    "webpack-merge": "^4.1.2"
   },
   "dependencies": {
-    "antd": "^3.1.1",
+    "antd": "^3.2.2",
     "baobab": "^2.5.0",
     "baobab-react": "^3.0.0",
     "history": "^4.7.2",

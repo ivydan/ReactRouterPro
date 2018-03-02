@@ -5,6 +5,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
+import { Icon }  from 'antd';
 import './index.less';
 
 export default class Header extends Component {
@@ -53,7 +54,12 @@ export default class Header extends Component {
                         className={`menu-title${this.state.activeTab === item.id ? ' active' : ''}`} 
                         onClick={this._handleChangeTab.bind(this, item)}>
 
-                        <div className="name">{item.name}</div>
+                        <div className="name">
+                            {item.name}
+                            <span className="menu-title-right">
+                                <Icon type="right" />
+                            </span>
+                        </div>
                         <ul>
                             {item.children && item.children.map((child, i) => {
                                 return (

@@ -4,7 +4,7 @@
  */
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
+import Page from './view/page';
 import './index.less';
 
 export default class Test extends Component {
@@ -27,6 +27,10 @@ export default class Test extends Component {
                 <div>
                 {`[].forEach.call($$("*"),function(a){ a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16) })`}
                 </div>
+
+                <Page>
+                    <div>111</div>
+                </Page>
             </div>
         )
     }

@@ -19,8 +19,7 @@ class App extends Component{
 
     render(){
     	return <div className="sd-default-index">
-			<div onClick={this._handleClick.bind(this)}>go to about</div>
-			<button className="svg-btn">click</button>
+			Default Index
         </div> 
     }
 }
