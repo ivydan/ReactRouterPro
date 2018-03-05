@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 import { branch } from 'baobab-react/higher-order';
 import { Input, Button, Icon, Form, Modal } from 'antd';
 import _ from 'lodash';
 
 import Commons from 'utils/common';
+import Utils from 'utils/common/utils';
 import actions from '../utils/action';
 import Ajax from '../utils/ajax';
 
@@ -24,11 +26,12 @@ class Login extends Component {
                 console.log('Received values of form: ', values);
             }
             Ajax.onLogin(values).then(res => {
-                debugger;
+                Utils.setCookie('username', '11');
+                this.props.router.replace('/');
             }).catch(err => {
                 Modal.error({
                     title: "提示",
-                    content: err.message || "服务器请求失败，请重试！"
+                    content: err || "服务器请求失败，请重试！"
                 })
             });
         })
@@ -102,7 +105,7 @@ class Login extends Component {
     }
 }
 
-const WrappedForm = Form.create()(Login);
+const WrappedForm = withRouter(Form.create()(Login));
 
 export default branch({
     data: ['page']

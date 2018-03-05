@@ -24,5 +24,13 @@ module.exports = merge(common,{
 			name: ["chunk", "vendors", "react-dom", "tools"],
 			minChunks: 2
 		}),
+		new webpack.DefinePlugin({
+			'process.env':{
+                'IS_MOCK': true,
+                'NODE_ENV': JSON.stringify(
+                    process.env.NODE_ENV || 'development'
+                )
+            }
+		}),
 	]
 });

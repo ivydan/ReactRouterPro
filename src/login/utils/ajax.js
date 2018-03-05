@@ -1,4 +1,5 @@
 import reqwest from 'reqwest';
+import { JSEncrypt } from 'jsencrypt';
 
 const Ajax = {
     send(params) {
@@ -12,7 +13,11 @@ const Ajax = {
                 crossOrigin: true,
                 withCredentials: true,
                 success: function (resp) {
-                    resolve(resp);
+                    // if(resp.code != 200){
+                        // reject(resp.message); 
+                    // }else{
+                        resolve(resp);
+                    // }
                 },
                 error: function (error) {
                     reject(error || '服务器请求失败');
@@ -22,9 +27,12 @@ const Ajax = {
     },
 
     onLogin(data){
+        let encrypt = new JSEncrypt();
+        data.password = encrypt.encrypt(data.password);
         return this.send({
-            url: '/api/login.do',
-            data:data
+            url: '/api/user/login.do',
+            data:data,
+            method: "POST"
         })
     },
 }

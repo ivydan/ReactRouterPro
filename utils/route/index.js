@@ -17,11 +17,10 @@ const lazyLoadComponent = (comp) => (props) => (
 const ContextRouterList = require.context('../../src', true, /\.bundle\.(js|jsx)$/);
 
 console.log('ContextRouterList:', ContextRouterList);
-// debugger
-ContextRouterList.keys().forEach((filename) => {
-    console.log(filename, ContextRouterList(filename));
-    
-})
+
+// ContextRouterList.keys().forEach((filename) => {
+//     console.log(filename, ContextRouterList(filename));
+// })
 
 const RouteWithSubRoutes = route => (
     <Route
@@ -36,7 +35,7 @@ const RouteWithSubRoutes = route => (
 const RouteConfig = (
     <Router history={browserHistory}>
         <Route path="/login" component={lazyLoadComponent(Login)} />
-        <Route path="/" component={main} onEnter={_handleEnter} onChange={_handleOnChange}>
+        <Route path="/" component={Main} onEnter={_handleEnter} onChange={_handleOnChange}>
             {/* 主页面 */}
             <IndexRoute component={lazyLoadComponent(DefaultIndex)} />
             <Route path="index" component={lazyLoadComponent(DefaultIndex)} />
@@ -75,11 +74,11 @@ const RouteConfig = (
 function _handleEnter(nextState, replace, next) {
     console.log('Enter', nextState, replace, next);
     console.log(Utils.isCheckoutUser())
-    // if(!Utils.isCheckoutUser()){
-    //     replace({
-    //         pathname: '/login'
-    //     })
-    // }
+    if(!Utils.isCheckoutUser()){
+        replace({
+            pathname: '/login'
+        })
+    }
     next();
     return false;
 }

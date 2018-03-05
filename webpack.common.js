@@ -76,18 +76,10 @@ module.exports = {
 
 	plugins: [
 		new ExtractTextPlugin("style.css"),
-		new webpack.DefinePlugin({
-			'process.env':{
-                'IS_MOCK': true,
-                'NODE_ENV': JSON.stringify(
-                    process.env.NODE_ENV || 'development'
-                )
-            }
-		}),
 		// new webpack.HotModuleReplacementPlugin(),
 		// new webpack.NamedModulesPlugin(),
 		// new webpack.NoEmitOnErrorsPlugin(),
 		// new BundleAnalyzerPlugin(),
-		new OpenBrowserPlugin({ url: 'http://localhost:8080' })
-	]
+		// new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+    ]
 }
