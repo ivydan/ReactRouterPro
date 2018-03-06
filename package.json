@@ -8,6 +8,7 @@
     "start": "webpack-dev-server --history-api-fallback --progress --colors",
     "build": "webpack --progress --colors --config webpack.prod.js",
     "extstart": "webpack-dev-server --config webpack.ext.js --history-api-fallback --progress --colors",
+    "mockstart": "webpack-dev-server --config webpack.mock.js --history-api-fallback --progress --colors",
     "dllstart": "webpack-dev-server --config webpack.dll.js --history-api-fallback --progress --colors",
     "dllconfig": "webpack --config webpack.dll.config.js --progress --colors"
   },

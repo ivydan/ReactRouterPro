@@ -18,7 +18,6 @@ export default class App extends React.Component {
 		let { children } = this.props;
 		console.log(children)
 		React.Children.map(children, (e) => {
-			debugger;
 			return <span>
 				{e}
 			</span>

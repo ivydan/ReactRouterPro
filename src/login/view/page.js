@@ -26,7 +26,7 @@ class Login extends Component {
                 console.log('Received values of form: ', values);
             }
             Ajax.onLogin(values).then(res => {
-                Utils.setCookie('username', '11');
+                Utils.setCookie('username', res.username);
                 this.props.router.replace('/');
             }).catch(err => {
                 Modal.error({

@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
-import { Icon }  from 'antd';
+import { Icon, Spin }  from 'antd';
 import './index.less';
 
 export default class Header extends Component {
@@ -47,7 +47,7 @@ export default class Header extends Component {
         let { currentPage, menu } = this.props;
         let { list = [] } = menu;
         return <ul className="slider-menu-list">
-            {list.map((item, index) => {
+            {list.length === 0 ? <Spin /> : list.map((item, index) => {
                 return (
                     <li 
                         key={`Menu${item.id}`} 

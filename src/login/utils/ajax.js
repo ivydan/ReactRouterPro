@@ -13,11 +13,11 @@ const Ajax = {
                 crossOrigin: true,
                 withCredentials: true,
                 success: function (resp) {
-                    // if(resp.code != 200){
-                        // reject(resp.message); 
-                    // }else{
-                        resolve(resp);
-                    // }
+                    if(resp.code != 200){
+                        reject(resp.message); 
+                    }else{
+                        resolve(resp.data);
+                    }
                 },
                 error: function (error) {
                     reject(error || '服务器请求失败');

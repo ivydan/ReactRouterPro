@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Router, Route, Redirect, IndexRoute, browserHistory } from 'react-router';
 import Utils from 'utils/common/utils';
 import LazyBundle from './lazyBundle';
@@ -13,14 +13,6 @@ const lazyLoadComponent = (comp) => (props) => (
         {(Container) => <Container {...props} />}
     </LazyBundle>
 )
-
-const ContextRouterList = require.context('../../src', true, /\.bundle\.(js|jsx)$/);
-
-console.log('ContextRouterList:', ContextRouterList);
-
-// ContextRouterList.keys().forEach((filename) => {
-//     console.log(filename, ContextRouterList(filename));
-// })
 
 const RouteWithSubRoutes = route => (
     <Route
@@ -46,30 +38,6 @@ const RouteConfig = (
         </Route>
     </Router>
 );
-
-// const rootRoute = [{
-//     path: '/login',
-//     component: lazyLoadComponent(Login)
-// },{
-//     path: '/',
-//     component: Main,
-//     indexRoute: {component: lazyLoadComponent(DefaultIndex)},
-//     onEnter: _handleEnter,
-//     onChange: _handleOnChange,
-//     childRoutes: [{
-//         path: '/about',
-//         component: lazyLoadComponent(DefaultIndex)
-//     }],
-//     childRoutes: (r => {
-//         console.log('r:',r)
-//         return r.keys().map(key => {
-//             console.log(r(key).default);
-//             //功能文件中配置path和component返回
-//             return r(key).default;
-//         });
-//     })(require.context('../../src', true, /\.bundle\.(js|jsx)$/))
-// }];
-//https://www.jianshu.com/p/386916c73dad
 
 function _handleEnter(nextState, replace, next) {
     console.log('Enter', nextState, replace, next);

@@ -1,7 +1,10 @@
-console.log("This is a Mock Data!");
-import Mock from 'mockjs';
+const MockContext = require.context('./', true, /\.js$/);
 
+const MockKeys = MockContext.keys().filter(item => item !== './index.js');
 
-Mock.mock(/api\/user\/login.do/, {
-    'username': '111'
-});
+const MockData = MockKeys.reduce((data, value) => {
+    data[value] = MockContext(value);
+    return data; 
+}, {});
+
+export default MockData;

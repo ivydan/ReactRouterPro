@@ -11,14 +11,14 @@ if(process.env.IS_MOCK){
     require("../mock/index");
 }
 
-let app = document.createElement('div');
-document.body.appendChild(app);
-ReactDOM.render(<div>
-    {route}
-</div>, app);
+// let app = document.createElement('div');
+// document.body.appendChild(app);
+// ReactDOM.render(<div>
+//     {route}
+// </div>, app);
 
-// ReactDOM.render(
-//     <div className="sd-container">
-//         {route}
-//     </div>
-//     , document.getElementById("container"));
+ReactDOM.render(
+    <div className="sd-container">
+        {route}
+    </div>
+    , document.getElementById("container"));

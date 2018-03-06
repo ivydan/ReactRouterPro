@@ -11,7 +11,7 @@ const Commons = {
     ajax(params) {
         return new Promise(function (resolve, reject) {
             reqwest({
-                url: url || '',
+                url: params.url || '',
                 method: params.method || 'GET',
                 data: params.data,
                 type: params.type || 'json',
