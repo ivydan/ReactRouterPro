@@ -10,7 +10,7 @@ const FormItem = Form.Item;
 
 const formItemLayout = {
 	labelCol: { span: 8 },
-	wrapperCol: { span: 16 },
+	wrapperCol: { span: 15 },
 };
 
 class About extends React.Component {
@@ -18,7 +18,9 @@ class About extends React.Component {
 		super(props);
 		Commons.initComponent(this, { actions });
 
-		_.bindAll(this, '_handleChangeLock')
+		_.bindAll(this, '_handleChangeLock',
+						'_handleFormReset',
+						'_handleSubmit')
 	}
 
 	_handleChangeLock(e) {
@@ -26,32 +28,41 @@ class About extends React.Component {
 		this.dispatch("changePassWord", value);
 	}
 
+	_handleFormReset(){
+
+	}
+
 	componentDidMount() {
+	}
+
+	_handleSubmit(e){
+		e && e.preventDefault();
 	}
 
 	render() {
 		let { getFieldDecorator } = this.props.form;
 		return (
 			<div className="child-bundle-container">
-				<Form className="search-container">
-					<Row gutter={16}>
-						<Col span={8}>
-							<FormItem {...formItemLayout} label="项目">
-								{getFieldDecorator('project')(<Input />)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem {...formItemLayout} label="测试">
-								{getFieldDecorator('test')(<Input />)}
-							</FormItem>
-						</Col>
-						<Col span={8}>
-							<FormItem {...formItemLayout} label="时间">
-								{getFieldDecorator('date')(<Input />)}
-							</FormItem>
-						</Col>
-					</Row>
+				<Form className="search-container" onSubmit={this._handleSubmit}>
+					<FormItem {...formItemLayout} label="时间">
+						{getFieldDecorator('date')(<Input />)}
+					</FormItem>
+					<FormItem {...formItemLayout} label="测试">
+						{getFieldDecorator('test')(<Input />)}
+					</FormItem>
+					<FormItem {...formItemLayout} label="时间">
+						{getFieldDecorator('date')(<Input />)}
+					</FormItem>
+					<FormItem {...formItemLayout} label="时间">
+						{getFieldDecorator('date')(<Input />)}
+					</FormItem>
+					<FormItem className="search-btn">
+						<Button type="primary" htmlType="submit">查询</Button>
+						<Button style={{ margin: '0 4px' }} onClick={this._handleFormReset}>重置</Button>
+					</FormItem>
 				</Form>
+				<div></div>
+
 			</div>
 		)
 	}
