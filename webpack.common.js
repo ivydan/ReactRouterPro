@@ -79,7 +79,7 @@ module.exports = {
 		// new webpack.HotModuleReplacementPlugin(),
 		// new webpack.NamedModulesPlugin(),
 		// new webpack.NoEmitOnErrorsPlugin(),
-		// new BundleAnalyzerPlugin(),
+		new BundleAnalyzerPlugin(),
 		// new OpenBrowserPlugin({ url: 'http://localhost:8080' })
     ]
 }

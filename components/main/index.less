@@ -2,11 +2,15 @@
 
 .sd-main-layout{
     background-color: @bbgColor;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
-    overflow-x: hidden;
+    
     .layout-sider{
-        width: 250px;
+        width: 256px;
+        max-width: 256px;
+        min-width: 256px;
+        flex: 0 0 256px;
         min-height: 100vh;
         background-color: @bgColor;
         background: linear-gradient(top, @bgColor, #fff);
@@ -16,10 +20,13 @@
     }
     .layout-box{
         flex: auto;
+        overflow-x: hidden;
+        flex-direction: column;
+        display: flex;
         .layout-content{
             .layout-page-list{
                 margin: 10px;
-                padding: 10px 5px;
+                padding: 10px 15px;
                 min-height: 450px;
                 background-color: #fff;
                 border-radius: 2px;

@@ -8,19 +8,18 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
-import tree from './utils/tree';
+import Reducer from './utils/reducer';
 import Page from './view/page';
 
 import { root } from 'baobab-react/higher-order';
 
 class Index extends Component{
 
-
     render(){
         return <Page />
     }
 }
 
-const RootIndex = root(tree, Index);
+const RootIndex = root(Reducer.tree, Index);
 
 export default RootIndex;

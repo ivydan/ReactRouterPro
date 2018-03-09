@@ -4,6 +4,8 @@ const merge = require('webpack-merge');
 const common = require('./webpack.common');
 
 module.exports = merge(common,{
+    devtool: 'source-map',
+    
 	entry: {
         'app': path.resolve(__dirname, './src/app.js'),
     },
