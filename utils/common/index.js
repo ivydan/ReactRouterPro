@@ -47,7 +47,17 @@ const Commons = {
         component.getData = function(path){
             return _.at(this.props.data, path)[0];
         }.bind(component);
-    }
+    },
+
+    getValueOfData: (data=[], value) => {
+        let d = '--';
+        data.map((item, index) => {
+            if(item.value == value){
+                d = item.label;
+            }
+        });
+        return d;
+    },
 
 }
 

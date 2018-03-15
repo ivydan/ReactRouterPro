@@ -40,8 +40,8 @@ const RouteConfig = (
 );
 
 function _handleEnter(nextState, replace, next) {
-    console.log('Enter', nextState, replace, next);
-    console.log(Utils.isCheckoutUser())
+    // console.log('Enter', nextState, replace, next);
+    // console.log(Utils.isCheckoutUser())
     if(!Utils.isCheckoutUser()){
         replace({
             pathname: '/login'

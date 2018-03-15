@@ -42,9 +42,10 @@
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
-    "antd": "^3.2.2",
+    "antd": "^3.2.3",
     "baobab": "^2.5.0",
     "baobab-react": "^3.0.0",
+    "file-saver": "^1.3.3",
     "history": "^4.7.2",
     "jsencrypt": "2.3.1",
     "moment": "^2.20.1",

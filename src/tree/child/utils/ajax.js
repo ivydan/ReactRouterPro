@@ -13,13 +13,13 @@ const Ajax = {
                 withCredentials: true,
                 success: function (resp) {
                     if(resp.code != 200){
-                        reject(resp.message); 
+                        reject(resp.message || '服务器请求失败, 请重新尝试连接！'); 
                     }else{
                         resolve(resp.data);
                     }
                 },
                 error: function (error) {
-                    reject(error || '服务器请求失败');
+                    reject(error || '服务器请求失败, 请重新尝试连接！');
                 }
             })
         })

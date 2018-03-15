@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import _ from 'lodash';
-import { DatePicker, Select, Input, Button, Icon, Row, Col, Form, Table } from 'antd';
+import { DatePicker, Select, Input, Button, Icon, Row, Col, Form, Modal } from 'antd';
 import { branch } from 'baobab-react/higher-order';
 import Commons from 'utils/common';
 import Reducer from '../utils/reducer';
 import Ajax from '../utils/ajax';
+import LocalData from '../utils/local';
+
+import Table from 'components/table';
 
 const FormItem = Form.Item;
 const { RangePicker } = DatePicker;
@@ -18,13 +21,14 @@ const formItemLayout = {
 	wrapperCol: { span: 15 },
 };
 
-class About extends React.Component {
+class Child extends React.Component {
 	constructor(props) {
 		super(props);
 		Commons.initComponent(this, { actions });
 
 		_.bindAll(this, '_handleFormReset',
-			'_handleSubmit')
+			'_handleSubmit',
+			'_tableReload')
 	}
 
 	_handleChangeLock(e) {
@@ -33,38 +37,65 @@ class About extends React.Component {
 	}
 
 	_handleFormReset() {
-
+		this.props.form.resetFields();
+		let params = { pageNumber: 1 };
+		let values = Object.assign({}, this.getData('pagination'), params);
+		this.dispatch("setPaginationValue", values);
+		this._handleLoad(values);
 	}
 
 	componentDidMount() {
-		this._handleLoad(Object.assign({}, this.props.form.getFieldsValue(), this.getData('pagination')));
+		this._handleSubmit();
 	}
 
-	_handleLoad(value) {
-		Ajax.getDataList(value).then(res => {
-			this.dispatch('setDataList', res)
-		})
-	}
-
+	//form data reload
 	_handleSubmit(e) {
 		e && e.preventDefault();
+		let values = Object.assign({}, this.props.form.getFieldsValue(), this.getData('pagination'));
+		this._handleLoad(values);
+	}
+
+	//table paging
+	_tableReload(params) {
+		let values = Object.assign({}, this.props.form.getFieldsValue(), this.getData('pagination'), params);
+		this.dispatch("setPaginationValue", params);
+		this._handleLoad(values);
+	}
+
+	//send request
+	_handleLoad(value) {
+		this.dispatch('setLoading', true);
+		Ajax.getDataList(value).then(res => {
+			this.dispatch('setDataList', res);
+			this.dispatch('setLoading', false);
+		}).catch(err => {
+			Modal.error({
+				title: '错误提示',
+				content: err,
+			});
+			this.dispatch('setLoading', false);
+		})
 	}
 
 	_renderColumns() {
 		return [
-			{ title: 'Name', width: 100, dataIndex: 'name', key: 'name', fixed: 'left' },
-			{ title: 'ID', width: 100, dataIndex: 'id'},
-			{ title: 'code', dataIndex: 'code', width: 150 },
-			{ title: 'Column 2', dataIndex: 'column1', width: 150 },
-			{ title: 'Column 3', dataIndex: 'column2', width: 150 },
-			{ title: 'Column 4', dataIndex: 'column3', width: 150 },
+			{ title: <Icon type="plus" />, width: 100, dataIndex: 'name' },
+			{ title: 'ID', width: 100, dataIndex: 'id' },
+			{
+				title: 'total', children: [
+					{ title: 'code', dataIndex: 'code', key: "total1", width: 150 },
+					{ title: 'page', dataIndex: 'column1', key: "total2", width: 150 },
+					{ title: 'number', dataIndex: 'column2', key: "total3", width: 150 },
+				]
+			},
+			{ title: '状态', dataIndex: 'status', width: 150, render: this._colStatus },
 			{ title: 'Column 5', dataIndex: 'column4', width: 150 },
 			{ title: 'Column 6', dataIndex: 'column5', width: 150 },
 			{ title: 'Column 7', dataIndex: 'column6', width: 150 },
 			{ title: 'Column 8', dataIndex: 'column7', width: 150 },
 			{ title: 'Column 9', dataIndex: 'column8', width: 150 },
-			{ title: 'Column 10', dataIndex: 'column8', key: '2', width: 150 },
-			{ title: 'Column 10', dataIndex: 'column8', key: '3' },
+			{ title: 'Column 10', dataIndex: 'column8', key: 'columnKey01', width: 150 },
+			{ title: 'Column 10', dataIndex: 'column8', key: 'DDDDDD3' },
 			{
 				title: 'Action',
 				key: 'operation',
@@ -75,10 +106,16 @@ class About extends React.Component {
 		]
 	}
 
+	_colStatus(value, record, index){
+		return Commons.getValueOfData(LocalData.publishStatus, value);
+	}
+
 	render() {
 		let { getFieldDecorator } = this.props.form;
 		let list = this.getData('list');
-		console.log(this.getData('list'))
+		let loading = this.getData('loading');
+		let pagination = this.getData('pagination');
+		let total = this.getData('total');
 		return (
 			<div className="child-bundle-container">
 				<Form className="search-container" onSubmit={this._handleSubmit}>
@@ -102,7 +139,7 @@ class About extends React.Component {
 						{getFieldDecorator('switch')(<Input />)}
 					</FormItem>
 					<FormItem className="search-btn">
-						<Button type="primary" htmlType="submit">查询</Button>
+						<Button type="primary" htmlType="submit" loading={loading}>查询</Button>
 						<Button style={{ margin: '0 4px' }} onClick={this._handleFormReset}>重置</Button>
 					</FormItem>
 				</Form>
@@ -110,17 +147,20 @@ class About extends React.Component {
 				<Table
 					columns={this._renderColumns()}
 					rowKey={v => v.id}
+					bordered
 					dataSource={list}
-					size="middle"
-					pagination={{ pageSize: 20 }}
-					scroll={{ x: 2000, y: 440 }}
+					loading={loading}
+					pagination={pagination}
+					total={total}
+					getData={this._tableReload}
+					scroll={{ x: 2000 }}
 				/>
 			</div>
 		)
 	}
 }
 
-const WrappedForm = withRouter(Form.create()(About));
+const WrappedForm = withRouter(Form.create()(Child));
 
 export default branch({
 	data: ['page']

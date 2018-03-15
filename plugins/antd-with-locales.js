@@ -78,7 +78,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 935);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1028);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -5965,12 +5965,7 @@ function lookUpwardForInlineStyle(content, fromKey) {
 module.exports = EditorState;
 
 /***/ }),
-/* 13 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
+/* 13 */,
 /* 14 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17670,22 +17665,7 @@ var locale = {
 /* harmony default export */ __webpack_exports__["a"] = (locale);
 
 /***/ }),
-/* 109 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(947);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_style__ = __webpack_require__(181);
-
-
-// style dependencies
-
-
-/***/ }),
+/* 109 */,
 /* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23325,19 +23305,7 @@ function exportContent(contentState) {
 }
 
 /***/ }),
-/* 181 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(948);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-
-
-
-/***/ }),
+/* 181 */,
 /* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23359,35 +23327,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 183 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(946);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_style__ = __webpack_require__(109);
-
-
-// style dependencies
-
-
-/***/ }),
-/* 184 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(967);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-
-
-
-/***/ }),
+/* 183 */,
+/* 184 */,
 /* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -38525,19 +38466,7 @@ var Dragger = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Dragger);
 
 /***/ }),
-/* 340 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(994);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-
-
-
-/***/ }),
+/* 340 */,
 /* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -38559,69 +38488,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 342 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(959);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-
-
-
-/***/ }),
-/* 343 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 344 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-
-
-
-/***/ }),
-/* 345 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(986);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-
-
-
-/***/ }),
-/* 346 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(987);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_style__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__input_style__ = __webpack_require__(109);
-
-
-// style dependencies
-
-
-
-/***/ }),
+/* 342 */,
+/* 343 */,
+/* 344 */,
+/* 345 */,
+/* 346 */,
 /* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -93627,242 +93498,1209 @@ function removeFileItem(file, fileList) {
 module.exports = {"name":"antd","version":"3.2.3","title":"Ant Design","description":"An enterprise-class UI design language and React-based implementation","homepage":"http://ant.design/","keywords":["ant","design","react","react-component","component","components","ui","framework","frontend"],"contributors":["ant"],"repository":{"type":"git","url":"https://github.com/ant-design/ant-design"},"bugs":{"url":"https://github.com/ant-design/ant-design/issues"},"main":"lib/index.js","module":"es/index.js","files":["dist","lib","es"],"typings":"lib/index.d.ts","license":"MIT","peerDependencies":{"react":">=16.0.0","react-dom":">=16.0.0"},"dependencies":{"array-tree-filter":"^2.0.0","babel-runtime":"6.x","classnames":"~2.2.0","create-react-class":"^15.6.0","css-animation":"^1.2.5","dom-closest":"^0.2.0","enquire.js":"^2.1.1","lodash.debounce":"^4.0.8","lodash.uniqby":"^4.7.0","moment":"^2.19.3","omit.js":"^1.0.0","prop-types":"^15.5.7","rc-animate":"^2.4.1","rc-calendar":"~9.5.0","rc-cascader":"~0.12.0","rc-checkbox":"~2.1.1","rc-collapse":"~1.8.0","rc-dialog":"~7.1.0","rc-dropdown":"~2.1.0","rc-editor-mention":"^1.0.2","rc-form":"^2.1.0","rc-input-number":"~4.0.0","rc-menu":"~6.2.0","rc-notification":"~3.0.0","rc-pagination":"~1.15.0","rc-progress":"~2.2.2","rc-rate":"~2.4.0","rc-select":"~7.7.0","rc-slider":"~8.6.0","rc-steps":"~3.1.0","rc-switch":"~1.6.0","rc-table":"~6.1.0","rc-tabs":"~9.2.0","rc-time-picker":"~3.2.1","rc-tooltip":"~3.7.0","rc-tree":"~1.7.0","rc-tree-select":"~1.12.0","rc-upload":"~2.4.0","rc-util":"^4.0.4","react-lazy-load":"^3.0.12","react-slick":"~0.17.0","shallowequal":"^1.0.1","warning":"~3.0.0"},"devDependencies":{"@babel/types":"7.0.0-beta.40","@types/react":"^16.0.0","@types/react-dom":"^16.0.0","ansi-styles":"^3.2.0","antd-tools":"^5.1.0","babel-cli":"^6.18.0","babel-eslint":"^8.1.1","babel-plugin-import":"^1.0.0","babel-plugin-transform-runtime":"^6.23.0","babel-preset-es2015":"^6.18.0","babel-preset-react":"^6.16.0","babel-preset-stage-0":"^6.16.0","bezier-easing":"^2.0.3","bisheng":"^0.28.0","bisheng-plugin-antd":"^0.16.0","bisheng-plugin-description":"^0.1.1","bisheng-plugin-react":"^0.6.0","bisheng-plugin-toc":"^0.4.0","color-standalone":"^0.11.6","commander":"^2.11.0","cross-env":"^5.0.3","css-split-webpack-plugin":"^0.2.3","dekko":"^0.2.0","delegate":"^3.1.2","docsearch.js":"^2.5.2","dora-plugin-upload":"^0.3.1","enquire-js":"^0.1.2","enzyme":"^3.1.0","enzyme-adapter-react-16":"^1.0.0","enzyme-to-json":"^3.1.2","eslint":"^4.8.0","eslint-config-airbnb":"latest","eslint-plugin-babel":"^4.0.0","eslint-plugin-import":"^2.2.0","eslint-plugin-jsx-a11y":"^6.0.2","eslint-plugin-markdown":"~1.0.0-beta.4","eslint-plugin-react":"7.5.1","eslint-tinker":"^0.4.0","fetch-jsonp":"^1.0.3","glob":"^7.1.1","immutability-helper":"^2.5.0","jest":"^21.1.0","jsonml.js":"^0.1.0","lint-staged":"^6.0.0","lz-string":"^1.4.4","majo":"^0.4.1","mockdate":"^2.0.1","moment-timezone":"^0.5.5","pre-commit":"^1.2.2","preact":"^8.2.5","preact-compat":"^3.17.0","querystring":"^0.2.0","rc-drawer-menu":"^0.5.3","rc-queue-anim":"^1.4.1","rc-scroll-anim":"^2.2.1","rc-tween-one":"^1.7.2","react":"^16.0.0","react-color":"^2.11.7","react-copy-to-clipboard":"^5.0.0","react-dnd":"^2.5.4","react-dnd-html5-backend":"^2.5.4","react-document-title":"^2.0.1","react-dom":"^16.0.0","react-github-button":"^0.1.1","react-infinite-scroller":"^1.0.15","react-intl":"^2.0.1","react-sublime-video":"^0.2.0","react-virtualized":"~9.13.0","remark-frontmatter":"^1.1.0","remark-parse":"^4.0.0","remark-stringify":"^4.0.0","remark-yaml-config":"^4.0.1","reqwest":"^2.0.5","rimraf":"^2.5.4","scrollama":"^0.6.1","stylelint":"^8.0.0","stylelint-config-standard":"^18.0.0","typescript":"~2.6.1","unified":"^6.1.5","values.js":"^1.0.3","xhr2":"^0.1.3"},"scripts":{"test":"jest --config .jest.js","test-node":"jest --config .jest.node.js","test-all":"./scripts/test-all.sh","lint":"npm run lint:ts && npm run lint:es && npm run lint:demo && npm run lint:style","lint:ts":"npm run tsc && antd-tools run ts-lint","lint:es":"eslint tests site scripts components ./.eslintrc.js ./webpack.config.js --ext '.js,.jsx'","lint:demo":"cross-env RUN_ENV=DEMO eslint components/*/demo/*.md --ext '.md'","lint:style":"stylelint \"{site,components}/**/*.less\" --syntax less","lint-fix:ts":"npm run tsc && antd-tools run ts-lint-fix","lint-fix":"npm run lint-fix:code && npm run lint-fix:demo","lint-fix:code":"eslint --fix tests site scripts components ./.eslintrc.js ./webpack.config.js --ext '.js,.jsx'","lint-fix:demo":"eslint-tinker ./components/*/demo/*.md","sort-api":"node ./scripts/sort-api-table.js","dist":"antd-tools run dist","compile":"antd-tools run compile","tsc":"tsc","start":"rimraf _site && node ./scripts/generateColorLess.js && cross-env NODE_ENV=development bisheng start -c ./site/bisheng.config.js","start:preact":"node ./scripts/generateColorLess.js && cross-env NODE_ENV=development REACT_ENV=preact bisheng start -c ./site/bisheng.config.js","site":"cross-env NODE_ENV=production bisheng build --ssr -c ./site/bisheng.config.js && node ./scripts/generateColorLess.js","predeploy":"antd-tools run clean && npm run site","deploy":"bisheng gh-pages --push-only","pub":"antd-tools run pub","prepublish":"antd-tools run guard","pre-publish":"npm run test-all && node ./scripts/prepub","authors":"git log --format='%aN <%aE>' | sort -u | grep -v 'users.noreply.github.com' | grep -v 'gitter.im' | grep -v '.local>' | grep -v 'alibaba-inc.com' | grep -v 'alipay.com' | grep -v 'taobao.com' > AUTHORS.txt","lint-staged":"lint-staged","lint-staged:ts":"tsc && node node_modules/tslint/bin/tslint -c node_modules/antd-tools/lib/tslint.json","lint-staged:es":"eslint ./.eslintrc.js ./webpack.config.js","lint-staged:demo":"cross-env RUN_ENV=DEMO eslint --ext '.md'"},"lint-staged":{"components/**/*.tsx":["lint-staged:ts"],"{tests,site,scripts,components}/**/*.{js,jsx}":["lint-staged:es"],"{site,components}/**/*.less":"stylelint --syntax less","components/*/demo/*.md":["lint-staged:demo"]},"pre-commit":["lint-staged"]}
 
 /***/ }),
-/* 863 */
+/* 863 */,
+/* 864 */,
+/* 865 */,
+/* 866 */,
+/* 867 */,
+/* 868 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(962);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ar_EG__ = __webpack_require__(1032);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ar_EG__ = __webpack_require__(869);
 
 
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'اختيار التاريخ', rangePlaceholder: ['البداية', 'النهاية'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ar_EG__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ar_EG__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
 
 /***/ }),
-/* 864 */
+/* 869 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(973);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_style__ = __webpack_require__(109);
-
-
-// style dependencies
-
+var locale = {
+    placeholder: 'اختيار الوقت'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
 
 /***/ }),
-/* 865 */
+/* 870 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(976);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_style__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_bg_BG__ = __webpack_require__(1036);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_bg_BG__ = __webpack_require__(871);
 
 
-// style dependencies
 
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Избор на дата', rangePlaceholder: ['Начална', 'Крайна'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_bg_BG__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_bg_BG__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
 
 /***/ }),
-/* 866 */
+/* 871 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1002);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-
-
+var locale = {
+    placeholder: 'Избор на час'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
 
 /***/ }),
-/* 867 */
+/* 872 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1003);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ca_ES__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ca_ES__ = __webpack_require__(873);
 
 
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Seleccionar data', rangePlaceholder: ['Data inicial', 'Data final'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ca_ES__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ca_ES__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
 
 /***/ }),
-/* 868 */,
-/* 869 */,
-/* 870 */,
-/* 871 */,
-/* 872 */,
-/* 873 */,
-/* 874 */,
-/* 875 */,
-/* 876 */,
-/* 877 */,
-/* 878 */,
-/* 879 */,
-/* 880 */,
-/* 881 */,
-/* 882 */,
-/* 883 */,
-/* 884 */,
-/* 885 */,
-/* 886 */,
-/* 887 */,
-/* 888 */,
-/* 889 */,
-/* 890 */,
-/* 891 */,
-/* 892 */,
-/* 893 */,
-/* 894 */,
-/* 895 */,
-/* 896 */,
-/* 897 */,
-/* 898 */,
-/* 899 */,
-/* 900 */,
-/* 901 */,
-/* 902 */,
-/* 903 */,
-/* 904 */,
-/* 905 */,
-/* 906 */,
-/* 907 */,
-/* 908 */,
-/* 909 */,
-/* 910 */,
-/* 911 */,
-/* 912 */,
-/* 913 */,
-/* 914 */,
-/* 915 */,
-/* 916 */,
-/* 917 */,
-/* 918 */,
-/* 919 */,
-/* 920 */,
-/* 921 */,
-/* 922 */,
-/* 923 */,
-/* 924 */,
-/* 925 */,
-/* 926 */,
-/* 927 */,
-/* 928 */,
-/* 929 */,
-/* 930 */,
-/* 931 */,
-/* 932 */,
-/* 933 */,
-/* 934 */,
-/* 935 */
+/* 873 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Seleccionar hora'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 874 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_cs_CZ__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_cs_CZ__ = __webpack_require__(875);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Vybrat datum', rangePlaceholder: ['Od', 'Do'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_cs_CZ__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_cs_CZ__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 875 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Vybrat čas'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 876 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_de_DE__ = __webpack_require__(1048);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_de_DE__ = __webpack_require__(877);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Datum auswählen', rangePlaceholder: ['Startdatum', 'Enddatum'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_de_DE__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_de_DE__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/issues/424
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 877 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Zeit auswählen'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 878 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_el_GR__ = __webpack_require__(1052);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_el_GR__ = __webpack_require__(879);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Επιλέξτε ημερομηνία', rangePlaceholder: ['Αρχική ημερομηνία', 'Τελική ημερομηνία'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_el_GR__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_el_GR__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/issues/424
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 879 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Επιλέξτε ώρα'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 880 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_en_GB__ = __webpack_require__(1056);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_en_GB__ = __webpack_require__(881);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Select date', rangePlaceholder: ['Start date', 'End date'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_en_GB__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_en_GB__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 881 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Select time'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 882 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_es_ES__ = __webpack_require__(1061);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_es_ES__ = __webpack_require__(883);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Seleccionar fecha', rangePlaceholder: ['Fecha inicial', 'Fecha final'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_es_ES__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_es_ES__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 883 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Seleccionar hora'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 884 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_et_EE__ = __webpack_require__(1065);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_et_EE__ = __webpack_require__(885);
+
+
+
+// 统一合并为完整的 Locale
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Vali kuupäev', rangePlaceholder: ['Algus kuupäev', 'Lõpu kuupäev'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_et_EE__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_et_EE__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 885 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Vali aeg'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 886 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fa_IR__ = __webpack_require__(1069);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fa_IR__ = __webpack_require__(887);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'انتخاب تاریخ', rangePlaceholder: ['تاریخ شروع', 'تاریخ پایان'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fa_IR__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fa_IR__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 887 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'انتخاب زمان'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 888 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fi_FI__ = __webpack_require__(1073);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fi_FI__ = __webpack_require__(889);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Valitse päivä', rangePlaceholder: ['Alku päivä', 'Loppu päivä'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fi_FI__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fi_FI__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 889 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Valitse aika'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 890 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fr_BE__ = __webpack_require__(1077);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_BE__ = __webpack_require__(891);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Sélectionner une date', rangePlaceholder: ['Date de début', 'Date de fin'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fr_BE__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_BE__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/issues/424
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 891 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Sélectionner l\'heure'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 892 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fr_FR__ = __webpack_require__(1081);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_FR__ = __webpack_require__(893);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Sélectionner une date', rangePlaceholder: ['Date de début', 'Date de fin'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_fr_FR__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_FR__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/issues/424
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 893 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Sélectionner l\'heure'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 894 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_is_IS__ = __webpack_require__(1085);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_is_IS__ = __webpack_require__(895);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Veldu dag', rangePlaceholder: ['Upphafsdagur', 'Lokadagur'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_is_IS__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_is_IS__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 895 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Velja tíma'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 896 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_it_IT__ = __webpack_require__(1089);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_it_IT__ = __webpack_require__(897);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Selezionare la data', rangePlaceholder: ['Data d\'inizio', 'Data di fine'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_it_IT__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_it_IT__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/issues/424
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 897 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Selezionare il tempo'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 898 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ja_JP__ = __webpack_require__(1093);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ja_JP__ = __webpack_require__(899);
+
+
+
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: '日付を選択', rangePlaceholder: ['開始日付', '終了日付'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ja_JP__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ja_JP__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 899 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: '時刻を選択'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 900 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ko_KR__ = __webpack_require__(1097);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ko_KR__ = __webpack_require__(901);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: '날짜 선택', rangePlaceholder: ['시작일', '종료일'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ko_KR__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ko_KR__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 901 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: '날짜 선택'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 902 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ku_IQ__ = __webpack_require__(1101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ku_IQ__ = __webpack_require__(903);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Dîrok hilbijêre', rangePlaceholder: ['Dîroka destpêkê', 'Dîroka dawîn'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ku_IQ__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ku_IQ__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 903 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Demê hilbijêre'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 904 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_nb_NO__ = __webpack_require__(1105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nb_NO__ = __webpack_require__(905);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Velg dato', rangePlaceholder: ['Startdato', 'Sluttdato'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_nb_NO__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nb_NO__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 905 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Velg tid'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 906 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_nl_BE__ = __webpack_require__(1109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_BE__ = __webpack_require__(907);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Selecteer datum', rangePlaceholder: ['Begin datum', 'Eind datum'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_nl_BE__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_BE__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/issues/424
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 907 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Selecteer tijd'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 908 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_nl_NL__ = __webpack_require__(1113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_NL__ = __webpack_require__(909);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Selecteer datum', rangePlaceholder: ['Begin datum', 'Eind datum'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_nl_NL__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_NL__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/issues/424
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 909 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Selecteer tijd'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 910 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_pl_PL__ = __webpack_require__(1117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pl_PL__ = __webpack_require__(911);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Wybierz datę', rangePlaceholder: ['Data początkowa', 'Data końcowa'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_pl_PL__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pl_PL__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 911 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Wybierz godzinę'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 912 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_pt_BR__ = __webpack_require__(1121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_BR__ = __webpack_require__(913);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Selecionar data', rangePlaceholder: ['Data de início', 'Data de fim'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_pt_BR__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_BR__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 913 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Hora'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 914 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_pt_PT__ = __webpack_require__(1125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_PT__ = __webpack_require__(915);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_pt_PT__["a" /* default */], { placeholder: 'Data', rangePlaceholder: ['Data inicial', 'Data final'], today: 'Hoje', now: 'Agora', backToToday: 'Hoje', ok: 'Ok', clear: 'Limpar', month: 'Mês', year: 'Ano', timeSelect: 'Hora', dateSelect: 'Selecionar data', monthSelect: 'Selecionar mês', yearSelect: 'Selecionar ano', decadeSelect: 'Selecionar década', yearFormat: 'YYYY', dateFormat: 'D/M/YYYY', dayFormat: 'D', dateTimeFormat: 'D/M/YYYY HH:mm:ss', monthFormat: 'MMMM', monthBeforeYear: false, previousMonth: 'Mês anterior (PageUp)', nextMonth: 'Mês seguinte (PageDown)', previousYear: 'Ano anterior (Control + left)', nextYear: 'Ano seguinte (Control + right)', previousDecade: 'Última década', nextDecade: 'Próxima década', previousCentury: 'Último século', nextCentury: 'Próximo século' }),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_PT__["a" /* default */], { placeholder: 'Hora' })
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 915 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Hora'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 916 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ru_RU__ = __webpack_require__(1129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ru_RU__ = __webpack_require__(917);
+
+/**
+ * Created by Andrey Gayvoronsky on 13/04/16.
+ */
+
+
+var locale = {
+  lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Выберите дату', rangePlaceholder: ['Начальная дата', 'Конечная дата'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_ru_RU__["a" /* default */]),
+  timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ru_RU__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 917 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/**
+ * Created by Andrey Gayvoronsky on 13/04/16.
+ */
+var locale = {
+  placeholder: 'Выберите время'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 918 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_sk_SK__ = __webpack_require__(1133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sk_SK__ = __webpack_require__(919);
+
+
+
+// 统一合并为完整的 Locale
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Vybrať dátum', rangePlaceholder: ['Od', 'Do'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_sk_SK__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sk_SK__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 919 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Vybrať čas'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 920 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_sr_RS__ = __webpack_require__(1137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sr_RS__ = __webpack_require__(921);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Izaberite datum', rangePlaceholder: ['Početni datum', 'Krajnji datum'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_sr_RS__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sr_RS__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 921 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Izaberite vreme'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 922 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_sv_SE__ = __webpack_require__(1141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sv_SE__ = __webpack_require__(923);
+
+
+
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Välj datum', rangePlaceholder: ['Startdatum', 'Slutdatum'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_sv_SE__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sv_SE__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 923 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Välj tid'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 924 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_calendar_es_locale_th_TH__ = __webpack_require__(1145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__time_picker_locale_th_TH__ = __webpack_require__(925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_object_assign__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_object_assign___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_object_assign__);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_2_object_assign___default()({
+        placeholder: 'เลือกวันที่',
+        rangePlaceholder: ['วันเริ่มต้น', 'วันสิ้นสุด']
+    }, __WEBPACK_IMPORTED_MODULE_0_rc_calendar_es_locale_th_TH__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_2_object_assign___default()({}, __WEBPACK_IMPORTED_MODULE_1__time_picker_locale_th_TH__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 925 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'เลือกเวลา'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 926 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_en_US__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_tr_TR__ = __webpack_require__(927);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Tarih Seç', rangePlaceholder: ['Başlangıç Tarihi', 'Bitiş Tarihi'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_en_US__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_tr_TR__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 927 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Zaman Seç'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 928 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_uk_UA__ = __webpack_require__(1151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_uk_UA__ = __webpack_require__(929);
+
+
+
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Оберіть дату', rangePlaceholder: ['Початкова дата', 'Кінцева дата'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_uk_UA__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_uk_UA__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 929 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Оберіть час'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 930 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_en_US__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_en_US__ = __webpack_require__(108);
+
+
+
+// Merge into a locale object
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: 'Chọn thời điểm', rangePlaceholder: ['Ngày bắt đầu', 'Ngày kết thúc'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_en_US__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_en_US__["a" /* default */])
+};
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 931 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_zh_CN__ = __webpack_require__(1158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_CN__ = __webpack_require__(932);
+
+
+
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: '请选择日期', rangePlaceholder: ['开始日期', '结束日期'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_zh_CN__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_CN__["a" /* default */])
+};
+// should add whitespace between char in Button
+locale.lang.ok = '确 定';
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 932 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: '请选择时间'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 933 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_zh_TW__ = __webpack_require__(1162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_TW__ = __webpack_require__(934);
+
+
+
+var locale = {
+    lang: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({ placeholder: '請選擇日期', rangePlaceholder: ['開始日期', '結束日期'] }, __WEBPACK_IMPORTED_MODULE_1_rc_calendar_es_locale_zh_TW__["a" /* default */]),
+    timePickerLocale: __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_TW__["a" /* default */])
+};
+locale.lang.ok = '確 定';
+// All settings at:
+// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 934 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: '請選擇時間'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 935 */,
+/* 936 */,
+/* 937 */,
+/* 938 */,
+/* 939 */,
+/* 940 */,
+/* 941 */,
+/* 942 */,
+/* 943 */,
+/* 944 */,
+/* 945 */,
+/* 946 */,
+/* 947 */,
+/* 948 */,
+/* 949 */,
+/* 950 */,
+/* 951 */,
+/* 952 */,
+/* 953 */,
+/* 954 */,
+/* 955 */,
+/* 956 */,
+/* 957 */,
+/* 958 */,
+/* 959 */,
+/* 960 */,
+/* 961 */,
+/* 962 */,
+/* 963 */,
+/* 964 */,
+/* 965 */,
+/* 966 */,
+/* 967 */,
+/* 968 */,
+/* 969 */,
+/* 970 */,
+/* 971 */,
+/* 972 */,
+/* 973 */,
+/* 974 */,
+/* 975 */,
+/* 976 */,
+/* 977 */,
+/* 978 */,
+/* 979 */,
+/* 980 */,
+/* 981 */,
+/* 982 */,
+/* 983 */,
+/* 984 */,
+/* 985 */,
+/* 986 */,
+/* 987 */,
+/* 988 */,
+/* 989 */,
+/* 990 */,
+/* 991 */,
+/* 992 */,
+/* 993 */,
+/* 994 */,
+/* 995 */,
+/* 996 */,
+/* 997 */,
+/* 998 */,
+/* 999 */,
+/* 1000 */,
+/* 1001 */,
+/* 1002 */,
+/* 1003 */,
+/* 1004 */,
+/* 1005 */,
+/* 1006 */,
+/* 1007 */,
+/* 1008 */,
+/* 1009 */,
+/* 1010 */,
+/* 1011 */,
+/* 1012 */,
+/* 1013 */,
+/* 1014 */,
+/* 1015 */,
+/* 1016 */,
+/* 1017 */,
+/* 1018 */,
+/* 1019 */,
+/* 1020 */,
+/* 1021 */,
+/* 1022 */,
+/* 1023 */,
+/* 1024 */,
+/* 1025 */,
+/* 1026 */,
+/* 1027 */,
+/* 1028 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(936);
+var antd = __webpack_require__(347);
+var req = __webpack_require__(1029);
 
-
-/***/ }),
-/* 936 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* eslint no-console:0 */
-function camelCase(name) {
-  return name.charAt(0).toUpperCase() + name.slice(1).replace(/-(\w)/g, function (m, n) {
-    return n.toUpperCase();
-  });
-}
-
-// Just import style for https://github.com/ant-design/ant-design/issues/3745
-var req = __webpack_require__(937);
+antd.locales = {};
 
 req.keys().forEach(function (mod) {
-  var v = req(mod);
-  if (v && v['default']) {
-    v = v['default'];
-  }
-  var match = mod.match(/^\.\/([^_][\w-]+)\/index\.tsx?$/);
-  if (match && match[1]) {
-    if (match[1] === 'message' || match[1] === 'notification') {
-      // message & notification should not be capitalized
-      exports[match[1]] = v;
-    } else {
-      exports[camelCase(match[1])] = v;
-    }
-  }
+  var match = mod.match(/\/([^/]+).tsx$/);
+  antd.locales[match[1]] = req(mod)['default'];
 });
 
-module.exports = __webpack_require__(347);
+module.exports = antd;
 
 /***/ }),
-/* 937 */
+/* 1029 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./affix/style/index.tsx": 938,
-	"./alert/style/index.tsx": 940,
-	"./anchor/style/index.tsx": 942,
-	"./auto-complete/style/index.tsx": 944,
-	"./avatar/style/index.tsx": 949,
-	"./back-top/style/index.tsx": 951,
-	"./badge/style/index.tsx": 953,
-	"./breadcrumb/style/index.tsx": 955,
-	"./button/style/index.tsx": 181,
-	"./calendar/style/index.tsx": 957,
-	"./card/style/index.tsx": 960,
-	"./carousel/style/index.tsx": 963,
-	"./cascader/style/index.tsx": 965,
-	"./checkbox/style/index.tsx": 184,
-	"./col/style/index.tsx": 968,
-	"./collapse/style/index.tsx": 969,
-	"./date-picker/style/index.tsx": 971,
-	"./divider/style/index.tsx": 974,
-	"./dropdown/style/index.tsx": 865,
-	"./form/style/index.tsx": 977,
-	"./grid/style/index.tsx": 344,
-	"./icon/style/index.tsx": 979,
-	"./input-number/style/index.tsx": 980,
-	"./input/style/index.tsx": 109,
-	"./layout/style/index.tsx": 982,
-	"./list/style/index.tsx": 984,
-	"./locale-provider/style/index.tsx": 988,
-	"./mention/style/index.tsx": 990,
-	"./menu/style/index.tsx": 992,
-	"./message/style/index.tsx": 995,
-	"./modal/style/index.tsx": 997,
-	"./notification/style/index.tsx": 999,
-	"./pagination/style/index.tsx": 346,
-	"./popconfirm/style/index.tsx": 1001,
-	"./popover/style/index.tsx": 866,
-	"./progress/style/index.tsx": 867,
-	"./radio/style/index.tsx": 342,
-	"./rate/style/index.tsx": 1004,
-	"./row/style/index.tsx": 1006,
-	"./select/style/index.tsx": 183,
-	"./slider/style/index.tsx": 1007,
-	"./spin/style/index.tsx": 345,
-	"./steps/style/index.tsx": 1009,
-	"./switch/style/index.tsx": 1011,
-	"./table/style/index.tsx": 1013,
-	"./tabs/style/index.tsx": 863,
-	"./tag/style/index.tsx": 1015,
-	"./time-picker/style/index.tsx": 864,
-	"./timeline/style/index.tsx": 1017,
-	"./tooltip/style/index.tsx": 340,
-	"./transfer/style/index.tsx": 1019,
-	"./tree-select/style/index.tsx": 1021,
-	"./tree/style/index.tsx": 1023,
-	"./upload/style/index.tsx": 1025,
-	"./version/style/index.tsx": 1027
+	"./locale-provider/ar_EG.tsx": 1030,
+	"./locale-provider/bg_BG.tsx": 1034,
+	"./locale-provider/ca_ES.tsx": 1038,
+	"./locale-provider/cs_CZ.tsx": 1042,
+	"./locale-provider/de_DE.tsx": 1046,
+	"./locale-provider/el_GR.tsx": 1050,
+	"./locale-provider/en_GB.tsx": 1054,
+	"./locale-provider/en_US.tsx": 1058,
+	"./locale-provider/es_ES.tsx": 1059,
+	"./locale-provider/et_EE.tsx": 1063,
+	"./locale-provider/fa_IR.tsx": 1067,
+	"./locale-provider/fi_FI.tsx": 1071,
+	"./locale-provider/fr_BE.tsx": 1075,
+	"./locale-provider/fr_FR.tsx": 1079,
+	"./locale-provider/is_IS.tsx": 1083,
+	"./locale-provider/it_IT.tsx": 1087,
+	"./locale-provider/ja_JP.tsx": 1091,
+	"./locale-provider/ko_KR.tsx": 1095,
+	"./locale-provider/ku_IQ.tsx": 1099,
+	"./locale-provider/nb_NO.tsx": 1103,
+	"./locale-provider/nl_BE.tsx": 1107,
+	"./locale-provider/nl_NL.tsx": 1111,
+	"./locale-provider/pl_PL.tsx": 1115,
+	"./locale-provider/pt_BR.tsx": 1119,
+	"./locale-provider/pt_PT.tsx": 1123,
+	"./locale-provider/ru_RU.tsx": 1127,
+	"./locale-provider/sk_SK.tsx": 1131,
+	"./locale-provider/sr_RS.tsx": 1135,
+	"./locale-provider/sv_SE.tsx": 1139,
+	"./locale-provider/th_TH.tsx": 1143,
+	"./locale-provider/tr_TR.tsx": 1147,
+	"./locale-provider/uk_UA.tsx": 1149,
+	"./locale-provider/vi_VN.tsx": 1153,
+	"./locale-provider/zh_CN.tsx": 1157,
+	"./locale-provider/zh_TW.tsx": 1160
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -93878,895 +94716,3858 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 937;
+webpackContext.id = 1029;
 
 /***/ }),
-/* 938 */
+/* 1030 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(939);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ar_EG__ = __webpack_require__(1031);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ar_EG__ = __webpack_require__(868);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ar_EG__ = __webpack_require__(869);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ar_EG__ = __webpack_require__(1033);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'ar',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ar_EG__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ar_EG__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ar_EG__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ar_EG__["a" /* default */],
+    Table: {
+        filterTitle: 'الفلاتر',
+        filterConfirm: 'تأكيد',
+        filterReset: 'إعادة ضبط',
+        emptyText: 'لا توجد بيانات',
+        selectAll: 'اختيار الكل',
+        selectInvert: 'إلغاء الاختيار'
+    },
+    Modal: {
+        okText: 'تأكيد',
+        cancelText: 'إلغاء',
+        justOkText: 'تأكيد'
+    },
+    Popconfirm: {
+        okText: 'تأكيد',
+        cancelText: 'إلغاء'
+    },
+    Transfer: {
+        notFoundContent: 'لا يوجد محتوى',
+        searchPlaceholder: 'ابحث هنا',
+        itemUnit: 'عنصر',
+        itemsUnit: 'عناصر'
+    },
+    Select: {
+        notFoundContent: 'لايوجد محتوى'
+    },
+    Upload: {
+        uploading: 'جاري الرفع...',
+        removeFile: 'احذف الملف',
+        uploadError: 'مشكلة فى الرفع',
+        previewFile: 'استعرض الملف'
+    }
+});
 
 /***/ }),
-/* 939 */
-/***/ (function(module, exports) {
+/* 1031 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ الصفحة',
+  jump_to: 'الذهاب إلى',
+  jump_to_confirm: 'تأكيد',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'الصفحة السابقة',
+  next_page: 'الصفحة التالية',
+  prev_5: 'خمس صفحات سابقة',
+  next_5: 'خمس صفحات تالية',
+  prev_3: 'ثلاث صفحات سابقة',
+  next_3: 'ثلاث صفحات تالية'
+});
 
 /***/ }),
-/* 940 */
+/* 1032 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'اليوم',
+  now: 'الأن',
+  backToToday: 'العودة إلى اليوم',
+  ok: 'تأكيد',
+  clear: 'مسح',
+  month: 'الشهر',
+  year: 'السنة',
+  timeSelect: 'اختيار الوقت',
+  dateSelect: 'اختيار التاريخ',
+  monthSelect: 'اختيار الشهر',
+  yearSelect: 'اختيار السنة',
+  decadeSelect: 'اختيار العقد',
+  yearFormat: 'YYYY',
+  dateFormat: 'M/D/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'M/D/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'الشهر السابق (PageUp)',
+  nextMonth: 'الشهر التالى(PageDown)',
+  previousYear: 'العام السابق (Control + left)',
+  nextYear: 'العام التالى (Control + right)',
+  previousDecade: 'العقد السابق',
+  nextDecade: 'العقد التالى',
+  previousCentury: 'القرن السابق',
+  nextCentury: 'القرن التالى'
+});
+
+/***/ }),
+/* 1033 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ar_EG__ = __webpack_require__(868);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ar_EG__["a" /* default */]);
+
+/***/ }),
+/* 1034 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(941);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_bg_BG__ = __webpack_require__(1035);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_bg_BG__ = __webpack_require__(870);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_bg_BG__ = __webpack_require__(871);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_bg_BG__ = __webpack_require__(1037);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'bg',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_bg_BG__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_bg_BG__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_bg_BG__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_bg_BG__["a" /* default */],
+    Table: {
+        filterTitle: 'Филтриране',
+        filterConfirm: 'Добре',
+        filterReset: 'Нулриане',
+        emptyText: 'Няма данни',
+        selectAll: 'Избор на текуща страница',
+        selectInvert: 'Обръщане'
+    },
+    Modal: {
+        okText: 'Добре',
+        cancelText: 'Отказ',
+        justOkText: 'Добре'
+    },
+    Popconfirm: {
+        okText: 'Добре',
+        cancelText: 'Отказ'
+    },
+    Transfer: {
+        notFoundContent: 'Няма намерени',
+        searchPlaceholder: 'Търсене',
+        itemUnit: 'избор',
+        itemsUnit: 'избори'
+    },
+    Select: {
+        notFoundContent: 'Няма намерени'
+    },
+    Upload: {
+        uploading: 'Качване...',
+        removeFile: 'Премахване',
+        uploadError: 'Грешка при качването',
+        previewFile: 'Преглед'
+    }
+});
 
 /***/ }),
-/* 941 */
-/***/ (function(module, exports) {
+/* 1035 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ страница',
+  jump_to: 'Към',
+  jump_to_confirm: 'потвърждавам',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Предишна страница',
+  next_page: 'Следваща страница',
+  prev_5: 'Предишни 5 страници',
+  next_5: 'Следващи 5 страници',
+  prev_3: 'Предишни 3 страници',
+  next_3: 'Следващи 3 страници'
+});
 
 /***/ }),
-/* 942 */
+/* 1036 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Днес',
+  now: 'Сега',
+  backToToday: 'Към днес',
+  ok: 'Добре',
+  clear: 'Изчистване',
+  month: 'Месец',
+  year: 'Година',
+  timeSelect: 'Избор на час',
+  dateSelect: 'Избор на дата',
+  monthSelect: 'Избор на месец',
+  yearSelect: 'Избор на година',
+  decadeSelect: 'Десетилетие',
+  yearFormat: 'YYYY',
+  dateFormat: 'D M YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D M YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Предишен месец (PageUp)',
+  nextMonth: 'Следващ месец (PageDown)',
+  previousYear: 'Последна година (Control + left)',
+  nextYear: 'Следваща година (Control + right)',
+  previousDecade: 'Предишно десетилетие',
+  nextDecade: 'Следващо десетилетие',
+  previousCentury: 'Последен век',
+  nextCentury: 'Следващ век'
+});
+
+/***/ }),
+/* 1037 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_bg_BG__ = __webpack_require__(870);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_bg_BG__["a" /* default */]);
+
+/***/ }),
+/* 1038 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(943);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ca_ES__ = __webpack_require__(1039);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ca_ES__ = __webpack_require__(872);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ca_ES__ = __webpack_require__(873);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ca_ES__ = __webpack_require__(1041);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'ca',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ca_ES__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ca_ES__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ca_ES__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ca_ES__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtrar Menu',
+        filterConfirm: 'OK',
+        filterReset: 'Restablir',
+        emptyText: 'Sense dades'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Cancel·lar',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Cancel·lar'
+    },
+    Transfer: {
+        notFoundContent: 'No trobat',
+        searchPlaceholder: 'Cercar aquí',
+        itemUnit: 'item',
+        itemsUnit: 'items'
+    },
+    Select: {
+        notFoundContent: 'No trobat'
+    }
+});
 
 /***/ }),
-/* 943 */
-/***/ (function(module, exports) {
+/* 1039 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ pàgina',
+  jump_to: 'Anar a',
+  jump_to_confirm: 'Confirma',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Pàgina prèvia',
+  next_page: 'Pàgina següent',
+  prev_5: '5 pàgines prèvies',
+  next_5: '5 pàgines següents',
+  prev_3: '3 pàgines prèvies',
+  next_3: '3 pàgines següents'
+});
 
 /***/ }),
-/* 944 */
+/* 1040 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Avui',
+  now: 'Ara',
+  backToToday: 'Tornar a avui',
+  ok: 'Acceptar',
+  clear: 'Netejar',
+  month: 'Mes',
+  year: 'Any',
+  timeSelect: 'Seleccionar hora',
+  dateSelect: 'Seleccionar data',
+  monthSelect: 'Escollir un mes',
+  yearSelect: 'Escollir un any',
+  decadeSelect: 'Escollir una dècada',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Mes anterior (PageUp)',
+  nextMonth: 'Mes següent (PageDown)',
+  previousYear: 'Any anterior (Control + left)',
+  nextYear: 'Mes següent (Control + right)',
+  previousDecade: 'Dècada anterior',
+  nextDecade: 'Dècada següent',
+  previousCentury: 'Segle anterior',
+  nextCentury: 'Segle següent'
+});
+
+/***/ }),
+/* 1041 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ca_ES__ = __webpack_require__(872);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ca_ES__["a" /* default */]);
+
+/***/ }),
+/* 1042 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(945);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_style__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_cs_CZ__ = __webpack_require__(1043);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_cs_CZ__ = __webpack_require__(874);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_cs_CZ__ = __webpack_require__(875);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_cs_CZ__ = __webpack_require__(1045);
 
 
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'cs',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_cs_CZ__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_cs_CZ__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_cs_CZ__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_cs_CZ__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtr',
+        filterConfirm: 'Potvrdit',
+        filterReset: 'Obnovit',
+        emptyText: 'Žádná data'
+    },
+    Modal: {
+        okText: 'Ok',
+        cancelText: 'Storno',
+        justOkText: 'Ok'
+    },
+    Popconfirm: {
+        okText: 'Ok',
+        cancelText: 'Storno'
+    },
+    Transfer: {
+        notFoundContent: 'Nenalezeno',
+        searchPlaceholder: 'Vyhledávání',
+        itemUnit: 'položka',
+        itemsUnit: 'položek'
+    },
+    Select: {
+        notFoundContent: 'Nenalezeno'
+    },
+    Upload: {
+        uploading: 'Nahrávání...',
+        removeFile: 'Odstranit soubor',
+        uploadError: 'Chyba při nahrávání',
+        previewFile: 'Zobrazit soubor'
+    }
+});
 
 /***/ }),
-/* 945 */
-/***/ (function(module, exports) {
+/* 1043 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ strana',
+  jump_to: 'Přejít',
+  jump_to_confirm: 'potvrdit',
+  page: '',
 
-/***/ }),
-/* 946 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 947 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 948 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
+  // Pagination.jsx
+  prev_page: 'Předchozí strana',
+  next_page: 'Následující strana',
+  prev_5: 'Předchozích 5 stran',
+  next_5: 'Následujících 5 stran',
+  prev_3: 'Předchozí 3 strany',
+  next_3: 'Následující 3 strany'
+});
 
 /***/ }),
-/* 949 */
+/* 1044 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Dnes',
+  now: 'Nyní',
+  backToToday: 'Zpět na dnešek',
+  ok: 'Ok',
+  clear: 'Vymazat',
+  month: 'Měsíc',
+  year: 'Rok',
+  timeSelect: 'Vybrat čas',
+  dateSelect: 'Vybrat datum',
+  monthSelect: 'Vyberte měsíc',
+  yearSelect: 'Vyberte rok',
+  decadeSelect: 'Vyberte dekádu',
+  yearFormat: 'YYYY',
+  dateFormat: 'D.M.YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Předchozí měsíc (PageUp)',
+  nextMonth: 'Následující (PageDown)',
+  previousYear: 'Předchozí rok (Control + left)',
+  nextYear: 'Následující rok (Control + right)',
+  previousDecade: 'Předchozí dekáda',
+  nextDecade: 'Následující dekáda',
+  previousCentury: 'Předchozí století',
+  nextCentury: 'Následující století'
+});
+
+/***/ }),
+/* 1045 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_cs_CZ__ = __webpack_require__(874);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_cs_CZ__["a" /* default */]);
+
+/***/ }),
+/* 1046 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(950);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_de_DE__ = __webpack_require__(1047);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_de_DE__ = __webpack_require__(876);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_de_DE__ = __webpack_require__(877);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_de_DE__ = __webpack_require__(1049);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'de',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_de_DE__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_de_DE__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_de_DE__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_de_DE__["a" /* default */],
+    Table: {
+        filterTitle: 'Filter-Menü',
+        filterConfirm: 'OK',
+        filterReset: 'Zurücksetzen',
+        emptyText: 'Keine Daten',
+        selectAll: 'Selektiere Alle',
+        selectInvert: 'Selektion Invertieren'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Abbrechen',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Abbrechen'
+    },
+    Transfer: {
+        notFoundContent: 'Nicht gefunden',
+        searchPlaceholder: 'Suchen',
+        itemUnit: 'Eintrag',
+        itemsUnit: 'Einträge'
+    },
+    Select: {
+        notFoundContent: 'Nicht gefunden'
+    },
+    Upload: {
+        uploading: 'Hochladen...',
+        removeFile: 'Datei entfernen',
+        uploadError: 'Fehler beim Hochladen',
+        previewFile: 'Dateivorschau'
+    }
+});
 
 /***/ }),
-/* 950 */
-/***/ (function(module, exports) {
+/* 1047 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ Seite',
+  jump_to: 'Gehe zu',
+  jump_to_confirm: 'bestätigen',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Vorherige Seite',
+  next_page: 'Nächste Seite',
+  prev_5: '5 Seiten zurück',
+  next_5: '5 Seiten vor',
+  prev_3: '3 Seiten zurück',
+  next_3: '3 Seiten vor'
+});
 
 /***/ }),
-/* 951 */
+/* 1048 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Heute',
+  now: 'Jetzt',
+  backToToday: 'Zurück zu Heute',
+  ok: 'OK',
+  clear: 'Zurücksetzen',
+  month: 'Monat',
+  year: 'Jahr',
+  timeSelect: 'Zeit wählen',
+  dateSelect: 'Datum wählen',
+  monthSelect: 'Wähle einen Monat',
+  yearSelect: 'Wähle ein Jahr',
+  decadeSelect: 'Wähle ein Jahrzehnt',
+  yearFormat: 'YYYY',
+  dateFormat: 'D.M.YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Vorheriger Monat (PageUp)',
+  nextMonth: 'Nächster Monat (PageDown)',
+  previousYear: 'Vorheriges Jahr (Ctrl + left)',
+  nextYear: 'Nächstes Jahr (Ctrl + right)',
+  previousDecade: 'Vorheriges Jahrzehnt',
+  nextDecade: 'Nächstes Jahrzehnt',
+  previousCentury: 'Vorheriges Jahrhundert',
+  nextCentury: 'Nächstes Jahrhundert'
+});
+
+/***/ }),
+/* 1049 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_de_DE__ = __webpack_require__(876);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_de_DE__["a" /* default */]);
+
+/***/ }),
+/* 1050 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(952);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_el_GR__ = __webpack_require__(1051);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_el_GR__ = __webpack_require__(878);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_el_GR__ = __webpack_require__(879);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_el_GR__ = __webpack_require__(1053);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'el',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_el_GR__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_el_GR__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_el_GR__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_el_GR__["a" /* default */],
+    Table: {
+        filterTitle: 'Μενού φίλτρων',
+        filterConfirm: 'ΟΚ',
+        filterReset: 'Επαναφορά',
+        emptyText: 'Δεν υπάρχουν δεδομένα',
+        selectAll: 'Επιλογή τρέχουσας σελίδας',
+        selectInvert: 'Αντιστροφή τρέχουσας σελίδας'
+    },
+    Modal: {
+        okText: 'ΟΚ',
+        cancelText: 'Άκυρο',
+        justOkText: 'ΟΚ'
+    },
+    Popconfirm: {
+        okText: 'ΟΚ',
+        cancelText: 'Άκυρο'
+    },
+    Transfer: {
+        notFoundContent: 'Δεν βρέθηκε',
+        searchPlaceholder: 'Αναζήτηση',
+        itemUnit: 'αντικείμενο',
+        itemsUnit: 'αντικείμενα'
+    },
+    Select: {
+        notFoundContent: 'Δεν βρέθηκε'
+    },
+    Upload: {
+        uploading: 'Μεταφόρτωση...',
+        removeFile: 'Αφαίρεση αρχείου',
+        uploadError: 'Σφάλμα μεταφόρτωσης',
+        previewFile: 'Προεπισκόπηση αρχείου'
+    }
+});
 
 /***/ }),
-/* 952 */
-/***/ (function(module, exports) {
+/* 1051 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ σελίδα',
+  jump_to: 'Μετάβαση',
+  jump_to_confirm: 'επιβεβαιώνω',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Προηγούμενη Σελίδα',
+  next_page: 'Επόμενη Σελίδα',
+  prev_5: 'Προηγούμενες 5 Σελίδες',
+  next_5: 'Επόμενες 5 σελίδες',
+  prev_3: 'Προηγούμενες 3 Σελίδες',
+  next_3: 'Επόμενες 3 Σελίδες'
+});
 
 /***/ }),
-/* 953 */
+/* 1052 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Σήμερα',
+  now: 'Τώρα',
+  backToToday: 'Πίσω στη σημερινή μέρα',
+  ok: 'Ok',
+  clear: 'Καθαρισμός',
+  month: 'Μήνας',
+  year: 'Έτος',
+  timeSelect: 'Επιλογή ώρας',
+  dateSelect: 'Επιλογή ημερομηνίας',
+  monthSelect: 'Επιλογή μήνα',
+  yearSelect: 'Επιλογή έτους',
+  decadeSelect: 'Επιλογή δεκαετίας',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Προηγούμενος μήνας (PageUp)',
+  nextMonth: 'Επόμενος μήνας (PageDown)',
+  previousYear: 'Προηγούμενο έτος (Control + αριστερά)',
+  nextYear: 'Επόμενο έτος (Control + δεξιά)',
+  previousDecade: 'Προηγούμενη δεκαετία',
+  nextDecade: 'Επόμενη δεκαετία',
+  previousCentury: 'Προηγούμενος αιώνας',
+  nextCentury: 'Επόμενος αιώνας'
+});
+
+/***/ }),
+/* 1053 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_el_GR__ = __webpack_require__(878);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_el_GR__["a" /* default */]);
+
+/***/ }),
+/* 1054 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(954);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_en_GB__ = __webpack_require__(1055);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_en_GB__ = __webpack_require__(880);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_en_GB__ = __webpack_require__(881);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_en_GB__ = __webpack_require__(1057);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'en-gb',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_en_GB__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_en_GB__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_en_GB__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_en_GB__["a" /* default */],
+    Table: {
+        filterTitle: 'Filter menu',
+        filterConfirm: 'OK',
+        filterReset: 'Reset',
+        emptyText: 'No data',
+        selectAll: 'Select current page',
+        selectInvert: 'Invert current page'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Cancel',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Cancel'
+    },
+    Transfer: {
+        notFoundContent: 'Not Found',
+        searchPlaceholder: 'Search here',
+        itemUnit: 'item',
+        itemsUnit: 'items'
+    },
+    Select: {
+        notFoundContent: 'Not Found'
+    },
+    Upload: {
+        uploading: 'Uploading...',
+        removeFile: 'Remove file',
+        uploadError: 'Upload error',
+        previewFile: 'Preview file'
+    }
+});
 
 /***/ }),
-/* 954 */
-/***/ (function(module, exports) {
+/* 1055 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ page',
+  jump_to: 'Goto',
+  jump_to_confirm: 'confirm',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Previous Page',
+  next_page: 'Next Page',
+  prev_5: 'Previous 5 Pages',
+  next_5: 'Next 5 Pages',
+  prev_3: 'Previous 3 Pages',
+  next_3: 'Next 3 Pages'
+});
 
 /***/ }),
-/* 955 */
+/* 1056 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Today',
+  now: 'Now',
+  backToToday: 'Back to today',
+  ok: 'Ok',
+  clear: 'Clear',
+  month: 'Month',
+  year: 'Year',
+  timeSelect: 'Select time',
+  dateSelect: 'Select date',
+  monthSelect: 'Choose a month',
+  yearSelect: 'Choose a year',
+  decadeSelect: 'Choose a decade',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Previous month (PageUp)',
+  nextMonth: 'Next month (PageDown)',
+  previousYear: 'Last year (Control + left)',
+  nextYear: 'Next year (Control + right)',
+  previousDecade: 'Last decade',
+  nextDecade: 'Next decade',
+  previousCentury: 'Last century',
+  nextCentury: 'Next century'
+});
+
+/***/ }),
+/* 1057 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_en_GB__ = __webpack_require__(880);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_en_GB__["a" /* default */]);
+
+/***/ }),
+/* 1058 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(956);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__default__ = __webpack_require__(47);
 
-
+/* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_0__default__["a" /* default */]);
 
 /***/ }),
-/* 956 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 957 */
+/* 1059 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(958);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_style__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__radio_style__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_es_ES__ = __webpack_require__(1060);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_es_ES__ = __webpack_require__(882);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_es_ES__ = __webpack_require__(883);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_es_ES__ = __webpack_require__(1062);
 
 
-// style dependencies
 
 
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'es',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_es_ES__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_es_ES__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_es_ES__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_es_ES__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtrar menú',
+        filterConfirm: 'Aceptar',
+        filterReset: 'Reiniciar',
+        emptyText: 'No hay datos',
+        selectAll: 'Seleccionar todo',
+        selectInvert: 'Invertir selección'
+    },
+    Modal: {
+        okText: 'Aceptar',
+        cancelText: 'Cancelar',
+        justOkText: 'Aceptar'
+    },
+    Popconfirm: {
+        okText: 'Aceptar',
+        cancelText: 'Cancelar'
+    },
+    Transfer: {
+        notFoundContent: 'No encontrado',
+        searchPlaceholder: 'Buscar aquí',
+        itemUnit: 'elemento',
+        itemsUnit: 'elementos'
+    },
+    Select: {
+        notFoundContent: 'No encontrado'
+    },
+    Upload: {
+        uploading: 'Subiendo...',
+        removeFile: 'Eliminar archivo',
+        uploadError: 'Error al subir el archivo',
+        previewFile: 'Vista previa'
+    }
+});
 
 /***/ }),
-/* 958 */
-/***/ (function(module, exports) {
+/* 1060 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ página',
+  jump_to: 'Ir a',
+  jump_to_confirm: 'confirmar',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Página anterior',
+  next_page: 'Página siguiente',
+  prev_5: '5 páginas previas',
+  next_5: '5 páginas siguientes',
+  prev_3: '3 páginas previas',
+  next_3: '3 páginas siguientes'
+});
 
 /***/ }),
-/* 959 */
-/***/ (function(module, exports) {
+/* 1061 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Hoy',
+  now: 'Ahora',
+  backToToday: 'Volver a hoy',
+  ok: 'Aceptar',
+  clear: 'Limpiar',
+  month: 'Mes',
+  year: 'Año',
+  timeSelect: 'Seleccionar hora',
+  dateSelect: 'Seleccionar fecha',
+  monthSelect: 'Elegir un mes',
+  yearSelect: 'Elegir un año',
+  decadeSelect: 'Elegir una década',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Mes anterior (PageUp)',
+  nextMonth: 'Mes siguiente (PageDown)',
+  previousYear: 'Año anterior (Control + left)',
+  nextYear: 'Año siguiente (Control + right)',
+  previousDecade: 'Década anterior',
+  nextDecade: 'Década siguiente',
+  previousCentury: 'Siglo anterior',
+  nextCentury: 'Siglo siguiente'
+});
 
 /***/ }),
-/* 960 */
+/* 1062 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_es_ES__ = __webpack_require__(882);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_es_ES__["a" /* default */]);
+
+/***/ }),
+/* 1063 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(961);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_style__ = __webpack_require__(863);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_et_EE__ = __webpack_require__(1064);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_et_EE__ = __webpack_require__(884);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_et_EE__ = __webpack_require__(885);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_et_EE__ = __webpack_require__(1066);
 
 
-// style dependencies
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'et',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_et_EE__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_et_EE__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_et_EE__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_et_EE__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtri menüü',
+        filterConfirm: 'OK',
+        filterReset: 'Nulli',
+        emptyText: 'Andmed puuduvad',
+        selectAll: 'Vali kõik',
+        selectInvert: 'Inverteeri valik'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Tühista',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Tühista'
+    },
+    Transfer: {
+        notFoundContent: 'Ei leitud',
+        searchPlaceholder: 'Otsi siit',
+        itemUnit: 'kogus',
+        itemsUnit: 'kogus'
+    },
+    Select: {
+        notFoundContent: 'Ei leitud'
+    },
+    Upload: {
+        uploading: 'Üleslaadimine...',
+        removeFile: 'Eemalda fail',
+        uploadError: 'Üleslaadimise tõrge',
+        previewFile: 'Faili eelvaade'
+    }
+});
 
 /***/ }),
-/* 961 */
-/***/ (function(module, exports) {
+/* 1064 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ leheküljel',
+  jump_to: 'Hüppa',
+  jump_to_confirm: 'Kinnitage',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Eelmine leht',
+  next_page: 'Järgmine leht',
+  prev_5: 'Eelmised 5 lehekülge',
+  next_5: 'Järgmised 5 lehekülge',
+  prev_3: 'Eelmised 3 lehekülge',
+  next_3: 'Järgmised 3 lehekülge'
+});
 
 /***/ }),
-/* 962 */
-/***/ (function(module, exports) {
+/* 1065 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Täna',
+  now: 'Praegu',
+  backToToday: 'Tagasi tänase juurde',
+  ok: 'Ok',
+  clear: 'Tühista',
+  month: 'Kuu',
+  year: 'Aasta',
+  timeSelect: 'Vali aeg',
+  dateSelect: 'Vali kuupäev',
+  monthSelect: 'Vali kuu',
+  yearSelect: 'Vali aasta',
+  decadeSelect: 'Vali dekaad',
+  yearFormat: 'YYYY',
+  dateFormat: 'D.M.YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Eelmine kuu (PageUp)',
+  nextMonth: 'Järgmine kuu (PageDown)',
+  previousYear: 'Eelmine aasta (Control + left)',
+  nextYear: 'Järgmine aasta (Control + right)',
+  previousDecade: 'Eelmine dekaad',
+  nextDecade: 'Järgmine dekaad',
+  previousCentury: 'Eelmine sajand',
+  nextCentury: 'Järgmine sajand'
+});
 
 /***/ }),
-/* 963 */
+/* 1066 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_et_EE__ = __webpack_require__(884);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_et_EE__["a" /* default */]);
+
+/***/ }),
+/* 1067 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(964);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fa_IR__ = __webpack_require__(1068);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fa_IR__ = __webpack_require__(886);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fa_IR__ = __webpack_require__(887);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fa_IR__ = __webpack_require__(1070);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'fa',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fa_IR__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fa_IR__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fa_IR__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fa_IR__["a" /* default */],
+    Table: {
+        filterTitle: 'منوی فیلتر',
+        filterConfirm: 'تایید',
+        filterReset: 'پاک کردن',
+        emptyText: 'داده‌ای موجود نیست',
+        selectAll: 'انتخاب صفحه‌ی کنونی',
+        selectInvert: 'معکوس کردن انتخاب‌ها در صفحه ی کنونی'
+    },
+    Modal: {
+        okText: 'تایید',
+        cancelText: 'لغو',
+        justOkText: 'تایید'
+    },
+    Popconfirm: {
+        okText: 'تایید',
+        cancelText: 'لغو'
+    },
+    Transfer: {
+        notFoundContent: 'داده‌ای موجود نیست',
+        searchPlaceholder: 'جستجو',
+        itemUnit: '',
+        itemsUnit: ''
+    },
+    Select: {
+        notFoundContent: 'داده‌ای موجود نیست'
+    },
+    Upload: {
+        uploading: 'در حال آپلود...',
+        removeFile: 'حذف فایل',
+        uploadError: 'خطا در آپلود',
+        previewFile: 'مشاهده‌ی فایل'
+    }
+});
 
 /***/ }),
-/* 964 */
-/***/ (function(module, exports) {
+/* 1068 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ صفحه',
+  jump_to: 'برو به',
+  jump_to_confirm: 'تایید',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'صفحه قبلی',
+  next_page: 'صفحه بعدی',
+  prev_5: '۵ صفحه قبلی',
+  next_5: '۵ صفحه بعدی',
+  prev_3: '۳ صفحه قبلی',
+  next_3: '۳ صفحه بعدی'
+});
 
 /***/ }),
-/* 965 */
+/* 1069 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'امروز',
+  now: 'اکنون',
+  backToToday: 'بازگشت به روز',
+  ok: 'باشه',
+  clear: 'پاک کردن',
+  month: 'ماه',
+  year: 'سال',
+  timeSelect: 'انتخاب زمان',
+  dateSelect: 'انتخاب تاریخ',
+  monthSelect: 'یک ماه را انتخاب کنید',
+  yearSelect: 'یک سال را انتخاب کنید',
+  decadeSelect: 'یک دهه را انتخاب کنید',
+  yearFormat: 'YYYY',
+  dateFormat: 'M/D/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'M/D/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'ماه قبل (PageUp)',
+  nextMonth: 'ماه بعد (PageDown)',
+  previousYear: 'سال قبل (Control + left)',
+  nextYear: 'سال بعد (Control + right)',
+  previousDecade: 'دهه قبل',
+  nextDecade: 'دهه بعد',
+  previousCentury: 'قرن قبل',
+  nextCentury: 'قرن بعد'
+});
+
+/***/ }),
+/* 1070 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fa_IR__ = __webpack_require__(886);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fa_IR__["a" /* default */]);
+
+/***/ }),
+/* 1071 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(966);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_style__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fi_FI__ = __webpack_require__(1072);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fi_FI__ = __webpack_require__(888);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fi_FI__ = __webpack_require__(889);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fi_FI__ = __webpack_require__(1074);
 
 
-// style dependencies
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'fi',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fi_FI__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fi_FI__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fi_FI__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fi_FI__["a" /* default */],
+    Table: {
+        filterTitle: 'Suodatus valikko',
+        filterConfirm: 'OK',
+        filterReset: 'Tyhjennä',
+        emptyText: 'Ei kohteita',
+        selectAll: 'Valitse kaikki',
+        selectInvert: 'Valitse päinvastoin'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Peruuta',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Peruuta'
+    },
+    Transfer: {
+        notFoundContent: 'Ei löytynyt',
+        searchPlaceholder: 'Etsi täältä',
+        itemUnit: 'kohde',
+        itemsUnit: 'kohdetta'
+    },
+    Select: {
+        notFoundContent: 'Ei löytynyt'
+    },
+    Upload: {
+        uploading: 'Lähetetään...',
+        removeFile: 'Poista tiedosto',
+        uploadError: 'Virhe lähetyksessä',
+        previewFile: 'Esikatsele tiedostoa'
+    }
+});
 
 /***/ }),
-/* 966 */
-/***/ (function(module, exports) {
+/* 1072 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ sivu',
+  jump_to: 'Mene',
+  jump_to_confirm: 'Potvrdite',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Edellinen sivu',
+  next_page: 'Seuraava sivu',
+  prev_5: 'Edelliset 5 sivua',
+  next_5: 'Seuraavat 5 sivua',
+  prev_3: 'Edelliset 3 sivua',
+  next_3: 'Seuraavat 3 sivua'
+});
 
 /***/ }),
-/* 967 */
-/***/ (function(module, exports) {
+/* 1073 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Tänään',
+  now: 'Nyt',
+  backToToday: 'Tämä päivä',
+  ok: 'Ok',
+  clear: 'Tyhjennä',
+  month: 'Kuukausi',
+  year: 'Vuosi',
+  timeSelect: 'Valise aika',
+  dateSelect: 'Valitse päivä',
+  monthSelect: 'Valitse kuukausi',
+  yearSelect: 'Valitse vuosi',
+  decadeSelect: 'Valitse vuosikymmen',
+  yearFormat: 'YYYY',
+  dateFormat: 'D.M.YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Edellinen kuukausi (PageUp)',
+  nextMonth: 'Seuraava kuukausi (PageDown)',
+  previousYear: 'Edellinen vuosi (Control + left)',
+  nextYear: 'Seuraava vuosi (Control + right)',
+  previousDecade: 'Edellinen vuosikymmen',
+  nextDecade: 'Seuraava vuosikymmen',
+  previousCentury: 'Edellinen vuosisata',
+  nextCentury: 'Seuraava vuosisata'
+});
 
 /***/ }),
-/* 968 */
+/* 1074 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fi_FI__ = __webpack_require__(888);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fi_FI__["a" /* default */]);
+
+/***/ }),
+/* 1075 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__grid_style_index_less__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__grid_style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__grid_style_index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fr_BE__ = __webpack_require__(1076);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fr_BE__ = __webpack_require__(890);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_BE__ = __webpack_require__(891);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fr_BE__ = __webpack_require__(1078);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'fr',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fr_BE__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fr_BE__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_BE__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fr_BE__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtrer',
+        filterConfirm: 'OK',
+        filterReset: 'Réinitialiser',
+        emptyText: 'Aucune donnée'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Annuler',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Annuler'
+    },
+    Transfer: {
+        notFoundContent: 'Pas de résultat',
+        searchPlaceholder: 'Recherche',
+        itemUnit: 'élément',
+        itemsUnit: 'éléments'
+    },
+    Select: {
+        notFoundContent: 'Pas de résultat'
+    }
+});
 
 /***/ }),
-/* 969 */
+/* 1076 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ page',
+  jump_to: 'Aller à',
+  jump_to_confirm: 'confirmer',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Page précédente',
+  next_page: 'Page suivante',
+  prev_5: '5 Pages précédentes',
+  next_5: '5 Pages suivantes',
+  prev_3: '3 Pages précédentes',
+  next_3: '3 Pages suivantes'
+});
+
+/***/ }),
+/* 1077 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Aujourd\'hui',
+  now: 'Maintenant',
+  backToToday: 'Aujourd\'hui',
+  ok: 'Ok',
+  clear: 'Rétablir',
+  month: 'Mois',
+  year: 'Année',
+  timeSelect: 'Sélectionner l\'heure',
+  dateSelect: 'Sélectionner l\'heure',
+  monthSelect: 'Choisissez un mois',
+  yearSelect: 'Choisissez une année',
+  decadeSelect: 'Choisissez une décennie',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Mois précédent (PageUp)',
+  nextMonth: 'Mois suivant (PageDown)',
+  previousYear: 'Année précédente (Ctrl + gauche)',
+  nextYear: 'Année prochaine (Ctrl + droite)',
+  previousDecade: 'Décennie précédente',
+  nextDecade: 'Décennie suivante',
+  previousCentury: 'Siècle précédent',
+  nextCentury: 'Siècle suivant'
+});
+
+/***/ }),
+/* 1078 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fr_BE__ = __webpack_require__(890);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fr_BE__["a" /* default */]);
+
+/***/ }),
+/* 1079 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(970);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fr_FR__ = __webpack_require__(1080);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fr_FR__ = __webpack_require__(892);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_FR__ = __webpack_require__(893);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fr_FR__ = __webpack_require__(1082);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'fr',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_fr_FR__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_fr_FR__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_fr_FR__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_fr_FR__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtrer',
+        filterConfirm: 'OK',
+        filterReset: 'Réinitialiser',
+        emptyText: 'Aucune donnée'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Annuler',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Annuler'
+    },
+    Transfer: {
+        notFoundContent: 'Pas de résultat',
+        searchPlaceholder: 'Recherche',
+        itemUnit: 'élément',
+        itemsUnit: 'éléments'
+    },
+    Select: {
+        notFoundContent: 'Pas de résultat'
+    }
+});
 
 /***/ }),
-/* 970 */
-/***/ (function(module, exports) {
+/* 1080 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ page',
+  jump_to: 'Aller à',
+  jump_to_confirm: 'confirmer',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Page précédente',
+  next_page: 'Page suivante',
+  prev_5: '5 Pages précédentes',
+  next_5: '5 Pages suivantes',
+  prev_3: '3 Pages précédentes',
+  next_3: '3 Pages suivantes'
+});
 
 /***/ }),
-/* 971 */
+/* 1081 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Aujourd\'hui',
+  now: 'Maintenant',
+  backToToday: 'Aujourd\'hui',
+  ok: 'Ok',
+  clear: 'Rétablir',
+  month: 'Mois',
+  year: 'Année',
+  timeSelect: 'Sélectionner l\'heure',
+  dateSelect: 'Sélectionner l\'heure',
+  monthSelect: 'Choisissez un mois',
+  yearSelect: 'Choisissez une année',
+  decadeSelect: 'Choisissez une décennie',
+  yearFormat: 'YYYY',
+  dateFormat: 'DD/MM/YYYY',
+  dayFormat: 'DD',
+  dateTimeFormat: 'DD/MM/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Mois précédent (PageUp)',
+  nextMonth: 'Mois suivant (PageDown)',
+  previousYear: 'Année précédente (Ctrl + gauche)',
+  nextYear: 'Année prochaine (Ctrl + droite)',
+  previousDecade: 'Décennie précédente',
+  nextDecade: 'Décennie suivante',
+  previousCentury: 'Siècle précédent',
+  nextCentury: 'Siècle suivant'
+});
+
+/***/ }),
+/* 1082 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fr_FR__ = __webpack_require__(892);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_fr_FR__["a" /* default */]);
+
+/***/ }),
+/* 1083 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(972);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_style__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__time_picker_style__ = __webpack_require__(864);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_is_IS__ = __webpack_require__(1084);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_is_IS__ = __webpack_require__(894);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_is_IS__ = __webpack_require__(895);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_is_IS__ = __webpack_require__(1086);
 
 
-// style dependencies
 
 
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'is',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_is_IS__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_is_IS__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_is_IS__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_is_IS__["a" /* default */],
+    Table: {
+        filterTitle: 'Afmarkanir',
+        filterConfirm: 'Staðfesta',
+        filterReset: 'Núllstilla',
+        emptyText: 'Engin gögn',
+        selectAll: 'Velja allt',
+        selectInvert: 'Viðsnúa vali'
+    },
+    Modal: {
+        okText: 'Áfram',
+        cancelText: 'Hætta við',
+        justOkText: 'Í lagi'
+    },
+    Popconfirm: {
+        okText: 'Áfram',
+        cancelText: 'Hætta við'
+    },
+    Transfer: {
+        notFoundContent: 'Engar færslur',
+        searchPlaceholder: 'Leita hér',
+        itemUnit: 'færsla',
+        itemsUnit: 'færslur'
+    },
+    Select: {
+        notFoundContent: 'Ekkert finnst'
+    },
+    Upload: {
+        uploading: 'Hleð upp...',
+        removeFile: 'Fjarlægja skrá',
+        uploadError: 'Villa við að hlaða upp',
+        previewFile: 'Forskoða skrá'
+    }
+});
 
 /***/ }),
-/* 972 */
-/***/ (function(module, exports) {
+/* 1084 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ síðu',
+  jump_to: 'Síða',
+  jump_to_confirm: 'staðfest',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Fyrri síða',
+  next_page: 'Næsta síða',
+  prev_5: 'Til baka 5 síður',
+  next_5: 'Áfram 5 síður',
+  prev_3: 'Til baka 3 síður',
+  next_3: 'Áfram 3 síður'
+});
 
 /***/ }),
-/* 973 */
-/***/ (function(module, exports) {
+/* 1085 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Í dag',
+  now: 'Núna',
+  backToToday: 'Til baka til dagsins í dag',
+  ok: 'Í lagi',
+  clear: 'Hreinsa',
+  month: 'Mánuður',
+  year: 'Ár',
+  timeSelect: 'Velja tíma',
+  dateSelect: 'Velja dag',
+  monthSelect: 'Velja mánuð',
+  yearSelect: 'Velja ár',
+  decadeSelect: 'Velja áratug',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Fyrri mánuður (PageUp)',
+  nextMonth: 'Næsti mánuður (PageDown)',
+  previousYear: 'Fyrra ár (Control + left)',
+  nextYear: 'Næsta ár (Control + right)',
+  previousDecade: 'Fyrri áratugur',
+  nextDecade: 'Næsti áratugur',
+  previousCentury: 'Fyrri öld',
+  nextCentury: 'Næsta öld'
+});
 
 /***/ }),
-/* 974 */
+/* 1086 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_is_IS__ = __webpack_require__(894);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_is_IS__["a" /* default */]);
+
+/***/ }),
+/* 1087 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(975);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_it_IT__ = __webpack_require__(1088);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_it_IT__ = __webpack_require__(896);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_it_IT__ = __webpack_require__(897);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_it_IT__ = __webpack_require__(1090);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'it',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_it_IT__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_it_IT__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_it_IT__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_it_IT__["a" /* default */],
+    Table: {
+        filterTitle: 'Menu Filtro',
+        filterConfirm: 'OK',
+        filterReset: 'Reset',
+        emptyText: 'Nessun dato',
+        selectAll: 'Seleziona pagina corrente',
+        selectInvert: 'Selezionare Inverti'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Annulla',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Annulla'
+    },
+    Transfer: {
+        notFoundContent: 'Non trovato',
+        searchPlaceholder: 'Cerca qui',
+        itemUnit: 'articolo',
+        itemsUnit: 'elementi'
+    },
+    Select: {
+        notFoundContent: 'Non trovato'
+    },
+    Upload: {
+        uploading: 'Caricamento...',
+        removeFile: 'Rimuovi il file',
+        uploadError: 'Errore di caricamento',
+        previewFile: 'Anteprima file'
+    }
+});
 
 /***/ }),
-/* 975 */
-/***/ (function(module, exports) {
+/* 1088 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ pagina',
+  jump_to: 'vai a',
+  jump_to_confirm: 'Conferma',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Pagina precedente',
+  next_page: 'Pagina successiva',
+  prev_5: 'Precedente 5 pagine',
+  next_5: 'Prossime 5 pagine',
+  prev_3: 'Precedente 3 pagine',
+  next_3: 'Prossime 3 pagine'
+});
 
 /***/ }),
-/* 976 */
-/***/ (function(module, exports) {
+/* 1089 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Oggi',
+  now: 'adesso',
+  backToToday: 'Torna ad oggi',
+  ok: 'Ok',
+  clear: 'Chiaro',
+  month: 'Mese',
+  year: 'Anno',
+  timeSelect: 'Seleziona il tempo',
+  dateSelect: 'Select date',
+  monthSelect: 'Seleziona la data',
+  yearSelect: 'Scegli un anno',
+  decadeSelect: 'Scegli un decennio',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Il mese scorso (PageUp)',
+  nextMonth: 'Il prossimo mese (PageDown)',
+  previousYear: 'L\'anno scorso (Control + sinistra)',
+  nextYear: 'L\'anno prossimo (Control + destra)',
+  previousDecade: 'Ultimo decennio',
+  nextDecade: 'Prossimo decennio',
+  previousCentury: 'Secolo precedente',
+  nextCentury: 'Prossimo secolo'
+});
 
 /***/ }),
-/* 977 */
+/* 1090 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_it_IT__ = __webpack_require__(896);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_it_IT__["a" /* default */]);
+
+/***/ }),
+/* 1091 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(978);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__grid_style__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ja_JP__ = __webpack_require__(1092);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ja_JP__ = __webpack_require__(898);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ja_JP__ = __webpack_require__(899);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ja_JP__ = __webpack_require__(1094);
 
 
-// style dependencies
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'ja',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ja_JP__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ja_JP__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ja_JP__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ja_JP__["a" /* default */],
+    Table: {
+        filterTitle: 'メニューをフィルター',
+        filterConfirm: 'OK',
+        filterReset: 'リセット',
+        emptyText: 'データがありません',
+        selectAll: 'すべてを選択',
+        selectInvert: '選択を反転'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'キャンセル',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'キャンセル'
+    },
+    Transfer: {
+        notFoundContent: '結果はありません',
+        searchPlaceholder: 'ここを検索',
+        itemUnit: 'アイテム',
+        itemsUnit: 'アイテム'
+    },
+    Select: {
+        notFoundContent: '結果はありません'
+    },
+    Upload: {
+        uploading: 'アップロード中...',
+        removeFile: 'ファイルを削除',
+        uploadError: 'アップロードエラー',
+        previewFile: 'ファイルをプレビュー'
+    }
+});
 
 /***/ }),
-/* 978 */
-/***/ (function(module, exports) {
+/* 1092 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ ページ',
+  jump_to: '移動',
+  jump_to_confirm: '確認する',
+  page: 'ページ',
+
+  // Pagination.jsx
+  prev_page: '前のページ',
+  next_page: '次のページ',
+  prev_5: '前 5ページ',
+  next_5: '次 5ページ',
+  prev_3: '前 3ページ',
+  next_3: '次 3ページ'
+});
 
 /***/ }),
-/* 979 */
+/* 1093 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: '今日',
+  now: '現在時刻',
+  backToToday: '今日に戻る',
+  ok: '決定',
+  timeSelect: '時間を選択',
+  dateSelect: '日時を選択',
+  clear: 'クリア',
+  month: '月',
+  year: '年',
+  previousMonth: '前月 (ページアップキー)',
+  nextMonth: '翌月 (ページダウンキー)',
+  monthSelect: '月を選択',
+  yearSelect: '年を選択',
+  decadeSelect: '年代を選択',
+  yearFormat: 'YYYY年',
+  dayFormat: 'D日',
+  dateFormat: 'YYYY年M月D日',
+  dateTimeFormat: 'YYYY年M月D日 HH時mm分ss秒',
+  previousYear: '前年 (Controlを押しながら左キー)',
+  nextYear: '翌年 (Controlを押しながら右キー)',
+  previousDecade: '前の年代',
+  nextDecade: '次の年代',
+  previousCentury: '前の世紀',
+  nextCentury: '次の世紀'
+});
+
+/***/ }),
+/* 1094 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ja_JP__ = __webpack_require__(898);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ja_JP__["a" /* default */]);
+
+/***/ }),
+/* 1095 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ko_KR__ = __webpack_require__(1096);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ko_KR__ = __webpack_require__(900);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ko_KR__ = __webpack_require__(901);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ko_KR__ = __webpack_require__(1098);
 
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'ko',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ko_KR__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ko_KR__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ko_KR__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ko_KR__["a" /* default */],
+    Table: {
+        filterTitle: '필터 메뉴',
+        filterConfirm: '확인',
+        filterReset: '초기화',
+        emptyText: '데이터 없음'
+    },
+    Modal: {
+        okText: '확인',
+        cancelText: '취소',
+        justOkText: '확인'
+    },
+    Popconfirm: {
+        okText: '확인',
+        cancelText: '취소'
+    },
+    Transfer: {
+        notFoundContent: '데이터 없음',
+        searchPlaceholder: '여기에 검색하세요',
+        itemUnit: '개',
+        itemsUnit: '개'
+    },
+    Select: {
+        notFoundContent: '데이터 없음'
+    },
+    Upload: {
+        uploading: '업로드 중...',
+        removeFile: '파일 삭제',
+        uploadError: '업로드 실패',
+        previewFile: '파일 미리보기'
+    }
+});
 
 /***/ }),
-/* 980 */
+/* 1096 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ 쪽',
+  jump_to: '이동하기',
+  jump_to_confirm: '확인하다',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: '이전 페이지',
+  next_page: '다음 페이지',
+  prev_5: '이전 5 페이지',
+  next_5: '다음 5 페이지',
+  prev_3: '이전 3 페이지',
+  next_3: '다음 3 페이지'
+});
+
+/***/ }),
+/* 1097 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: '오늘',
+  now: '현재 시각',
+  backToToday: '오늘로 돌아가기',
+  ok: '확인',
+  clear: '지우기',
+  month: '월',
+  year: '년',
+  timeSelect: '시간 선택',
+  dateSelect: '날짜 선택',
+  monthSelect: '달 선택',
+  yearSelect: '연 선택',
+  decadeSelect: '연대 선택',
+  yearFormat: 'YYYY년',
+  dateFormat: 'YYYY-MM-DD',
+  dayFormat: 'Do',
+  dateTimeFormat: 'YYYY-MM-DD HH:mm:ss',
+  monthBeforeYear: false,
+  previousMonth: '이전 달 (PageUp)',
+  nextMonth: '다음 달 (PageDown)',
+  previousYear: '이전 해 (Control + left)',
+  nextYear: '다음 해 (Control + right)',
+  previousDecade: '이전 연대',
+  nextDecade: '다음 연대',
+  previousCentury: '이전 세기',
+  nextCentury: '다음 세기'
+});
+
+/***/ }),
+/* 1098 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ko_KR__ = __webpack_require__(900);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ko_KR__["a" /* default */]);
+
+/***/ }),
+/* 1099 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(981);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ku_IQ__ = __webpack_require__(1100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ku_IQ__ = __webpack_require__(902);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ku_IQ__ = __webpack_require__(903);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ku_IQ__ = __webpack_require__(1102);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'ku-iq',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ku_IQ__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ku_IQ__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ku_IQ__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ku_IQ__["a" /* default */],
+    Table: {
+        filterTitle: 'Menuê peldanka',
+        filterConfirm: 'Temam',
+        filterReset: 'Jê bibe',
+        emptyText: 'Agahî tune',
+        selectAll: 'Hemî hilbijêre',
+        selectInvert: 'Hilbijartinan veguhere'
+    },
+    Modal: {
+        okText: 'Temam',
+        cancelText: 'Betal ke',
+        justOkText: 'Temam'
+    },
+    Popconfirm: {
+        okText: 'Temam',
+        cancelText: 'Betal ke'
+    },
+    Transfer: {
+        notFoundContent: 'Peyda Nebû',
+        searchPlaceholder: 'Lêgerîn',
+        itemUnit: 'tişt',
+        itemsUnit: 'tişt'
+    },
+    Select: {
+        notFoundContent: 'Peyda Nebû'
+    },
+    Upload: {
+        uploading: 'Bardike...',
+        removeFile: 'Pelê rabike',
+        uploadError: 'Xeta barkirine',
+        previewFile: 'Pelê pêşbibîne'
+    }
+});
 
 /***/ }),
-/* 981 */
-/***/ (function(module, exports) {
+/* 1100 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ rûpel',
+  jump_to: 'Biçe',
+  jump_to_confirm: 'piştrast bike',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Rûpelê Pêş',
+  next_page: 'Rûpelê Paş',
+  prev_5: '5 Rûpelên Pêş',
+  next_5: '5 Rûpelên Paş',
+  prev_3: '3 Rûpelên Pêş',
+  next_3: '3 Rûpelên Paş'
+});
 
 /***/ }),
-/* 982 */
+/* 1101 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Îro',
+  now: 'Niha',
+  backToToday: 'Vegere îro',
+  ok: 'Temam',
+  clear: 'Paqij bike',
+  month: 'Meh',
+  year: 'Sal',
+  timeSelect: 'Demê hilbijêre',
+  dateSelect: 'Dîrok hilbijêre',
+  monthSelect: 'Meh hilbijêre',
+  yearSelect: 'Sal hilbijêre',
+  decadeSelect: 'Dehsal hilbijêre',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Meha peş (PageUp))',
+  nextMonth: 'Meha paş (PageDown)',
+  previousYear: 'Sala peş (Control + şep)',
+  nextYear: 'Sala paş (Control + rast)',
+  previousDecade: 'Dehsalen peş',
+  nextDecade: 'Dehsalen paş',
+  previousCentury: 'Sedsalen peş',
+  nextCentury: 'Sedsalen paş'
+});
+
+/***/ }),
+/* 1102 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ku_IQ__ = __webpack_require__(902);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ku_IQ__["a" /* default */]);
+
+/***/ }),
+/* 1103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(983);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_nb_NO__ = __webpack_require__(1104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_nb_NO__ = __webpack_require__(904);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nb_NO__ = __webpack_require__(905);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_nb_NO__ = __webpack_require__(1106);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'nb',
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_nb_NO__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nb_NO__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_nb_NO__["a" /* default */],
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_nb_NO__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtermeny',
+        filterConfirm: 'OK',
+        filterReset: 'Nullstill',
+        emptyText: 'Ingen data',
+        selectAll: 'Velg alle',
+        selectInvert: 'Inverter valg'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Avbryt',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Avbryt'
+    },
+    Transfer: {
+        notFoundContent: 'Ingen treff',
+        searchPlaceholder: 'Søk her',
+        itemUnit: 'element',
+        itemsUnit: 'elementer'
+    },
+    Select: {
+        notFoundContent: 'Ingen treff'
+    },
+    Upload: {
+        uploading: 'Laster opp...',
+        removeFile: 'Fjern fil',
+        uploadError: 'Feil ved opplastning',
+        previewFile: 'Forhåndsvisning'
+    }
+});
 
 /***/ }),
-/* 983 */
-/***/ (function(module, exports) {
+/* 1104 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ side',
+  jump_to: 'Gå til side',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Forrige side',
+  next_page: 'Neste side',
+  prev_5: '5 forrige',
+  next_5: '5 neste',
+  prev_3: '3 forrige',
+  next_3: '3 neste'
+});
 
 /***/ }),
-/* 984 */
+/* 1105 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'I dag',
+  now: 'Nå',
+  backToToday: 'Gå til i dag',
+  ok: 'Ok',
+  clear: 'Annuller',
+  month: 'Måned',
+  year: 'År',
+  timeSelect: 'Velg tidspunkt',
+  dateSelect: 'Velg dato',
+  monthSelect: 'Velg måned',
+  yearSelect: 'Velg år',
+  decadeSelect: 'Velg årti',
+  yearFormat: 'YYYY',
+  dateFormat: 'DD.MM.YYYY',
+  dayFormat: 'DD',
+  dateTimeFormat: 'DD.MM.YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Forrige måned(PageUp)',
+  nextMonth: 'Neste måned (PageDown)',
+  previousYear: 'Forrige år (Control + left)',
+  nextYear: 'Neste år (Control + right)',
+  previousDecade: 'Forrige tiår',
+  nextDecade: 'Neste tiår',
+  previousCentury: 'Forrige århundre',
+  nextCentury: 'Neste århundre'
+});
+
+/***/ }),
+/* 1106 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_nb_NO__ = __webpack_require__(904);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_nb_NO__["a" /* default */]);
+
+/***/ }),
+/* 1107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(985);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__spin_style__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pagination_style__ = __webpack_require__(346);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__grid_style__ = __webpack_require__(344);
-
-
-// style dependencies
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_nl_BE__ = __webpack_require__(1108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_nl_BE__ = __webpack_require__(906);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_BE__ = __webpack_require__(907);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_nl_BE__ = __webpack_require__(1110);
 
 
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'nl-be',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_nl_BE__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_nl_BE__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_BE__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_nl_BE__["a" /* default */],
+    Table: {
+        filterTitle: 'FilterMenu',
+        filterConfirm: 'OK',
+        filterReset: 'Reset',
+        emptyText: 'Geen gegevens',
+        selectAll: 'Selecteer huidige pagina',
+        selectInvert: 'Selecteer huidige pagina'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Annuleer',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Annuleer'
+    },
+    Transfer: {
+        notFoundContent: 'Niet gevonden',
+        searchPlaceholder: 'Zoek hier',
+        itemUnit: 'item',
+        itemsUnit: 'items'
+    },
+    Select: {
+        notFoundContent: 'Niet gevonden'
+    },
+    Upload: {
+        uploading: 'Uploaden...',
+        removeFile: 'Bestand verwijderen',
+        uploadError: 'Upload fout',
+        previewFile: 'Preview bestand'
+    }
+});
 
 /***/ }),
-/* 985 */
-/***/ (function(module, exports) {
+/* 1108 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ pagina',
+  jump_to: 'Ga naar',
+  jump_to_confirm: 'bevestigen',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Vorige pagina',
+  next_page: 'Volgende pagina',
+  prev_5: 'Vorige 5 pagina\'s',
+  next_5: 'Volgende 5 pagina\'s',
+  prev_3: 'Vorige 3 pagina\'s',
+  next_3: 'Volgende 3 pagina\'s'
+});
 
 /***/ }),
-/* 986 */
-/***/ (function(module, exports) {
+/* 1109 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Vandaag',
+  now: 'Nu',
+  backToToday: 'Terug naar vandaag',
+  ok: 'Ok',
+  clear: 'Reset',
+  month: 'Maand',
+  year: 'Jaar',
+  timeSelect: 'Selecteer tijd',
+  dateSelect: 'Selecteer datum',
+  monthSelect: 'Kies een maand',
+  yearSelect: 'Kies een jaar',
+  decadeSelect: 'Kies een decennium',
+  yearFormat: 'YYYY',
+  dateFormat: 'D-M-YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D-M-YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Vorige maand (PageUp)',
+  nextMonth: 'Volgende maand (PageDown)',
+  previousYear: 'Vorig jaar (Control + left)',
+  nextYear: 'Volgend jaar (Control + right)',
+  previousDecade: 'Vorig decennium',
+  nextDecade: 'Volgend decennium',
+  previousCentury: 'Vorige eeuw',
+  nextCentury: 'Volgende eeuw'
+});
 
 /***/ }),
-/* 987 */
-/***/ (function(module, exports) {
+/* 1110 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_nl_BE__ = __webpack_require__(906);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_nl_BE__["a" /* default */]);
 
 /***/ }),
-/* 988 */
+/* 1111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index_less__ = __webpack_require__(989);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_nl_NL__ = __webpack_require__(1112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_nl_NL__ = __webpack_require__(908);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_NL__ = __webpack_require__(909);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_nl_NL__ = __webpack_require__(1114);
 
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'nl',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_nl_NL__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_nl_NL__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_nl_NL__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_nl_NL__["a" /* default */],
+    Table: {
+        filterTitle: 'Filteren',
+        filterConfirm: 'OK',
+        filterReset: 'Reset',
+        emptyText: 'Geen gegevens',
+        selectAll: 'Selecteer huidige pagina',
+        selectInvert: 'Deselecteer huidige pagina'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Annuleren',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Annuleren'
+    },
+    Transfer: {
+        notFoundContent: 'Niet gevonden',
+        searchPlaceholder: 'Zoeken',
+        itemUnit: 'item',
+        itemsUnit: 'items'
+    },
+    Select: {
+        notFoundContent: 'Niet gevonden'
+    },
+    Upload: {
+        uploading: 'Uploaden...',
+        removeFile: 'Verwijder bestand',
+        uploadError: 'Fout tijdens uploaden',
+        previewFile: 'Bekijk bestand'
+    }
+});
 
 /***/ }),
-/* 989 */
-/***/ (function(module, exports) {
+/* 1112 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ pagina',
+  jump_to: 'Ga naar',
+  jump_to_confirm: 'bevestigen',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Vorige pagina',
+  next_page: 'Volgende pagina',
+  prev_5: 'Vorige 5 pagina\'s',
+  next_5: 'Volgende 5 pagina\'s',
+  prev_3: 'Vorige 3 pagina\'s',
+  next_3: 'Volgende 3 pagina\'s'
+});
 
 /***/ }),
-/* 990 */
+/* 1113 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Vandaag',
+  now: 'Nu',
+  backToToday: 'Terug naar vandaag',
+  ok: 'Ok',
+  clear: 'Reset',
+  month: 'Maand',
+  year: 'Jaar',
+  timeSelect: 'Selecteer tijd',
+  dateSelect: 'Selecteer datum',
+  monthSelect: 'Kies een maand',
+  yearSelect: 'Kies een jaar',
+  decadeSelect: 'Kies een decennium',
+  yearFormat: 'YYYY',
+  dateFormat: 'D-M-YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D-M-YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Vorige maand (PageUp)',
+  nextMonth: 'Volgende maand (PageDown)',
+  previousYear: 'Vorig jaar (Control + left)',
+  nextYear: 'Volgend jaar (Control + right)',
+  previousDecade: 'Vorig decennium',
+  nextDecade: 'Volgend decennium',
+  previousCentury: 'Vorige eeuw',
+  nextCentury: 'Volgende eeuw'
+});
+
+/***/ }),
+/* 1114 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_nl_NL__ = __webpack_require__(908);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_nl_NL__["a" /* default */]);
+
+/***/ }),
+/* 1115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index_less__ = __webpack_require__(991);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_pl_PL__ = __webpack_require__(1116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_pl_PL__ = __webpack_require__(910);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pl_PL__ = __webpack_require__(911);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_pl_PL__ = __webpack_require__(1118);
 
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'pl',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_pl_PL__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_pl_PL__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pl_PL__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_pl_PL__["a" /* default */],
+    Table: {
+        filterTitle: 'Menu filtra',
+        filterConfirm: 'OK',
+        filterReset: 'Wyczyść',
+        emptyText: 'Brak danych',
+        selectAll: 'Zaznacz bieżącą stronę',
+        selectInvert: 'Odwróć zaznaczenie'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Anuluj',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Anuluj'
+    },
+    Transfer: {
+        notFoundContent: 'Nie znaleziono',
+        searchPlaceholder: 'Szukaj',
+        itemUnit: 'obiekt',
+        itemsUnit: 'obiekty'
+    },
+    Select: {
+        notFoundContent: 'Nie znaleziono'
+    },
+    Upload: {
+        uploading: 'Wysyłanie...',
+        removeFile: 'Usuń plik',
+        uploadError: 'Błąd wysyłania',
+        previewFile: 'Podejrzyj plik'
+    }
+});
 
 /***/ }),
-/* 991 */
-/***/ (function(module, exports) {
+/* 1116 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ stronę',
+  jump_to: 'Idź do',
+  jump_to_confirm: 'potwierdzać',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Poprzednia strona',
+  next_page: 'Następna strona',
+  prev_5: 'Poprzednie 5 stron',
+  next_5: 'Następne 5 stron',
+  prev_3: 'Poprzednie 3 strony',
+  next_3: 'Następne 3 strony'
+});
 
 /***/ }),
-/* 992 */
+/* 1117 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Dzisiaj',
+  now: 'Teraz',
+  backToToday: 'Ustaw dzisiaj',
+  ok: 'Ok',
+  clear: 'Wyczyść',
+  month: 'Miesiąc',
+  year: 'Rok',
+  timeSelect: 'Ustaw czas',
+  dateSelect: 'Ustaw datę',
+  monthSelect: 'Wybierz miesiąc',
+  yearSelect: 'Wybierz rok',
+  decadeSelect: 'Wybierz dekadę',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Poprzedni miesiąc (PageUp)',
+  nextMonth: 'Następny miesiąc (PageDown)',
+  previousYear: 'Ostatni rok (Ctrl + left)',
+  nextYear: 'Następny rok (Ctrl + right)',
+  previousDecade: 'Ostatnia dekada',
+  nextDecade: 'Następna dekada',
+  previousCentury: 'Ostatni wiek',
+  nextCentury: 'Następny wiek'
+});
+
+/***/ }),
+/* 1118 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_pl_PL__ = __webpack_require__(910);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_pl_PL__["a" /* default */]);
+
+/***/ }),
+/* 1119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(993);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tooltip_style__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_pt_BR__ = __webpack_require__(1120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_pt_BR__ = __webpack_require__(912);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_BR__ = __webpack_require__(913);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_pt_BR__ = __webpack_require__(1122);
 
 
-// style dependencies
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'pt-br',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_pt_BR__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_pt_BR__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_BR__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_pt_BR__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtro',
+        filterConfirm: 'OK',
+        filterReset: 'Resetar',
+        emptyText: 'Não há dados',
+        selectAll: 'Selecionar página atual',
+        selectInvert: 'Inverter seleção'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Cancelar',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Cancelar'
+    },
+    Transfer: {
+        notFoundContent: 'Não encontrado',
+        searchPlaceholder: 'Procurar',
+        itemUnit: 'item',
+        itemsUnit: 'items'
+    },
+    Select: {
+        notFoundContent: 'Não encontrado'
+    },
+    Upload: {
+        uploading: 'Enviando...',
+        removeFile: 'Remover arquivo',
+        uploadError: 'Erro no envio',
+        previewFile: 'Visualizar arquivo'
+    }
+});
 
 /***/ }),
-/* 993 */
-/***/ (function(module, exports) {
+/* 1120 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ páginas',
+  jump_to: 'Vá até',
+  jump_to_confirm: 'confirme',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Página anterior',
+  next_page: 'Próxima página',
+  prev_5: '5 páginas anteriores',
+  next_5: '5 próximas páginas',
+  prev_3: '3 páginas anteriores',
+  next_3: '3 próximas páginas'
+});
 
 /***/ }),
-/* 994 */
-/***/ (function(module, exports) {
+/* 1121 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Hoje',
+  now: 'Agora',
+  backToToday: 'Voltar para hoje',
+  ok: 'Ok',
+  clear: 'Limpar',
+  month: 'Mês',
+  year: 'Ano',
+  timeSelect: 'Selecionar tempo',
+  dateSelect: 'Selecionar data',
+  monthSelect: 'Escolher mês',
+  yearSelect: 'Escolher ano',
+  decadeSelect: 'Escolher década',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: false,
+  previousMonth: 'Mês anterior (PageUp)',
+  nextMonth: 'Próximo mês (PageDown)',
+  previousYear: 'Ano anterior (Control + esquerda)',
+  nextYear: 'Próximo ano (Control + direita)',
+  previousDecade: 'Década anterior',
+  nextDecade: 'Próxima década',
+  previousCentury: 'Século anterior',
+  nextCentury: 'Próximo século'
+});
 
 /***/ }),
-/* 995 */
+/* 1122 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_pt_BR__ = __webpack_require__(912);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_pt_BR__["a" /* default */]);
+
+/***/ }),
+/* 1123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(996);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_pt_PT__ = __webpack_require__(1124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_pt_PT__ = __webpack_require__(914);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_PT__ = __webpack_require__(915);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_pt_PT__ = __webpack_require__(1126);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'pt',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_pt_PT__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_pt_PT__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_pt_PT__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_pt_PT__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtro',
+        filterConfirm: 'Aplicar',
+        filterReset: 'Reiniciar',
+        emptyText: 'Sem resultados',
+        selectAll: 'Selecionar página atual',
+        selectInvert: 'Inverter seleção'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Cancelar',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Cancelar'
+    },
+    Transfer: {
+        notFoundContent: 'Sem resultados',
+        searchPlaceholder: 'Procurar...',
+        itemUnit: 'item',
+        itemsUnit: 'itens'
+    },
+    Select: {
+        notFoundContent: 'Sem resultados'
+    },
+    Upload: {
+        uploading: 'A carregar...',
+        removeFile: 'Remover',
+        uploadError: 'Erro ao carregar',
+        previewFile: 'Pré-visualizar'
+    }
+});
 
 /***/ }),
-/* 996 */
-/***/ (function(module, exports) {
+/* 1124 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ página',
+  jump_to: 'Saltar',
+  jump_to_confirm: 'confirmar',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Página Anterior',
+  next_page: 'Página Seguinte',
+  prev_5: 'Recuar 5 Páginas',
+  next_5: 'Avançar 5 Páginas',
+  prev_3: 'Recuar 3 Páginas',
+  next_3: 'Avançar 3 Páginas'
+});
 
 /***/ }),
-/* 997 */
+/* 1125 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Hoje',
+  now: 'Agora',
+  backToToday: 'Hoje',
+  ok: 'Ok',
+  clear: 'Limpar',
+  month: 'Mês',
+  year: 'Ano',
+  timeSelect: 'Selecionar hora',
+  dateSelect: 'Selecionar data',
+  monthSelect: 'Selecionar mês',
+  yearSelect: 'Selecionar ano',
+  decadeSelect: 'Selecionar década',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Mês anterior (PageUp)',
+  nextMonth: 'Mês seguinte (PageDown)',
+  previousYear: 'Ano anterior (Control + left)',
+  nextYear: 'Ano seguinte (Control + right)',
+  previousDecade: 'Década anterior',
+  nextDecade: 'Década seguinte',
+  previousCentury: 'Século anterior',
+  nextCentury: 'Século seguinte'
+});
+
+/***/ }),
+/* 1126 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_pt_PT__ = __webpack_require__(914);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_pt_PT__["a" /* default */]);
+
+/***/ }),
+/* 1127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(998);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_style__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ru_RU__ = __webpack_require__(1128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ru_RU__ = __webpack_require__(916);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ru_RU__ = __webpack_require__(917);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ru_RU__ = __webpack_require__(1130);
 
 
-// style dependencies
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'ru',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_ru_RU__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_ru_RU__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_ru_RU__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_ru_RU__["a" /* default */],
+    Table: {
+        filterTitle: 'Фильтр',
+        filterConfirm: 'OK',
+        filterReset: 'Сбросить',
+        emptyText: 'Нет данных',
+        selectAll: 'Выбрать всё',
+        selectInvert: 'Инвертировать выбор'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Отмена',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Отмена'
+    },
+    Transfer: {
+        notFoundContent: 'Ничего не найдено',
+        searchPlaceholder: 'Введите название для поиска',
+        itemUnit: 'item',
+        itemsUnit: 'items'
+    },
+    Select: {
+        notFoundContent: 'Ничего не найдено'
+    },
+    Upload: {
+        uploading: 'Закачиваю...',
+        removeFile: 'Удалить файл',
+        uploadError: 'Ошибка при закачке',
+        previewFile: 'Предпросмотр файла'
+    }
+});
 
 /***/ }),
-/* 998 */
-/***/ (function(module, exports) {
+/* 1128 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/странице',
+  jump_to: 'Перейти',
+  jump_to_confirm: 'подтвердить',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Назад',
+  next_page: 'Вперед',
+  prev_5: 'Предыдущие 5',
+  next_5: 'Следующие 5',
+  prev_3: 'Предыдущие 3',
+  next_3: 'Следующие 3'
+});
 
 /***/ }),
-/* 999 */
+/* 1129 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Сегодня',
+  now: 'Сейчас',
+  backToToday: 'Текущая дата',
+  ok: 'Ok',
+  clear: 'Очистить',
+  month: 'Месяц',
+  year: 'Год',
+  timeSelect: 'Выбрать время',
+  dateSelect: 'Выбрать дату',
+  monthSelect: 'Выбрать месяц',
+  yearSelect: 'Выбрать год',
+  decadeSelect: 'Выбрать десятилетие',
+  yearFormat: 'YYYY',
+  dateFormat: 'D-M-YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D-M-YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Предыдущий месяц (PageUp)',
+  nextMonth: 'Следующий месяц (PageDown)',
+  previousYear: 'Предыдущий год (Control + left)',
+  nextYear: 'Следующий год (Control + right)',
+  previousDecade: 'Предыдущее десятилетие',
+  nextDecade: 'Следущее десятилетие',
+  previousCentury: 'Предыдущий век',
+  nextCentury: 'Следующий век'
+});
+
+/***/ }),
+/* 1130 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ru_RU__ = __webpack_require__(916);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_ru_RU__["a" /* default */]);
+
+/***/ }),
+/* 1131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1000);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_sk_SK__ = __webpack_require__(1132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_sk_SK__ = __webpack_require__(918);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sk_SK__ = __webpack_require__(919);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_sk_SK__ = __webpack_require__(1134);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'sk',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_sk_SK__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_sk_SK__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sk_SK__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_sk_SK__["a" /* default */],
+    Table: {
+        filterTitle: 'Filter',
+        filterConfirm: 'OK',
+        filterReset: 'Obnoviť',
+        emptyText: 'Žiadne dáta',
+        selectAll: 'Vybrať všetko',
+        selectInvert: 'Vybrať opačné'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Zrušiť',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Zrušiť'
+    },
+    Transfer: {
+        notFoundContent: 'Nenájdené',
+        searchPlaceholder: 'Vyhľadávanie',
+        itemUnit: 'položka',
+        itemsUnit: 'položiek'
+    },
+    Select: {
+        notFoundContent: 'Nenájdené'
+    },
+    Upload: {
+        uploading: 'Nahrávanie...',
+        removeFile: 'Odstrániť súbor',
+        uploadError: 'Chyba pri nahrávaní',
+        previewFile: 'Zobraziť súbor'
+    }
+});
 
 /***/ }),
-/* 1000 */
-/***/ (function(module, exports) {
+/* 1132 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ strana',
+  jump_to: 'Choď na',
+  jump_to_confirm: 'potvrdit',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Predchádzajúca strana',
+  next_page: 'Nasledujúca strana',
+  prev_5: 'Predchádzajúcich 5 strán',
+  next_5: 'Nasledujúcich 5 strán',
+  prev_3: 'Predchádzajúce 3 strany',
+  next_3: 'Nasledujúce 3 strany'
+});
 
 /***/ }),
-/* 1001 */
+/* 1133 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Dnes',
+  now: 'Teraz',
+  backToToday: 'Späť na dnes',
+  ok: 'Ok',
+  clear: 'Vymazať',
+  month: 'Mesiac',
+  year: 'Rok',
+  timeSelect: 'Vybrať čas',
+  dateSelect: 'Vybrať dátum',
+  monthSelect: 'Vybrať mesiac',
+  yearSelect: 'Vybrať rok',
+  decadeSelect: 'Vybrať dekádu',
+  yearFormat: 'YYYY',
+  dateFormat: 'D.M.YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Predchádzajúci mesiac (PageUp)',
+  nextMonth: 'Nasledujúci mesiac (PageDown)',
+  previousYear: 'Predchádzajúci rok (Control + left)',
+  nextYear: 'Nasledujúci rok (Control + right)',
+  previousDecade: 'Predchádzajúca dekáda',
+  nextDecade: 'Nasledujúca dekáda',
+  previousCentury: 'Predchádzajúce storočie',
+  nextCentury: 'Nasledujúce storočie'
+});
+
+/***/ }),
+/* 1134 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_sk_SK__ = __webpack_require__(918);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_sk_SK__["a" /* default */]);
+
+/***/ }),
+/* 1135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_style__ = __webpack_require__(866);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_style__ = __webpack_require__(181);
-
-// style dependencies
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_sr_RS__ = __webpack_require__(1136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_sr_RS__ = __webpack_require__(920);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sr_RS__ = __webpack_require__(921);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_sr_RS__ = __webpack_require__(1138);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'sr',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_sr_RS__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_sr_RS__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sr_RS__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_sr_RS__["a" /* default */],
+    Table: {
+        filterTitle: 'Filter',
+        filterConfirm: 'Primeni filter',
+        filterReset: 'Resetuj filter',
+        emptyText: 'Nema podataka',
+        selectAll: 'Obeleži sve na trenutnoj strani',
+        selectInvert: 'Obrni selekciju na trenutnoj stranici'
+    },
+    Modal: {
+        okText: 'U redu',
+        cancelText: 'Otkaži',
+        justOkText: 'U redu'
+    },
+    Popconfirm: {
+        okText: 'U redu',
+        cancelText: 'Otkaži'
+    },
+    Transfer: {
+        notFoundContent: 'Nisu pronađeni rezultati pretrage',
+        searchPlaceholder: 'Pretražite ovde',
+        itemUnit: 'stavka',
+        itemsUnit: 'stavki'
+    },
+    Select: {
+        notFoundContent: 'Nije pronađeno'
+    },
+    Upload: {
+        uploading: 'Slanje...',
+        removeFile: 'Ukloni fajl',
+        uploadError: 'Greška prilikom slanja',
+        previewFile: 'Pogledaj fajl'
+    }
+});
 
 /***/ }),
-/* 1002 */
-/***/ (function(module, exports) {
+/* 1136 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ strani',
+  jump_to: 'Idi na',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Prethodna strana',
+  next_page: 'Sledeća strana',
+  prev_5: 'Prethodnih 5 Strana',
+  next_5: 'Sledećih 5 Strana',
+  prev_3: 'Prethodnih 3 Strane',
+  next_3: 'Sledećih 3 Strane'
+});
 
 /***/ }),
-/* 1003 */
-/***/ (function(module, exports) {
+/* 1137 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Danas',
+  now: 'Sada',
+  backToToday: 'Vrati se na danas',
+  ok: 'U redu',
+  clear: 'Obriši',
+  month: 'Mesec',
+  year: 'Godina',
+  timeSelect: 'Izaberi vreme',
+  dateSelect: 'Izaberi datum',
+  monthSelect: 'Izaberi mesec',
+  yearSelect: 'Izaberi godinu',
+  decadeSelect: 'Izaberi deceniju',
+  yearFormat: 'YYYY',
+  dateFormat: 'DD.MM.YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'DD.MM.YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Prethodni mesec (PageUp)',
+  nextMonth: 'Sledeći mesec (PageDown)',
+  previousYear: 'Prethodna godina (Control + left)',
+  nextYear: 'Sledeća godina (Control + right)',
+  previousDecade: 'Prethodna decenija',
+  nextDecade: 'Sledeća decenija',
+  previousCentury: 'Prethodni vek',
+  nextCentury: 'Sledeći vek'
+});
 
 /***/ }),
-/* 1004 */
+/* 1138 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_sr_RS__ = __webpack_require__(920);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_sr_RS__["a" /* default */]);
+
+/***/ }),
+/* 1139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1005);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_sv_SE__ = __webpack_require__(1140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_sv_SE__ = __webpack_require__(922);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sv_SE__ = __webpack_require__(923);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_sv_SE__ = __webpack_require__(1142);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'sv',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_sv_SE__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_sv_SE__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_sv_SE__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_sv_SE__["a" /* default */],
+    Table: {
+        filterTitle: 'Filtermeny',
+        filterConfirm: 'OK',
+        filterReset: 'Rensa',
+        emptyText: 'Ingen information'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Avbryt',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Avbryt'
+    },
+    Transfer: {
+        notFoundContent: 'Info saknas',
+        searchPlaceholder: 'Sök',
+        itemUnit: 'element',
+        itemsUnit: 'element'
+    },
+    Select: {
+        notFoundContent: 'Info saknas'
+    }
+});
 
 /***/ }),
-/* 1005 */
-/***/ (function(module, exports) {
+/* 1140 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ sida',
+  jump_to: 'Gå till',
+  jump_to_confirm: 'bekräfta',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Föreg sida',
+  next_page: 'Nästa sida',
+  prev_5: 'Föreg 5 sidor',
+  next_5: 'Nästa 5 sidor',
+  prev_3: 'Föreg 3 sidor',
+  next_3: 'Nästa 3 sidor'
+});
 
 /***/ }),
-/* 1006 */
+/* 1141 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'I dag',
+  now: 'Nu',
+  backToToday: 'Till idag',
+  ok: 'Ok',
+  clear: 'Avbryt',
+  month: 'Månad',
+  year: 'År',
+  timeSelect: 'Välj tidpunkt',
+  dateSelect: 'Välj datum',
+  monthSelect: 'Välj månad',
+  yearSelect: 'Välj år',
+  decadeSelect: 'Välj årtionde',
+  yearFormat: 'YYYY',
+  dateFormat: 'YYYY-MM-DD',
+  dayFormat: 'D',
+  dateTimeFormat: 'YYYY-MM-DD H:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Förra månaden (PageUp)',
+  nextMonth: 'Nästa månad (PageDown)',
+  previousYear: 'Föreg år (Control + left)',
+  nextYear: 'Nästa år (Control + right)',
+  previousDecade: 'Föreg årtionde',
+  nextDecade: 'Nästa årtionde',
+  previousCentury: 'Föreg århundrade',
+  nextCentury: 'Nästa århundrade'
+});
+
+/***/ }),
+/* 1142 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_sv_SE__ = __webpack_require__(922);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_sv_SE__["a" /* default */]);
+
+/***/ }),
+/* 1143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__grid_style_index_less__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__grid_style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__grid_style_index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_th_TH__ = __webpack_require__(1144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_th_TH__ = __webpack_require__(924);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_th_TH__ = __webpack_require__(925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_th_TH__ = __webpack_require__(1146);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'th',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_th_TH__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_th_TH__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_th_TH__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_th_TH__["a" /* default */],
+    Table: {
+        filterTitle: 'ตัวกรอง',
+        filterConfirm: 'ยืนยัน',
+        filterReset: 'รีเซ็ต',
+        emptyText: 'ไม่มีข้อมูล',
+        selectAll: 'เลือกทั้งหมดในหน้านี้',
+        selectInvert: 'เลือกสถานะตรงกันข้าม'
+    },
+    Modal: {
+        okText: 'ตกลง',
+        cancelText: 'ยกเลิก',
+        justOkText: 'ตกลง'
+    },
+    Popconfirm: {
+        okText: 'ตกลง',
+        cancelText: 'ยกเลิก'
+    },
+    Transfer: {
+        notFoundContent: 'ไม่พบข้อมูล',
+        searchPlaceholder: 'ค้นหา',
+        itemUnit: 'ชิ้น',
+        itemsUnit: 'ชิ้น'
+    },
+    Select: {
+        notFoundContent: 'ไม่พบข้อมูล'
+    },
+    Upload: {
+        uploading: 'กำลังอัปโหลด...',
+        removeFile: 'ลบไฟล์',
+        uploadError: 'เกิดข้อผิดพลาดในการอัปโหลด',
+        previewFile: 'ดูตัวอย่างไฟล์'
+    }
+});
 
 /***/ }),
-/* 1007 */
+/* 1144 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ หน้า',
+  jump_to: 'ไปยัง',
+  jump_to_confirm: 'ยืนยัน',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'หน้าก่อนหน้า',
+  next_page: 'หน้าถัดไป',
+  prev_5: 'ย้อนกลับ 5 หน้า',
+  next_5: 'ถัดไป 5 หน้า',
+  prev_3: 'ย้อนกลับ 3 หน้า',
+  next_3: 'ถัดไป 3 หน้า'
+});
+
+/***/ }),
+/* 1145 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'วันนี้',
+  now: 'ตอนนี้',
+  backToToday: 'กลับไปยังวันนี้',
+  ok: 'ตกลง',
+  clear: 'ลบล้าง',
+  month: 'เดือน',
+  year: 'ปี',
+  timeSelect: 'เลือกเวลา',
+  dateSelect: 'เลือกวัน',
+  monthSelect: 'เลือกเดือน',
+  yearSelect: 'เลือกปี',
+  decadeSelect: 'เลือกทศวรรษ',
+  yearFormat: 'YYYY',
+  dateFormat: 'D/M/YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'เดือนก่อนหน้า (PageUp)',
+  nextMonth: 'เดือนถัดไป (PageDown)',
+  previousYear: 'ปีก่อนหน้า (Control + left)',
+  nextYear: 'ปีถัดไป (Control + right)',
+  previousDecade: 'ทศวรรษก่อนหน้า',
+  nextDecade: 'ทศวรรษถัดไป',
+  previousCentury: 'ศตวรรษก่อนหน้า',
+  nextCentury: 'ศตวรรษถัดไป'
+});
+
+/***/ }),
+/* 1146 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_th_TH__ = __webpack_require__(924);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_th_TH__["a" /* default */]);
+
+/***/ }),
+/* 1147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1008);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tooltip_style__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_en_US__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_tr_TR__ = __webpack_require__(926);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_tr_TR__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_tr_TR__ = __webpack_require__(1148);
 
 
-// style dependencies
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'tr',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_en_US__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_tr_TR__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_tr_TR__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_tr_TR__["a" /* default */],
+    Table: {
+        filterTitle: 'Menü Filtrele',
+        filterConfirm: 'Tamam',
+        filterReset: 'Sıfırla',
+        emptyText: 'Veri Yok',
+        selectAll: 'Hepsini Seç',
+        selectInvert: 'Tersini Seç'
+    },
+    Modal: {
+        okText: 'Tamam',
+        cancelText: 'İptal',
+        justOkText: 'Tamam'
+    },
+    Popconfirm: {
+        okText: 'Tamam',
+        cancelText: 'İptal'
+    },
+    Transfer: {
+        notFoundContent: 'Bulunamadı',
+        searchPlaceholder: 'Arama',
+        itemUnit: 'Öğe',
+        itemsUnit: 'Öğeler'
+    },
+    Select: {
+        notFoundContent: 'Bulunamadı'
+    },
+    Upload: {
+        uploading: 'Yükleniyor...',
+        removeFile: 'Dosyay\u0131 kald\u0131r',
+        uploadError: 'Yükleme Hatası',
+        previewFile: 'Dosyay\u0131 \xD6nizle'
+    }
+});
 
 /***/ }),
-/* 1008 */
-/***/ (function(module, exports) {
+/* 1148 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_tr_TR__ = __webpack_require__(926);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_tr_TR__["a" /* default */]);
 
 /***/ }),
-/* 1009 */
+/* 1149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1010);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_uk_UA__ = __webpack_require__(1150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_uk_UA__ = __webpack_require__(928);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_uk_UA__ = __webpack_require__(929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_uk_UA__ = __webpack_require__(1152);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'uk',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_uk_UA__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_uk_UA__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_uk_UA__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_uk_UA__["a" /* default */],
+    Table: {
+        filterTitle: 'Фільтрувати',
+        filterConfirm: 'OK',
+        filterReset: 'Скинути',
+        emptyText: 'Даних немає',
+        selectAll: 'Обрати всі',
+        selectInvert: 'Інвертувати вибір'
+    },
+    Modal: {
+        okText: 'Гаразд',
+        cancelText: 'Скасувати',
+        justOkText: 'Гаразд'
+    },
+    Popconfirm: {
+        okText: 'Гаразд',
+        cancelText: 'Скасувати'
+    },
+    Transfer: {
+        notFoundContent: 'Нічого не знайдено',
+        searchPlaceholder: 'Введіть текст для пошуку',
+        itemUnit: 'item',
+        itemsUnit: 'items'
+    },
+    Select: {
+        notFoundContent: 'Нічого не знайдено'
+    },
+    Upload: {
+        uploading: 'Завантаження ...',
+        removeFile: 'Видалити файл',
+        uploadError: 'Помилка завантаження',
+        previewFile: 'Попередній перегляд файлу'
+    }
+});
 
 /***/ }),
-/* 1010 */
-/***/ (function(module, exports) {
+/* 1150 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ сторінці',
+  jump_to: 'Перейти',
+  jump_to_confirm: 'підтвердити',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Попередня сторінка',
+  next_page: 'Наступна сторінка',
+  prev_5: 'Попередні 5 сторінок',
+  next_5: 'Наступні 5 сторінок',
+  prev_3: 'Попередні 3 сторінки',
+  next_3: 'Наступні 3 сторінки'
+});
 
 /***/ }),
-/* 1011 */
+/* 1151 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: 'Сьогодні',
+  now: 'Зараз',
+  backToToday: 'Поточна дата',
+  ok: 'Ok',
+  clear: 'Очистити',
+  month: 'Місяць',
+  year: 'Рік',
+  timeSelect: 'Обрати час',
+  dateSelect: 'Обрати дату',
+  monthSelect: 'Обрати місяць',
+  yearSelect: 'Обрати рік',
+  decadeSelect: 'Обрати десятиріччя',
+  yearFormat: 'YYYY',
+  dateFormat: 'D-M-YYYY',
+  dayFormat: 'D',
+  dateTimeFormat: 'D-M-YYYY HH:mm:ss',
+  monthBeforeYear: true,
+  previousMonth: 'Попередній місяць (PageUp)',
+  nextMonth: 'Наступний місяць (PageDown)',
+  previousYear: 'Попередній рік (Control + left)',
+  nextYear: 'Наступний рік (Control + right)',
+  previousDecade: 'Попереднє десятиріччя',
+  nextDecade: 'Наступне десятиріччя',
+  previousCentury: 'Попереднє століття',
+  nextCentury: 'Наступне століття'
+});
+
+/***/ }),
+/* 1152 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_uk_UA__ = __webpack_require__(928);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_uk_UA__["a" /* default */]);
+
+/***/ }),
+/* 1153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1012);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_vi_VN__ = __webpack_require__(1154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_vi_VN__ = __webpack_require__(930);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_vi_VN__ = __webpack_require__(1155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_vi_VN__ = __webpack_require__(1156);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'vi',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_vi_VN__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_vi_VN__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_vi_VN__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_vi_VN__["a" /* default */],
+    Table: {
+        filterTitle: 'Bộ ',
+        filterConfirm: 'OK',
+        filterReset: 'Tạo Lại',
+        emptyText: 'Trống',
+        selectAll: 'Chọn Tất Cả',
+        selectInvert: 'Chọn Ngược Lại'
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Huỷ',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Huỷ'
+    },
+    Transfer: {
+        notFoundContent: 'Không Tìm Thấy',
+        searchPlaceholder: 'Tìm ở đây',
+        itemUnit: 'mục',
+        itemsUnit: 'mục'
+    },
+    Select: {
+        notFoundContent: 'Không Tìm Thấy'
+    },
+    Upload: {
+        uploading: 'Đang tải lên...',
+        removeFile: 'Gỡ bỏ tập tin',
+        uploadError: 'Lỗi tải lên',
+        previewFile: 'Xem thử tập tin'
+    }
+});
 
 /***/ }),
-/* 1012 */
-/***/ (function(module, exports) {
+/* 1154 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '/ trang',
+  jump_to: 'Đến',
+  jump_to_confirm: 'xác nhận',
+  page: '',
+
+  // Pagination.jsx
+  prev_page: 'Trang Trước',
+  next_page: 'Trang Kế',
+  prev_5: 'Về 5 Trang Trước',
+  next_5: 'Đến 5 Trang Kế',
+  prev_3: 'Về 3 Trang Trước',
+  next_3: 'Đến 3 Trang Kế'
+});
 
 /***/ }),
-/* 1013 */
+/* 1155 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var locale = {
+    placeholder: 'Chọn thời gian'
+};
+/* harmony default export */ __webpack_exports__["a"] = (locale);
+
+/***/ }),
+/* 1156 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_vi_VN__ = __webpack_require__(930);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_vi_VN__["a" /* default */]);
+
+/***/ }),
+/* 1157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1014);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__radio_style__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__checkbox_style__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dropdown_style__ = __webpack_require__(865);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__spin_style__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pagination_style__ = __webpack_require__(346);
-
-
-// style dependencies
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_zh_CN__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_zh_CN__ = __webpack_require__(931);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_CN__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_zh_CN__ = __webpack_require__(1159);
 
 
 
 
-
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'zh-cn',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_zh_CN__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_zh_CN__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_CN__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_zh_CN__["a" /* default */],
+    Table: {
+        filterTitle: '筛选',
+        filterConfirm: '确定',
+        filterReset: '重置',
+        emptyText: '暂无数据',
+        selectAll: '全选当页',
+        selectInvert: '反选当页'
+    },
+    Modal: {
+        okText: '确定',
+        cancelText: '取消',
+        justOkText: '知道了'
+    },
+    Popconfirm: {
+        cancelText: '取消',
+        okText: '确定'
+    },
+    Transfer: {
+        notFoundContent: '无匹配结果',
+        searchPlaceholder: '请输入搜索内容',
+        itemUnit: '项',
+        itemsUnit: '项'
+    },
+    Select: {
+        notFoundContent: '无匹配结果'
+    },
+    Upload: {
+        uploading: '文件上传中',
+        removeFile: '删除文件',
+        uploadError: '上传错误',
+        previewFile: '预览文件'
+    }
+});
 
 /***/ }),
-/* 1014 */
-/***/ (function(module, exports) {
+/* 1158 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: '今天',
+  now: '此刻',
+  backToToday: '返回今天',
+  ok: '确定',
+  timeSelect: '选择时间',
+  dateSelect: '选择日期',
+  clear: '清除',
+  month: '月',
+  year: '年',
+  previousMonth: '上个月 (翻页上键)',
+  nextMonth: '下个月 (翻页下键)',
+  monthSelect: '选择月份',
+  yearSelect: '选择年份',
+  decadeSelect: '选择年代',
+  yearFormat: 'YYYY年',
+  dayFormat: 'D日',
+  dateFormat: 'YYYY年M月D日',
+  dateTimeFormat: 'YYYY年M月D日 HH时mm分ss秒',
+  previousYear: '上一年 (Control键加左方向键)',
+  nextYear: '下一年 (Control键加右方向键)',
+  previousDecade: '上一年代',
+  nextDecade: '下一年代',
+  previousCentury: '上一世纪',
+  nextCentury: '下一世纪'
+});
 
 /***/ }),
-/* 1015 */
+/* 1159 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_zh_CN__ = __webpack_require__(931);
+
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_zh_CN__["a" /* default */]);
+
+/***/ }),
+/* 1160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1016);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_zh_TW__ = __webpack_require__(1161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_zh_TW__ = __webpack_require__(933);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_TW__ = __webpack_require__(934);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_locale_zh_TW__ = __webpack_require__(1163);
 
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    locale: 'zh-tw',
+    Pagination: __WEBPACK_IMPORTED_MODULE_0_rc_pagination_es_locale_zh_TW__["a" /* default */],
+    DatePicker: __WEBPACK_IMPORTED_MODULE_1__date_picker_locale_zh_TW__["a" /* default */],
+    TimePicker: __WEBPACK_IMPORTED_MODULE_2__time_picker_locale_zh_TW__["a" /* default */],
+    Calendar: __WEBPACK_IMPORTED_MODULE_3__calendar_locale_zh_TW__["a" /* default */],
+    Table: {
+        filterTitle: '篩選器',
+        filterConfirm: '確 定',
+        filterReset: '重 置',
+        emptyText: '目前尚無資料',
+        selectAll: '全部選取',
+        selectInvert: '反向選取'
+    },
+    Modal: {
+        okText: '確 定',
+        cancelText: '取 消',
+        justOkText: 'OK'
+    },
+    Popconfirm: {
+        okText: '確 定',
+        cancelText: '取 消'
+    },
+    Transfer: {
+        notFoundContent: '查無此資料',
+        searchPlaceholder: '搜尋資料',
+        itemUnit: '項目',
+        itemsUnit: '項目'
+    },
+    Select: {
+        notFoundContent: '查無此資料'
+    },
+    Upload: {
+        uploading: '正在上傳...',
+        removeFile: '刪除檔案',
+        uploadError: '上傳失敗',
+        previewFile: '檔案預覽'
+    }
+});
 
 /***/ }),
-/* 1016 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 1017 */
+/* 1161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1018);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
+/* harmony default export */ __webpack_exports__["a"] = ({
+  // Options.jsx
+  items_per_page: '條/頁',
+  jump_to: '跳至',
+  jump_to_confirm: '確定',
+  page: '頁',
 
-
+  // Pagination.jsx
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  prev_5: '向前 5 頁',
+  next_5: '向後 5 頁',
+  prev_3: '向前 3 頁',
+  next_3: '向後 3 頁'
+});
 
 /***/ }),
-/* 1018 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 1019 */
+/* 1162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1020);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__checkbox_style__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__button_style__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__input_style__ = __webpack_require__(109);
-
-
-// style dependencies
-
-
-
+/* harmony default export */ __webpack_exports__["a"] = ({
+  today: '今天',
+  now: '此刻',
+  backToToday: '返回今天',
+  ok: '確定',
+  timeSelect: '選擇時間',
+  dateSelect: '選擇日期',
+  clear: '清除',
+  month: '月',
+  year: '年',
+  previousMonth: '上個月 (翻頁上鍵)',
+  nextMonth: '下個月 (翻頁下鍵)',
+  monthSelect: '選擇月份',
+  yearSelect: '選擇年份',
+  decadeSelect: '選擇年代',
+  yearFormat: 'YYYY年',
+  dayFormat: 'D日',
+  dateFormat: 'YYYY年M月D日',
+  dateTimeFormat: 'YYYY年M月D日 HH時mm分ss秒',
+  previousYear: '上一年 (Control鍵加左方向鍵)',
+  nextYear: '下一年 (Control鍵加右方向鍵)',
+  previousDecade: '上一年代',
+  nextDecade: '下一年代',
+  previousCentury: '上一世紀',
+  nextCentury: '下一世紀'
+});
 
 /***/ }),
-/* 1020 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 1021 */
+/* 1163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1022);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_style__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__checkbox_style__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__date_picker_locale_zh_TW__ = __webpack_require__(933);
 
-
-// style dependencies
-
-
-
-/***/ }),
-/* 1022 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 1023 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1024);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__checkbox_style__ = __webpack_require__(184);
-
-
-// style dependencies
-
-
-/***/ }),
-/* 1024 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 1025 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less__ = __webpack_require__(1026);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__progress_style__ = __webpack_require__(867);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tooltip_style__ = __webpack_require__(340);
-
-
-// style dependencies
-
-
-
-/***/ }),
-/* 1026 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 1027 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__style_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__style_index_less__);
-// empty file prevent babel-plugin-import error
-
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__date_picker_locale_zh_TW__["a" /* default */]);
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=antd.js.map
+//# sourceMappingURL=antd-with-locales.js.map

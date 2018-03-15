@@ -3,14 +3,16 @@
 import Baobab from 'baobab';
 import _ from "lodash";
 
-//数据
+//Store
 const rootState = {
     page: {
         pagination:{
             pageNumber:1,
-            pageSize:20
+            pageSize:30
         },
-        list: []
+        list: [],
+        total: 0,
+        loading: true
     },
 }
 
@@ -18,11 +20,19 @@ const tree = new Baobab(rootState, {
     immutable: true
 });
 
-
-//行为
+//Actions
 const actions = {
-    setDataList(tree, value){
-        tree.set(["page","list"], value);
+    setDataList(tree, data){
+        tree.set(["page", "list"], data.list);
+        tree.set(["page", "total"], data.total);
+    },
+    setPaginationValue(tree, field){
+        _.forIn(field, (v, key) => {
+            tree.set(["page", "pagination", key], v.value || v);
+        });
+    },
+    setLoading(tree, value){
+        tree.set(["page", "loading"], value);
     }
 }
 

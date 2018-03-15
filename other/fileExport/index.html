@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FileExport</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"></script>
+    <script src="./index.js"></script>
+    <!-- 
+        1. 利用HTML的table表格的格式书写Excel格式
+        2. 获取table内容组装成xls格式的字符串
+        3. 利用Blob生成一个xls格式的文件
+        4. 利用a标签的download属性创建文件名，并下载到本地
+     -->
+    <style media="screen">
+        .tableA {
+            border-collapse: collapse;
+        }
+
+        .tableA .title th {
+            height: 50px;
+            font-size: 24px;
+            font-family: '微软雅黑';
+            font-weight: 700;
+        }
+
+        .tableA tr th {
+            border: 1px #000 solid;
+            height: 40px;
+            background: #efefef;
+        }
+
+        .tableA tr td {
+            padding: 0 40px;
+            border: 1px #000 solid;
+            height: 40px;
+            text-align: center;
+        }
+
+        .tableA .footer td {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <table bordercolor="black" class="tableA">
+        <tr class="title">
+            <th colspan="4">学生信息</th>
+        </tr>
+        <tr>
+            <th>名字</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>班级</th>
+        </tr>
+        <tr>
+            <td>小明</td>
+            <td>男</td>
+            <td>19</td>
+            <td>1班</td>
+        </tr>
+        <tr>
+            <td>小黄</td>
+            <td>男</td>
+            <td>20</td>
+            <td>2班</td>
+        </tr>
+        <tr>
+            <td>老王</td>
+            <td>男</td>
+            <td>29</td>
+            <td>3班</td>
+        </tr>
+        <tr class="footer">
+            <td colspan="4">总人数：3人</td>
+        </tr>
+    </table>
+    <button onclick="excelExport()">导出</button>
+</body>
+
+</html>
