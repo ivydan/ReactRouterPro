@@ -28,6 +28,10 @@ window.onload = function () {
         return obj;
     }
 
+    Personal.prototype.add = function (a, b) {
+        return this.count ++ ;
+    }
+
     var salva = Personal("salva");
 
     // console.log(salva.name);
@@ -66,14 +70,24 @@ window.onload = function () {
     var person2 = Object.create(person1);
     // console.log('person2:', person2);
 
-    
 
+    function Animal(name, age) {
+        var obj = {};
 
+        obj.name = name;
+        obj.age = age;
+        obj.greeting = function () {
+            console.log('Hello:', this.name)
+        }
 
+        return obj;
+    }
 
+    var dog = new Animal('CC', 2);
+    var jm = Object.create(dog);
+    var hsq = new dog.constructor('hsq',3)
 
-
-
-    
-    
+    // console.log('dog', dog, dog.constructor);
+    // console.log('jm', jm, jm.name);
+    // console.log('hsq', hsq, hsq.name);
 }
