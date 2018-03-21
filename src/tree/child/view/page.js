@@ -83,7 +83,12 @@ class Child extends React.Component {
 			{ title: 'ID', width: 100, dataIndex: 'id' },
 			{
 				title: 'total', children: [
-					{ title: 'code', dataIndex: 'code', key: "total1", width: 150 },
+					{ title: 'code', dataIndex: 'code', key: "total1", width: 150, render: (value)=>{
+						return <span style={{color: 'red'}}>
+						{value} | 
+						<span> {value}</span>
+						</span>
+					} },
 					{ title: 'page', dataIndex: 'column1', key: "total2", width: 150 },
 					{ title: 'number', dataIndex: 'column2', key: "total3", width: 150 },
 				]
