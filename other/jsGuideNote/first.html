@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Section</title>
+</head>
+
+<body>
+    ABCefg
+    <div>
+
+    </div>
+
+    <script>
+        window.onload = function (params) {
+            var a = '空格\u0020空格\u0009空格\u000B空格\u000C空格\u00A0空格\uFEFF空格\u000D空格空格';
+
+            var b = document.createElement('div');
+            b.innerText = a;
+            
+            document.body.appendChild(b)
+        }
+    </script>
+
+</body>
+
+</html>
