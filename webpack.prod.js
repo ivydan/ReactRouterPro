@@ -1,5 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
+const merge = require('webpack-merge');
+const common = require('./webpack.common');
 const CleanWebpackPlugin = require('clean-webpack-plugin'); //清理构建文件夹 
 
 module.exports = merge(common, {

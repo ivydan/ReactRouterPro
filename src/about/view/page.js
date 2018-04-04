@@ -11,15 +11,15 @@ class About extends React.Component {
 		super(props);
 		Commons.initComponent(this, { actions });
 
-        _.bindAll(this, '_handleChangeLock')
+		_.bindAll(this, '_handleChangeLock')
 	}
 
 	_handleChangeLock(e) {
-        let value = e.target.value;
-        this.dispatch("changePassWord", value);
-    }
+		let value = e.target.value;
+		this.dispatch("changePassWord", value);
+	}
 
-	componentDidMount(){
+	componentDidMount() {
 	}
 
 	render() {
@@ -32,5 +32,5 @@ class About extends React.Component {
 }
 
 export default branch({
-    data: ['page']
+	data: ['page']
 }, About)
