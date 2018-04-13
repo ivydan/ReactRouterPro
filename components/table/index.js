@@ -51,12 +51,12 @@ export default class Index extends Component {
         let scrollY = cH - tableRect.top - (tableRect.height - 33) - 55;
         //reset content scroll Y
         this.setState({
-            scrollY: scrollY
+            scrollY: scrollY < 245 ? 245 : scrollY
         })
     }
 
     //export file
-    _exportDowload(){
+    _exportDowload() {
         let { columns, dataSource } = this.props;
         ExportExc.saveFile(columns, dataSource)
     }
