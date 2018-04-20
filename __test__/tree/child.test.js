@@ -80,7 +80,33 @@ describe('AddPageView', () => {
 });
 
 // test('Ajax Data', async () => {
-//     expect.assertions(1);
-//     const data = await Ajax.getDataList();
-//     expect(data).toEqual(200);
+    // expect.assertions(1);
+    // const data = await Ajax.getDataList();
+    // expect(data).toEqual(200);
 // });
+
+test("Ajax handleFormatData", () => {
+    const data = {
+        a: 1,
+        b: '3',
+        c: 0,
+        d: null,
+        e: '',
+        f: undefined,
+        g: [],
+        h: [1],
+        i: true,
+        j: false,
+        k: {}
+    };
+    expect(Ajax._handleFormatData(data)).toEqual({
+        "a": 1,
+        "b": "3",
+        "c": 0,
+        "g": [],
+        "h": [1],
+        "i": true,
+        "j": false,
+        "k": {}
+    });
+})

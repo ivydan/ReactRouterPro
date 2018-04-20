@@ -4,3 +4,4 @@ build
 records.json
 build*
 coverage
+coverage*

@@ -27,7 +27,8 @@ const Ajax = {
 
     _handleFormatData(params){
         for(let key in params){
-			if(!params[key]){
+            let v = params[key];
+			if(v === "" || v === null || v=== undefined){
 				delete params[key];
 			}
         }
