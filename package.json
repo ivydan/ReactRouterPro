@@ -4,7 +4,7 @@
   "description": "react-router",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage --updateSnapshot",
     "start": "webpack-dev-server --history-api-fallback --progress --colors",
     "build": "webpack --progress --colors --config webpack.prod.js",
     "extstart": "webpack-dev-server --config webpack.ext.js --history-api-fallback --progress --colors",
