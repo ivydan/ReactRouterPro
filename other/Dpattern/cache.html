@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        //使用缓存代理实现积乘
+        var mult = function () {
+            console.log('开始计算积乘');
+            var a = 1;
+            for (let i = 0, l = arguments.length; i < l; i++) {
+                a = a * arguments[i];
+            }
+            return a;
+        }
+
+        //缓存代理函数
+        var proxyMult = (function () {
+            var cache = {};
+            return function () {
+                var args = Array.prototype.join.call(arguments, ',')
+                if (args in cache) {
+                    return cache[args];
+                }
+                return cache[args] = mult.apply(this, arguments);
+                //效果等同于以下
+                // return cache[args] = mult(...arguments);
+            }
+        })();
+
+        var obj = {
+            name: 'obj'
+        };
+        obj.proxyMult = proxyMult;
+
+        console.log(proxyMult(1, 2, 3, 4));
+        console.log(obj.proxyMult(1, 2, 3, 4));;
+
+        console.log(proxyMult(1, 2, 3, 4));
+        console.log(proxyMult(1, 2, 3, 4, 5));
+
+        //创建缓存代理工厂
+        var createProxyFactory = function (fn) {
+            var cache = {};
+            return function () {
+                var args = Array.prototype.join.call(arguments, ',');
+                if (args in cache) {
+                    return cache[args];
+                }
+                return cache[args] = fn.apply(this, arguments);
+            }
+        }
+
+        var mult = function () {
+            var a = 0;
+            for (let i = 0, l = arguments.length; i < l; i++) {
+                a = a + arguments[i];
+            }
+            return a;
+        }
+
+        var proxyPlus = createProxyFactory(plus);
+
+        console.log(proxyPlus(1, 2, 3, 4));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        //父类
+        var Beverage = function () {};
+        Beverage.prototype.boilWater = function () {
+            console.log('boil Water');
+        }
+        //空方法，应该由子类重写
+        Beverage.prototype.brew = function () {};
+
+        //空方法，应该由子类重写
+        Beverage.prototype.pourInCup = function () {
+
+        }
+
+        //空方法，应该由子类重写
+        Beverage.prototype.addCondiments = function () {
+
+        }
+
+        Beverage.prototype.custormerWantsCondiments = function(){
+            return true;
+        }
+
+        Beverage.prototype.init = function () {
+            this.boilWater();
+            this.brew();
+            this.pourInCup();
+            if(this.custormerWantsCondiments()){
+                this.addCondiments();
+            }
+        }
+
+        //子类
+        var Coffee = function () {
+
+        }
+
+        Coffee.prototype = new Beverage();
+
+        Coffee.prototype.brew = function () {
+            console.log('brew coffee');
+        }
+
+        Coffee.prototype.pourInCup = function () {
+            console.log('coffee pour in cup');
+        }
+
+        Coffee.prototype.addCondiments = function () {
+            console.log('add suger');
+        }
+
+        Coffee.prototype.custormerWantsCondiments = function(){
+            return window.confirm('请问需要调料么？')
+        }
+
+        var coffee = new Coffee();
+        coffee.init();
+
+
+        //Tea
+        var Tea = function () {};
+        Tea.prototype = new Beverage();
+
+        Tea.prototype.brew = function () {
+            console.log('brew Tea');
+        }
+
+        Tea.prototype.pourInCup = function () {
+            console.log('Tea pour in cup');
+        }
+
+        Tea.prototype.addCondiments = function(){
+            console.log('add ning');
+        }
+
+        var tea = new Tea();
+        tea.init();
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #id {
+            position: absolute;
+            background: #333;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            var ball = document.getElementById('ball');
+            var position = document.getElementById('position');
+            var move = document.getElementById('move');
+            var cancel = document.getElementById('cancel');
+
+            // move.onclick = function(){
+            //     var animate = new Animate(ball);
+            //     animate.start('left', position.value, 1000, 'strongEaseOut');
+            // }
+
+            //命令模式
+            var MoveCommand = function (receiver, pos) {
+                this.receiver = receiver;
+                this.pos = pos;
+            }
+
+            MoveCommand.prototype.execute = function () {
+                this.receiver.start('left', position.value, 1000, 'strongEaseOut')
+                this.oldPos = this.receiver.dom.getBoundingClientRect()[this.receiver.propertyName];
+            }
+
+            MoveCommand.prototype.undo = function () {
+                this.receiver.start('left', this.oldPos, 1000, 'strongEaseOut');
+            }
+
+            var moveCommand;
+
+            move.onclick = function () {
+                var animate = new Animate(ball);
+                moveCommand = new MoveCommand(animate, position.value);
+                moveCommand.execute();
+            }
+
+            cancel.onclick = function() {
+                moveCommand.undo();
+            }
+
+        
+        }
+    </script>
+</head>
+
+<body>
+    <div id="ball"></div>
+    position:
+    <input type="text" id="position" />
+    <button id="move">Start Move</button>
+    <button id="vanvel">cancel</button>
+</body>
+
+</html>
