@@ -3,5 +3,9 @@ assets
 build
 records.json
 build*
+<<<<<<< HEAD
 coverage
 coverage*
+=======
+.DS_Store
+>>>>>>> 4291161632559566122342ff609321c1c56b836c

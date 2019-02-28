@@ -4,7 +4,9 @@
  * 
  */
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import Select, { Option, OptGroup } from 'rc-select';
+import RSelect from 'components/select';
+import 'rc-select/assets/index.css';
 
 export default class Introduce extends Component {
     constructor(props) {
@@ -15,7 +17,24 @@ export default class Introduce extends Component {
     render() {
         return (
             <div>
-                Emitte
+                <div>
+                    测试：
+                </div>
+                <div>
+                    <Select
+                        style={{ width: 180 }}
+                        bakcfill
+                        multiple
+                    >
+                        <Option value="jack">jack</Option>
+                        <Option value="lucy">lucy</Option>
+                        <Option value="a">a</Option>
+                        <Option value="b">b</Option>
+                    </Select>
+                    <RSelect>
+
+                    </RSelect>
+                </div>
             </div>
         )
     }
