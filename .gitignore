@@ -3,3 +3,4 @@ assets
 build
 records.json
 build*
+.DS_Store
